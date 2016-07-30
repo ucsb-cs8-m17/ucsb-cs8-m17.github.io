@@ -12,10 +12,15 @@ mentors_list: "(configure mentors_list in _config.yml)"
 start_week: 0
 start_date: 2016-09-18 00:00:00.00-7:00
 num_weeks: 11
+extra_exam_week: true
 
 cal_dates: >
   [
-  {"label":"First day of classes", "date":"2016-09-22" }
+  {"label":"First day of classes", "date":"2016-09-22" },
+  {"label":"Univ Holiday", "date":"2016-11-11" },
+  {"label":"Univ Holiday", "date":"2016-11-24" },
+  {"label":"Univ Holiday", "date":"2016-11-25" },
+  {"label":"Last day of classes", "date":"2016-12-02" },			
   ]
 
 

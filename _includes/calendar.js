@@ -46,6 +46,7 @@ var dates = {
 
 var cal = {
     numWeeks : {{ site.num_weeks }},
+    extraExamWeek : {% if site.extra_exam_week %}{{site.extra_exam_week}}{% else %}false{% endif %},
     startDate : moment("{{site.start_date}}"),
     startWeek : {% if site.start_week %}{{site.start_week}}{% else %}1{% endif %},
     days : {},
@@ -53,15 +54,29 @@ var cal = {
 };
 
 
+function thisDayPlusOne(thisDay) {
+    return thisDay.add(1,"days");
+}
+
 function traverseDates(dates) {
     var thisDay = moment(cal.startDate);
     var mmdd = thisDay.format("MM/DD");
     for(var i=cal.startWeek; i<(cal.startWeek + cal.numWeeks); i++){
 	for (var j=1; j<=7; j++) {
+	    console.log("Setting up cal.days[" + mmdd + "]");
 	    cal.days[mmdd] = [];
-	    thisDay = thisDay.add(1,"days");
+	    thisDay = thisDayPlusOne(thisDay);
 	    mmdd = thisDay.format("MM/DD");	    
 	}
+    }
+    if (cal.extraExamWeek) {
+	for (var j=1; j<=7; j++) {
+	    console.log("Setting up cal.days[" + mmdd + "]");
+	    cal.days[mmdd] = [];
+	    thisDay = thisDayPlusOne(thisDay);
+	    mmdd = thisDay.format("MM/DD");	    
+	}
+	
     }
     for (var i = 0, len = dates.hwk.length; i < len; i++) {
 	processHwkOrLab(dates.hwk[i],"hwk");
@@ -117,10 +132,10 @@ function processHwkOrLab(item,which) {
     mmdd_due = moment(item.due).format("MM/DD");
 
     var assigned = {"asn_type" : which, "date_type" : "assigned", "value": JSON.stringify(item) };
-    pushToFirstIfArrayElseSecond(assigned,cal.days[mmdd_assigned],cal.days_outside_calendar);
+    pushToDaysOrErrors(assigned,mmdd_assigned,cal.days,cal.days_outside_calendar);
 
     var due = {"asn_type" : which, "date_type" : "due", "value": JSON.stringify(item)};
-    pushToFirstIfArrayElseSecond(due,cal.days[mmdd_due],cal.days_outside_calendar);
+    pushToDaysOrErrors(due,mmdd_due,cal.days,cal.days_outside_calendar);
     
 }
 
@@ -132,9 +147,10 @@ function processExam(item) {
     mmdd_exam_date = moment(item.exam_date).format("MM/DD");
 
     var assigned = {"asn_type" : "exam", "date_type" : "exam", "value": JSON.stringify(item) };
-    pushToFirstIfArrayElseSecond(assigned,
-				 cal.days[mmdd_exam_date],
-				 cal.days_outside_calendar);
+    pushToDaysOrErrors(assigned,
+		       mmdd_exam_date,
+		       cal.days,
+		       cal.days_outside_calendar);
 }
 
 function processCalDate(item) {
@@ -146,24 +162,26 @@ function processCalDate(item) {
 
     mmdd_date = moment(item.date).format("MM/DD");
 
-    var assigned = {"asn_type" : "calDate", "date_type" : "label", "value": JSON.stringify(item) };
-    pushToFirstIfArrayElseSecond(assigned,
-				 cal.days[mmdd_exam_date],
-				 cal.days_outside_calendar);
+    var calDate = {"asn_type" : "calDate", "date_type" : "label", "value": JSON.stringify(item) };
+    pushToDaysOrErrors(calDate,
+		       mmdd_date,
+		       cal.days,
+		       cal.days_outside_calendar);
 }
 
 
 // Used to cal.days[date], but fail over to
 //  the cal.days_outside_calendar as a backup
 
-function pushToFirstIfArrayElseSecond(obj, first, second) {
-    if ( first instanceof Array) {
-	first.push(obj);
+function pushToDaysOrErrors(obj, mmdd, days, errors) {
+    var daysElem = days[mmdd];
+    if ( daysElem instanceof Array) {
+	daysElem.push(obj);
     } else {
 	var errorObject = Object();
-	errorObject.key = (first === undefined) ? "undefined" : first;
+	errorObject.mmdd = mmdd;
 	errorObject.obj = obj;
-	second.push(errorObject);
+	errors.push(errorObject);
     }
 }
 
@@ -202,6 +220,27 @@ function addCalendarTable(cal) {
 	$('#calendar table').append( '<tr data-week-num="' + i +'" />')
 	var thisWeeksTrSelector = '#calendar table tr[data-week-num="' + i + '"]';
 	$(thisWeeksTrSelector).append('<td>' + i + '</td>');
+	for (var day=1; day<=7; day++) {
+	    var thisDateFormatted = thisDay.format("MM/DD");
+	    var cal_mmdd = $('<div class="cal_mmdd">'+ thisDateFormatted + '</div>');
+	    var assignments = getAssignments(cal,thisDateFormatted);
+	    $('<td/>')
+		.append(cal_mmdd)
+		.append(assignments)
+		.attr('data-mmdd',thisDateFormatted)
+		.appendTo(thisWeeksTrSelector)
+	    
+	    thisDay = thisDay.add(1,'days');
+	}
+    }
+    // TODO: Factor out duplicate code from loop above and if below
+    if (cal.extraExamWeek) {
+	var selector = "exam-week";
+	var label = "Final<br>Exam<br>Week";
+	
+	$('#calendar table').append( '<tr data-week-num="' + selector +'" />')
+	var thisWeeksTrSelector = '#calendar table tr[data-week-num="' + selector + '"]';
+	$(thisWeeksTrSelector).append('<td class="exam-week-label">' + label + '</td>');
 	for (var day=1; day<=7; day++) {
 	    var thisDateFormatted = thisDay.format("MM/DD");
 	    var cal_mmdd = $('<div class="cal_mmdd">'+ thisDateFormatted + '</div>');
@@ -273,7 +312,7 @@ function addCalendarTable(cal) {
 	$(this).addClass("ready");
 
 	var label = $('<span />')
-	    .text(cal_date.label + ": ")
+	    .text(cal_date.label)
 	    .appendTo($(this));
 	$(this).addClass("cal_date")
 ;
