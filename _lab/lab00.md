@@ -1,10 +1,10 @@
 ---
 layout: lab
 num: lab00
-ready: true
+ready: false
 desc: "Tools for java development"
-assigned: 2016-06-21 09:30:00.00-7
-due: 2016-06-24 17:00:00.00-7
+assigned: 2016-09-22 09:30:00.00-7
+due: 2016-09-29 21:00:00.00-7
 ---
 
 
