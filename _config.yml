@@ -25,6 +25,8 @@ cal_dates: >
 
 
 course: "CS56"
+legacy_wiki_name: 56wiki
+legacy_wiki_url: "https://foo.cs.ucsb.edu/56wiki" 
 qtr: "F16"
 quarter: "Fall 2016"
 hfj_chapter_url_prefix: "http://ucsb-cs56-pconrad.github.io/hfj/HFJ_Chapter_"
