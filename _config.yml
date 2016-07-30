@@ -18,6 +18,7 @@ cal_dates: >
   [
   {"label":"First day of classes", "date":"2016-09-22" },
   {"label":"Univ Holiday", "date":"2016-11-11" },
+  {"label":"Clocks back 1 hour", "date":"2016-11-06" },	
   {"label":"Univ Holiday", "date":"2016-11-24" },
   {"label":"Univ Holiday", "date":"2016-11-25" },
   {"label":"Last day of classes", "date":"2016-12-02" },			
