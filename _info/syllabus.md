@@ -1,9 +1,10 @@
 ---
-title: "Syllabus, CMPSC 56, Summer 2016"
+title: "Syllabus, CMPSC 56, Fall 2016"
 layout: handout
+ready: false
 ---
 
-CS56, Summer 2016, Syllabus
+CS56, Fall 2016, Syllabus
 ===========================
 
 
@@ -11,9 +12,9 @@ Basic Facts
 -----------
 
 * **Instructor**:  [Phill Conrad](http://www.cs.ucsb.edu/~pconrad)
-* **Lecture**: TWR 9:30am-10:50pm Phelps 3526, ATTENDANCE REQUIRED.
-* **TAs**:  Hiranya Jayathilaka, Richard Jiang (contact via Piazza)
-* **Lab** (discussion section) Friday 9am-10:20am, 10:30am-11:50am Phelps 3525, ATTENDANCE REQUIRED.                                         
+* **Lecture**: MW 12:30pm-1:45pm HSSB 1174, ATTENDANCE REQUIRED.
+* **TAs**:  TBD (contact via Piazza)
+* **Lab** (50 minute discussion section) Thursday 4pm, 5pm or 6pm, Phelps 3525, ATTENDANCE REQUIRED.                                         
 * Office Hours: See: <http://www.cs.ucsb.edu/~pconrad/ofchrs>  
 
 For course website links, visit the course Gauchospace site.
