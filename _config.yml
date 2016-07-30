@@ -6,15 +6,22 @@ off_campus: http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048
 hfj_url: book/programming/java/0596009208
 hfdp_url: book/software-engineering-and-development/patterns/0596007124 
 
-ta_list: "Hiranya and Richard"
-mentors_list: "Dylan, Xiaohe, Nate, Christian and Michael"
+ta_list: "(configure ta_list in _config.yml)"
+mentors_list: "(configure mentors_list in _config.yml)"
 
-num_weeks: 6
-start_date: 2016-06-19 00:00:00.00-7:00
+start_week: 0
+start_date: 2016-09-18 00:00:00.00-7:00
+num_weeks: 11
+
+cal_dates: >
+  [
+  {"label":"First day of classes", "date":"2016-09-22" }
+  ]
+
 
 course: "CS56"
-qtr: "M16"
-quarter: "Summer 2016"
+qtr: "F16"
+quarter: "Fall 2016"
 hfj_chapter_url_prefix: "http://ucsb-cs56-pconrad.github.io/hfj/HFJ_Chapter_"
 hfdp_chapter_url_prefix: "http://ucsb-cs56-pconrad.github.io/hfdp/HFDP_Chapter_"
 

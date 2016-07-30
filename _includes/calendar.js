@@ -39,7 +39,7 @@ var dates = {
 	{% endif %}
 	{% endfor %}
     ],
-
+    "cal_dates" : {{ site.cal_dates}}
 };
 
 
@@ -47,6 +47,7 @@ var dates = {
 var cal = {
     numWeeks : {{ site.num_weeks }},
     startDate : moment("{{site.start_date}}"),
+    startWeek : {% if site.start_week %}{{site.start_week}}{% else %}1{% endif %},
     days : {},
     days_outside_calendar : []
 };
@@ -55,7 +56,7 @@ var cal = {
 function traverseDates(dates) {
     var thisDay = moment(cal.startDate);
     var mmdd = thisDay.format("MM/DD");
-    for (var i = 1, len = cal.numWeeks; i <= len; i++) {
+    for(var i=cal.startWeek; i<(cal.startWeek + cal.numWeeks); i++){
 	for (var j=1; j<=7; j++) {
 	    cal.days[mmdd] = [];
 	    thisDay = thisDay.add(1,"days");
@@ -71,8 +72,15 @@ function traverseDates(dates) {
     for (var i = 0, len = dates.exam.length; i < len; i++) {
 	processExam(dates.exam[i]);
     }
+    console.log("processCalDate loop:");
+    for (var i = 0, len = dates.cal_dates.length; i < len; i++) {
+	console.log("processCalDate loop, i=" + i);
+	processCalDate(dates.cal_dates[i]);
+    }
 
 }
+
+
 
 function isHwkOrLabAssignment(hwkOrLab) {
     return hwkOrLab.hasOwnProperty('num') &&
@@ -88,6 +96,11 @@ function isExam(exam) {
 	exam.hasOwnProperty('ready') &&
 	exam.hasOwnProperty('desc') &&
  	exam.hasOwnProperty('exam_date');
+}
+
+function isCalDate(exam) {
+    return exam.hasOwnProperty('label') &&
+	exam.hasOwnProperty('date');
 }
 
 
@@ -124,6 +137,21 @@ function processExam(item) {
 				 cal.days_outside_calendar);
 }
 
+function processCalDate(item) {
+    console.log("processCalDate: item=" + JSON.stringify(item));
+    
+    if (!isCalDate(item)) {
+	reportError("processExam: problem with item" + JSON.stringify(item));
+    }
+
+    mmdd_date = moment(item.date).format("MM/DD");
+
+    var assigned = {"asn_type" : "calDate", "date_type" : "label", "value": JSON.stringify(item) };
+    pushToFirstIfArrayElseSecond(assigned,
+				 cal.days[mmdd_exam_date],
+				 cal.days_outside_calendar);
+}
+
 
 // Used to cal.days[date], but fail over to
 //  the cal.days_outside_calendar as a backup
@@ -132,7 +160,10 @@ function pushToFirstIfArrayElseSecond(obj, first, second) {
     if ( first instanceof Array) {
 	first.push(obj);
     } else {
-	second.push(obj);
+	var errorObject = Object();
+	errorObject.key = (first === undefined) ? "undefined" : first;
+	errorObject.obj = obj;
+	second.push(errorObject);
     }
 }
 
@@ -149,6 +180,7 @@ function setUpCalendar() {
     var startDate = cal.startDate;
     var startDayOfWeek = startDate.format("ddd");
 
+    
     if (startDayOfWeek != "Sun") {
 	reportError("Error: site.start_date is not a Sunday.  Instead, it is: " + startDayOfWeek);
 	return;
@@ -156,8 +188,8 @@ function setUpCalendar() {
 
 
     traverseDates(dates);
-    reportDaysOutsideCalendar(cal);
     addCalendarTable(cal);
+    reportDaysOutsideCalendar(cal);
 
 }
 
@@ -166,7 +198,7 @@ function addCalendarTable(cal) {
     $('#calendar').append(  '<table >' );
     $('#calendar table').append( '<tr><th>Week</th><th>S</th><th>M</th><th>T</th><th>W</th><th>R</th><th>F</th><th>S</th></tr>');
     var thisDay = new moment(cal.startDate);
-    for(var i=1;i<=cal.numWeeks; i++){
+    for(var i=cal.startWeek; i<(cal.startWeek + cal.numWeeks); i++){
 	$('#calendar table').append( '<tr data-week-num="' + i +'" />')
 	var thisWeeksTrSelector = '#calendar table tr[data-week-num="' + i + '"]';
 	$(thisWeeksTrSelector).append('<td>' + i + '</td>');
@@ -236,6 +268,17 @@ function addCalendarTable(cal) {
 ;
     });
 
+    $('.cal-assignments div[data-asn-type="calDate"]').each(function() {
+	var cal_date = ($(this).data("date-value"));
+	$(this).addClass("ready");
+
+	var label = $('<span />')
+	    .text(cal_date.label + ": ")
+	    .appendTo($(this));
+	$(this).addClass("cal_date")
+;
+    });
+
     
     $('.cal-assignments div[data-date-type="due"]').each(function() {
 	var asn = ($(this).data("date-value"));
@@ -245,7 +288,6 @@ function addCalendarTable(cal) {
     $('.cal-assignments div[data-date-type="assigned"]').each(function() {
 	$(this).append(" assigned");
     });
-
 
 }
 
@@ -277,6 +319,7 @@ function reportDaysOutsideCalendar(cal) {
     if (cal.days_outside_calendar.length > 0) {
 	$('#calendar').append(  '<div class="calendar-errors" />' );
 	$('#calendar div.calendar-errors').append("<h2>Errors:</h2>");
+	$('#calendar div.calendar-errors').append("<p>These events were found that lie outside the range of the calendar for this term:</p>");
 	for (var i=0, len=cal.days_outside_calendar.length; i<len; i++) {
 	    $('#calendar div.calendar-errors').append("<p><code>" +
 						      JSON.stringify(cal.days_outside_calendar[i]) +
