@@ -34,7 +34,7 @@ The rest of these instruction will assume you know all of the above. If not, the
 
 As a separate item, you should also know how to connect to CSIL from your own computer (PC/Mac/Linux)
 
--   Windows: Putty, optionally with XMing. See for example: [CSIL Access:Windows](https://foo.cs.ucsb.edu/56wiki/index.php/CSIL_Access:Windows).
+-   Windows: Putty, optionally with XMing. See for example: [CSIL Access:Windows](https://foo.cs.ucsb.edu/56wiki/index.php/CSIL_Access:Windows).   Note that a better option is [MobaXTerm](http://mobaxterm.mobatek.net/).
 -   Mac/Linux: `ssh` `-Y` `username@csil.cs.ucsb.edu`, [CSIL Access:Mac and Linux](https://foo.cs.ucsb.edu/56wiki/index.php/CSIL_Access:Mac_and_Linux).
 
 But, you don't need that for today's lab---so let's continue.
@@ -45,11 +45,12 @@ The rest of the lab: Step-by-Step
 
 Here is an overview of the remaining steps in the lab:
 
-1. If you didn't already do it:
+0. If you didn't already do it:
     - Create a github.com account
-    - Fill out the form at <http://bit.ly/cs56-m16-survey>
-    - Join the UCSB-CS56-M16 organization by visiting <https://github.com/UCSB-CS56-M16/>
-2. Create a *private* repo for lab00 under the UCSB-CS56-M16 organization
+    - Fill out the form at <http://bit.ly/cs56-f16-survey>
+1. Visit <https://github.ucsb.edu> and login with your CSIL account, to establish your github.ucsb.edu account.
+
+2. Create a *private* repo for lab00 under the UCSB-CS56-M16 organization on <github.ucsb.edu>
     - It should be called lab00_yourgithubid
     - Add a .gitignore for Java and a README.md file
     - detailed instructions [here](https://ucsb-cs56-pconrad.github.io/topics/github_com_create_private_repo_under_org/)
@@ -61,7 +62,7 @@ Here is an overview of the remaining steps in the lab:
     - If you know how to do that, great.
     - If not, there are detailed instructions [here](https://ucsb-cs56-pconrad.github.io/topics/git_cloning_your_first_repo/)
 6.  Fork the cs56_rational_example into your own github.com account.  Here's how:
-    - Go to the page <https://github.com/UCSB-CS56-M16/cs56-rational-example>
+    - Go to the page <https://github.ucsb.edu/UCSB-CS56-F16/cs56-rational-example>
     - Click the "fork" button at the top right of the page
     - If asked where to fork it, choose your own github.com account
     - Congratulations: you now have a forked copy of the cs56-rational-example
