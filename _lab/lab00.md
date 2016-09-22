@@ -23,18 +23,12 @@ If not--if for example, you are a transfer student and this is your first CS cou
 -   knowing how to use a **basic text editor such as emacs or vim** to edit files on the Linux systems in Phelps 3525 and CSIL.
 -   knowing basic Unix/Linux commands to create directories, change directory, manipulate files, etc., e.g. mkdir, cd, pwd, mv, rm, ls.
 
-The rest of these instruction will assume you know all of the above. If not, then let your TA know, and we'll point you to resources where you can come up to speed.
+The rest of these instructions will assume you know all of the above. If not, then let your TA know, and we'll point you to resources where you can come up to speed.
 
-<div style="background-color:#eee; border: 4px inset #333; font-size:80%; width:80%;">
-<b>If you need help with one or more of the items in the list above</b>: here is one suggestion--the lab00 from Conrad's CS16 course. Just ignore the stuff about C programming, and pay attention to everything else:
-
-<http://www.cs.ucsb.edu/~pconrad/cs16/10S/labs/lab00>
-
-</div>
 
 As a separate item, you should also know how to connect to CSIL from your own computer (PC/Mac/Linux)
 
--   Windows: Putty, optionally with XMing. See for example: [CSIL Access:Windows](https://foo.cs.ucsb.edu/56wiki/index.php/CSIL_Access:Windows).   Note that a better option is [MobaXTerm](http://mobaxterm.mobatek.net/).
+-   Windows: Putty, optionally with XMing. See for example: [CSIL Access:Windows](https://foo.cs.ucsb.edu/56wiki/index.php/CSIL_Access:Windows).   Note that a better option than PuTTY/XMing may be [MobaXTerm](http://mobaxterm.mobatek.net/), since it integrates ssh and X11 access into a single free tool.
 -   Mac/Linux: `ssh` `-Y` `username@csil.cs.ucsb.edu`, [CSIL Access:Mac and Linux](https://foo.cs.ucsb.edu/56wiki/index.php/CSIL_Access:Mac_and_Linux).
 
 But, you don't need that for today's lab---so let's continue.
@@ -54,26 +48,33 @@ Here is an overview of the remaining steps in the lab:
     - It should be called lab00_yourgithubid
     - Add a .gitignore for Java and a README.md file
     - detailed instructions [here](https://ucsb-cs56-pconrad.github.io/topics/github_com_create_private_repo_under_org/)
+
 3.  Configure your CSIL account for git
     - detailed instructions [here](https://ucsb-cs56-pconrad.github.io/topics/csil_git_configuration/)
+
 4.  Review a few basic facts about git, github.com and github.ucsb.edu
     - detailed information [here](https://ucsb-cs56-pconrad.github.io/topics/git_overview/)
+
 5.  Clone your lab00_yourgithubid repo into your CSIL account.
     - If you know how to do that, great.
     - If not, there are detailed instructions [here](https://ucsb-cs56-pconrad.github.io/topics/git_cloning_your_first_repo/)
+    
 6.  Fork the cs56_rational_example into your own github.com account.  Here's how:
     - Go to the page <https://github.ucsb.edu/UCSB-CS56-F16/cs56-rational-example>
     - Click the "fork" button at the top right of the page
     - If asked where to fork it, choose your own github.com account
     - Congratulations: you now have a forked copy of the cs56-rational-example
     - What do you do with it? Read on...
+    
 7.  Clone the cs56_rational_example repo that you forked to your cs56 account (or your
     personal computer).
     - You can review the [cloning your first repo](https://ucsb-cs56-pconrad.github.io/topics/git_cloning_your_first_repo/) tutorial if you need a reminder as to how to do this.
-8.  Work through the eight examples shown, as explained in lecture, to review some basics:
+    
+8.  Work through the eight examples shown so that you learn some of the basis material about how to work with Java:
     - `java`, `javac`, `ant`
     - `build.xml` files
     - JUnit testing
+    
 9.  You are now ready to work on your own lab.
     - Copy the files from the ex08 subdirectory into the top level directory of
       your own lab00 repo.
@@ -81,6 +82,7 @@ Here is an overview of the remaining steps in the lab:
     - Commit an initial version of those files.
     - For that, you'll need the basic git workflow, explained [here](git_basic_workflow)
     - Once you have an initial version of the files, you are ready to start work.
+    
 10. Follow the detailed instructions below to complete the assignment.
 11. When you are finished, to "submit", there will be a link on Gauchospace for you to enter
     the URL of your repo, and the URL of your javadoc.    If you cannot find that link,
