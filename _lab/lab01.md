@@ -10,32 +10,9 @@ due: 2016-09-29 21:00:00.00-7
 
 If you find typos or problems with the lab instructions, please report them on Piazza
 
-Step 0: Getting oriented
-========================
 
-Chances are you are already familiar with all of the following because you already took CS courses that used this stuff (i.e. CS8, CS16, CS24, CS32).
-
-If not--if for example, you are a transfer student and this is your first CS course using the CSIL Lab resources, please let your TA know and he/she will help you find resources to come up to speed on these things. Or, your TA can assign you a pair partner that knows this stuff and doesn't mind helping you come up to speed.
-
--   knowing your College of Engineering/CSIL computer account username/password--and having an active working account.
--   knowing how to login to the systems in Phelps 3525 and the CSIL lab, and bring up both a web browser, and a terminal window.
--   knowing that "CSIL" is both a server you can log into, as well as a physical room full of computers--and knowing where to find that physical room, and what hours it is open.
--   knowing how to use a **basic text editor such as emacs or vim** to edit files on the Linux systems in Phelps 3525 and CSIL.
--   knowing basic Unix/Linux commands to create directories, change directory, manipulate files, etc., e.g. mkdir, cd, pwd, mv, rm, ls.
-
-The rest of these instructions will assume you know all of the above. If not, then let your TA know, and we'll point you to resources where you can come up to speed.
-
-
-As a separate item, you should also know how to connect to CSIL from your own computer (PC/Mac/Linux)
-
--   Windows: Putty, optionally with XMing. See for example: [CSIL Access:Windows](https://foo.cs.ucsb.edu/56wiki/index.php/CSIL_Access:Windows).   Note that a better option than PuTTY/XMing may be [MobaXTerm](http://mobaxterm.mobatek.net/), since it integrates ssh and X11 access into a single free tool.
--   Mac/Linux: `ssh` `-Y` `username@csil.cs.ucsb.edu`, [CSIL Access:Mac and Linux](https://foo.cs.ucsb.edu/56wiki/index.php/CSIL_Access:Mac_and_Linux).
-
-But, you don't need that for today's lab---so let's continue.
-
-The rest of the lab: Step-by-Step
-=================================
-
+Overview of this lab
+====================
 
 Here is an overview of the remaining steps in the lab:
 
