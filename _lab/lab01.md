@@ -26,7 +26,12 @@ Here is an overview of the remaining steps in the lab:
 
 3.  Configure your CSIL account for git
     - detailed instructions [here](https://ucsb-cs56-pconrad.github.io/topics/csil_git_configuration/)
-
+3.  At the shell prompt on any of the csil machines, type the following command:
+    ```
+    ssh-keygen -f ~/.ssh/known_hosts -R csil.cs.ucsb.edu
+    ```
+    
+    You need to do this because CSIL had new hardware installed over the summer, which caused the host key to change. 
 4.  Review a few basic facts about git, github.com and github.ucsb.edu
     - detailed information [here](https://ucsb-cs56-pconrad.github.io/topics/git_overview/)
 
