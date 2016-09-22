@@ -3,13 +3,11 @@ layout: lab
 num: lab01
 ready: false
 desc: "Tools for java development"
-assigned: 2016-09-22 09:30:00.00-7
-due: 2016-09-29 21:00:00.00-7
+assigned: 2016-09-26 12:30:00.00-7
+due: 2016-10-03 23:59:00.00-7
 ---
 
-
 If you find typos or problems with the lab instructions, please report them on Piazza
-
 
 Overview of this lab
 ====================
