@@ -87,11 +87,17 @@ public class HelloWorld {
    <https://submit.cs.ucsb.edu/form/project/524/submission>
 
 9. Once you see that you have a score of 100 for the lab, you are *almost*
-   finished with lab00.  There are, however, a few more steps.
+   finished with lab00.  There is, however, one more step.
 
-   The first one is to find a pair partner to work, and let one of the
+   Much of the work for the first part of this course will be done in pairs.
+   
+   Find a pair partner to work with, and let one of the
    mentors know who that person will be.
+   
+   It is best to choose on the basis of your level of your prior experience with Java, as well as
+   compatible schedules.
 
    The mentor will record your choice on the course website by
-   first name, and last initial.
-
+   first name, and last initial on the "Team" pages.   Be sure that your name appears there
+   together with your pair partner's name on your team page before you leave lab today.
+   
