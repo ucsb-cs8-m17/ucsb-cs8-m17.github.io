@@ -59,6 +59,10 @@ collections:
   info:
     output: true
     permalink: /info/:path/
+  teams:
+    output: true
+    permalink: /teams/:path/
+
 
 
 defaults:
@@ -85,6 +89,12 @@ defaults:
       type: exam
     values:
       layout: exam_info
+  - 
+    scope:
+      path: ""
+      type: teams
+    values:
+      layout: teams
   - 
     scope:
       path: ""
