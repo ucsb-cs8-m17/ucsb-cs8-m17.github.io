@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab00
-ready: false
+ready: true
 desc: "Getting Started"
 assigned: 2016-09-22 09:30:00.00-7
 due: 2016-09-29 21:00:00.00-7
