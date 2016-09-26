@@ -1,6 +1,6 @@
 ---
 title: "Syllabus, CMPSC 56, Fall 2016"
-layout: handout
+layout: syllabus
 ready: false
 ---
 
@@ -51,11 +51,6 @@ Advanced application programming using a high-level, virtual-machine-based langu
 
 </div>
 
-
-<div style="page-break-before:always;">
-&nbsp;
-</div>
-
 Final Course Grades
 ===================
 
@@ -93,6 +88,8 @@ The remaining part of your grade--the last 20%--comes from project points which 
 &nbsp;
 </div>
 
+<div style="font-size: 120%;">
+
 Project Points
 ==============
 
@@ -124,9 +121,13 @@ How to interpret these "due dates":
 -   However, once a deadline has passed, only project points earned before that deadline may be applied to that assignment.
 
 
+</div>
+
 <div style="page-break-before:always;">
 &nbsp;
 </div>
+
+<div style="font-size: 120%;">
 
 Attendance
 ==========
@@ -222,9 +223,13 @@ posted. If you wait until the last office hours opportunity during the
 two week window, and you are not able to be seen (e.g. because of a
 long line of students), then you lose the right to appeal your grade.
 
+</div>
+
 <div style="page-break-before:always;">
 &nbsp;
 </div>
+
+<div style="font-size: 120%;">
 
 Late Labs
 ---------
@@ -268,3 +273,4 @@ the instructor's discretion, within the bounds of UC policy.
 
 (end of syllabus)
 
+</div>
