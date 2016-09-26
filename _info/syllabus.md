@@ -41,7 +41,7 @@ Note that "sharing code" doesn't mean "stealing code". We still don't take credi
 
 The official course description is here:
 
-<div style="background-color:#eee; border: 8px inset #333; font-size:75%; margin:1em; width:45em; padding: 0.5em;">
+<div style="background-color:#eee; border: 8px inset #333; font-size:75%; margin:1em; width:45em; padding: 0.5em;" markdown="1">
 
 CMPSC 56. Advanced Applications Programming
 (4) STAFF
@@ -113,17 +113,15 @@ You may not earn more than 1100 total project points--any points in excess of 11
 
 How to interpret these "due dates":
 
-<div style="font-size:80%">
 
 -   Unless told otherwise in the instructions for a particular project points assignment, you may complete any project point assignment at any time.
 -   However, the points have to be "recorded" somewhere to count towards your grade.
 -   Before the first deadline , you have the possibility to earn up to 1100 project points.
 -   If there is a deadline for the first 300 points (Project deadine 1), if you haven't yet completed/submitted any project points work, the maximum number you can earn is now 800 (1100-300).
--   If there is a second deadline for 300 more points (Project 2), if you haven't yet completed/submitted any project points work, the maximum number you can earn is now 1100-600= 500.</s>
+-   If there is a second deadline for 300 more points (Project 2), if you haven't yet completed/submitted any project points work, the maximum number you can earn is now 1100-600= 500.
 -   You may "work ahead"---that is, if you earn 800 points for your first assignment, we'll count 300 towards Project 1, 300 towards Project 2, and 200 towards Project 3.
 -   However, once a deadline has passed, only project points earned before that deadline may be applied to that assignment.
 
-</div>
 
 <div style="page-break-before:always;">
 &nbsp;
