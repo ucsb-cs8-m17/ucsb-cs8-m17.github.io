@@ -1,6 +1,6 @@
 ---
 title: "Syllabus, CMPSC 56, Fall 2016"
-layout: syllabus
+layout: handout
 ready: false
 ---
 
