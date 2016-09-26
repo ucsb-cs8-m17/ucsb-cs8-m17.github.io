@@ -123,7 +123,8 @@ How to interpret these "due dates":
 
 </div>
 
-<div style="page-break-before:always;">&nbsp;</div>
+<div style="page-break-before:always;">&nbsp;
+</div>
 
 Attendance
 ==========
