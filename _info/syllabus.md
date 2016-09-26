@@ -4,9 +4,10 @@ layout: handout
 ready: false
 ---
 
+<div style="font-size:80%;" markdown="1">
+
 CS56, Fall 2016, Syllabus
 ===========================
-
 
 Basic Facts
 -----------
@@ -50,6 +51,7 @@ Prerequisite: Computer Science 24 and 32 with a grade of C or better
 Advanced application programming using a high-level, virtual-machine-based language. Topics include generic programming, exception handling, programming language implementation; automatic memory management, and application development, management, and maintenance tools; event handling, concurrency and threading, and advanced library use.
 
 </div>
+
 
 <div style="page-break-before:always;">
 &nbsp;
@@ -266,3 +268,5 @@ This syllabus is as accurate as possible, but is subject to change at
 the instructor's discretion, within the bounds of UC policy.
 
 (end of syllabus)
+
+</div>
