@@ -25,7 +25,7 @@ title: CS56, Fall 2016, pconrad
 </div>
 
 
-<div data-role="collapsible" data-collapsed="true">
+<div data-role="collapsible" data-collapsed="false">
 <h2 id="homework">Homework:</h2>
 {% include hwk_table.html %}
 </div>
