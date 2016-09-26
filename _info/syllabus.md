@@ -4,7 +4,6 @@ layout: handout
 ready: false
 ---
 
-<div style="font-size:80%;" markdown="1">
 
 CS56, Fall 2016, Syllabus
 ===========================
@@ -269,4 +268,3 @@ the instructor's discretion, within the bounds of UC policy.
 
 (end of syllabus)
 
-</div>
