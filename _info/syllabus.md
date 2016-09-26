@@ -13,7 +13,7 @@ Basic Facts
 
 * **Instructor**:  [Phill Conrad](http://www.cs.ucsb.edu/~pconrad)
 * **Lecture**: MW 12:30pm-1:45pm HSSB 1174, ATTENDANCE REQUIRED.
-* **TAs**:  TBD (contact via Piazza)
+* **TAs**:  Nick Brown, Michael Zhang (contact via Piazza)
 * **Lab** (50 minute discussion section) Thursday 4pm, 5pm or 6pm, Phelps 3525, ATTENDANCE REQUIRED.                                         
 * Office Hours: See: <http://www.cs.ucsb.edu/~pconrad/ofchrs>  
 
@@ -72,8 +72,9 @@ A+ grades: These may be awarded to the very best performing students in the clas
 
 | Grade Item                                                                   | Percentage of Final Grade |
 |------------------------------------------------------------------------------|---------------------------|
-| Midterm 1                                                                    | 30 %                      |
-| Final                                                                        | 30 %                      |
+| Midterm 1                                                                    | 20 %                      |
+| Midterm 2                                                                    | 20 %                      |
+| Final                                                                        | 20 %                      |
 | Labs (typically closed source, some open source), Hwks, In Class Assignments | 20 %                      |
 | Projects (open source)                                                       | 20 %                      |
 
@@ -82,7 +83,7 @@ More On Grading
 
 <div style="font-size:90%">
 
-Grading: we'll have two exams--a midterms and a final. That part of the course will be traditional. And, there will be some traditional lab and homework assignments (and perhaps quizzes) where "everybody in the class does roughly the same thing"---those make up another 20% of your grade.
+Grading: we'll have three exams--two midterms and a final. That part of the course will be traditional. And, there will be some traditional lab and homework assignments (and perhaps quizzes) where "everybody in the class does roughly the same thing"---those make up another 20% of your grade.
 
 The remaining part of your grade--the last 20%--comes from project points which are explained in more detail later in this syllabus.
 
