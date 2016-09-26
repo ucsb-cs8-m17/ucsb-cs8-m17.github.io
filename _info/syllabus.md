@@ -51,7 +51,8 @@ Advanced application programming using a high-level, virtual-machine-based langu
 
 </div>
 
-<div style="page-break-before:always;">&nbsp;</div>
+<div style="page-break-before:always;">&nbsp;
+</div>
 
 Final Course Grades
 ===================
