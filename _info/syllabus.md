@@ -223,6 +223,10 @@ posted. If you wait until the last office hours opportunity during the
 two week window, and you are not able to be seen (e.g. because of a
 long line of students), then you lose the right to appeal your grade.
 
+<div style="page-break-before:always;">
+&nbsp;
+</div>
+
 Late Labs
 ---------
 
