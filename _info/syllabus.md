@@ -51,7 +51,8 @@ Advanced application programming using a high-level, virtual-machine-based langu
 
 </div>
 
-<div style="page-break-before:always;">&nbsp;
+<div style="page-break-before:always;">
+&nbsp;
 </div>
 
 Final Course Grades
@@ -82,12 +83,13 @@ A+ grades: These may be awarded to the very best performing students in the clas
 More On Grading
 ---------------
 
-<div style="font-size:90%">
-
-Grading: we'll have three exams--two midterms and a final. That part of the course will be traditional. And, there will be some traditional lab and homework assignments (and perhaps quizzes) where "everybody in the class does roughly the same thing"---those make up another 20% of your grade.
+We'll have three exams--two midterms and a final. That part of the course will be traditional. And, there will be some traditional lab and homework assignments (and perhaps quizzes) where "everybody in the class does roughly the same thing"---those make up another 20% of your grade.
 
 The remaining part of your grade--the last 20%--comes from project points which are explained in more detail later in this syllabus.
 
+
+<div style="page-break-before:always;">
+&nbsp;
 </div>
 
 Project Points
@@ -123,7 +125,8 @@ How to interpret these "due dates":
 
 </div>
 
-<div style="page-break-before:always;">&nbsp;
+<div style="page-break-before:always;">
+&nbsp;
 </div>
 
 Attendance
