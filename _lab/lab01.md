@@ -154,4 +154,4 @@ When you are finished, you'll have:
   * When you push to a gh-pages branch, that repo's content will be published at
     <https://UCSB-CS56-F16.github.io/{{page.num}}_javadoc_yourgithubid/javadoc/index.html>
 
-Look for instructions on Gauchospace to paste these URLs into the "online text" submission area for {{page.num}}.
+Visit [the lab01 assignment on Gauchospace](https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=674738) to paste these URLs into the "online text" submission area for {{page.num}}.
