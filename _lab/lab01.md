@@ -71,7 +71,7 @@ Here is an overview of the remaining steps in the lab:
       your own {{page.num}} repo.
     - This means all of the files, including the directories.  You may need `cp -r` for the directories.  If you need a refresher on unix commands, ask a mentor, TA, or instructor for help.
     - Commit an initial version of those files.
-    - For that, you'll need the basic git workflow, explained [here](https://ucsb-cs56-pconrad/topics/git_basic_workflow/)
+    - For that, you'll need the basic git workflow, explained [here](https://ucsb-cs56-pconrad.github.io/topics/git_basic_workflow/)
     - Once you have an initial version of the files, you are ready to start work.
     - Note that to commit the `lib` subdirectory, you may need the `-f` flag, as in `git add -f lib/*.jar`
     
