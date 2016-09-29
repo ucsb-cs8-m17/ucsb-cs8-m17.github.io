@@ -27,7 +27,7 @@ Here is an overview of the remaining steps in the lab:
     
     If you do not, please ask your mentor to invite you to the UCSB-CS56-F16 organization on github.
 
-3. Now, create a *private* repo for {{page.num}} under the UCSB-CS56-M16 organization on <github.com>
+3. Now, create a *private* repo for {{page.num}} under the UCSB-CS56-F16 organization on <github.com>
     - It should be called {{page.num}}_yourgithubid
     - Add a .gitignore for Java and a README.md file
     - detailed instructions [here](https://ucsb-cs56-pconrad.github.io/topics/github_com_create_private_repo_under_org/)
@@ -71,7 +71,7 @@ Here is an overview of the remaining steps in the lab:
       your own {{page.num}} repo.
     - This means all of the files, including the directories.  You may need `cp -r` for the directories.  If you need a refresher on unix commands, ask a mentor, TA, or instructor for help.
     - Commit an initial version of those files.
-    - For that, you'll need the basic git workflow, explained [here](https://www.liquidlight.co.uk/blog/article/git-for-beginners-an-overview-and-basic-workflow/#stage-it)
+    - For that, you'll need the basic git workflow, explained [here](git_basic_workflow)
     - Once you have an initial version of the files, you are ready to start work.
     - Note that to commit the `lib` subdirectory, you may need the `-f` flag, as in `git add -f lib/*.jar`
     
