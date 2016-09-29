@@ -71,7 +71,7 @@ Here is an overview of the remaining steps in the lab:
       your own {{page.num}} repo.
     - This means all of the files, including the directories.  You may need `cp -r` for the directories.  If you need a refresher on unix commands, ask a mentor, TA, or instructor for help.
     - Commit an initial version of those files.
-    - For that, you'll need the basic git workflow, explained [here](git_basic_workflow)
+    - For that, you'll need the basic git workflow, explained [here](https://ucsb-cs56-pconrad/topics/git_basic_workflow/)
     - Once you have an initial version of the files, you are ready to start work.
     - Note that to commit the `lib` subdirectory, you may need the `-f` flag, as in `git add -f lib/*.jar`
     
@@ -136,7 +136,10 @@ Publishing your javadoc online
    That process is explained in detail here: [Javadoc: publishing to github pages from private repo](https://ucsb-cs56-pconrad.github.io/topics/javadoc_publishing_to_github_pages_from_private_repo)
 4. Once you've followed the instructions in the link at step 3, your javadoc should be available online at a URL similar to
    the following one (but with your githubid instead of `yourgithubid`).
-   `https://UCSB-CS56-F16.github.io/{{page.num}}_javadoc_yourgithubid/javadoc/index.html`
+
+```
+    https://UCSB-CS56-F16.github.io/{{page.num}}_javadoc_yourgithubid/javadoc/index.html
+```
 
 If you run into difficulties, ask your mentor/TA/instructor if in class, or ask on Piazza if outside of class.
 
