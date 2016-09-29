@@ -5,4 +5,4 @@ desc: "4pm section, mentor: Franklin, Weeks 1-3"
 
 * Alexander B. , Hanqing W.
 * Miclos L. , Austin D. 
-* (room for a third pair)
+* Peter G. , Trenton C.
