@@ -1,10 +1,11 @@
 ---
 layout: lab
 num: lab01
-ready: false
+ready: true
 desc: "Tools for java development"
 assigned: 2016-09-29 16:00:00.00-7
 due: 2016-10-05 23:59:00.00-7
+submit_cs: https://submit.cs.ucsb.edu/form/project/550
 ---
 
 If you find typos or problems with the lab instructions, please report them on Piazza
@@ -78,10 +79,11 @@ Here is an overview of the remaining steps in the lab:
 
 11. When you are finished, be sure you have done a "git push origin master" to push your changes to github.
     Then, you can downloaded a .zip version of your assignment from github, rename it to `lab01.zip`, and 
-    submit via submit.cs.  You will also 
-    
+    submit via submit.cs at this link: <{{page.submit_cs}}> 
 
-    
+12. Then, follow the additional instructions below to create javadoc for your project, publish it to a public 
+    repo (per the instructions) and post the URLs of your solutions to Gauchospace.
+
 
 Detailed Instructions 
 =====================
