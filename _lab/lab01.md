@@ -40,8 +40,8 @@ Here is an overview of the remaining steps in the lab:
     ssh-keygen -f ~/.ssh/known_hosts -R csil.cs.ucsb.edu
     ```
     
-    You need to do this because CSIL had new hardware installed over the summer, which caused the host key to change. 
-    
+    - You need to do this because CSIL had new hardware installed over the summer, which caused the host key to change. 
+    - If you get a "no such file or directory" error, then you can skip this step
 4.  Review a few basic facts about git, github.com and github.ucsb.edu
     - detailed information [here](https://ucsb-cs56-pconrad.github.io/topics/git_overview/)
 
