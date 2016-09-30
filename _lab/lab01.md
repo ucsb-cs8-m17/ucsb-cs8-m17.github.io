@@ -34,6 +34,7 @@ Here is an overview of the remaining steps in the lab:
 
 3.  Configure your CSIL account for git
     - detailed instructions [here](https://ucsb-cs56-pconrad.github.io/topics/csil_git_configuration/)
+    - <span style="color:red; font-weight:bold">and here!!!</span> [Configuring your ssh key for Github.com](https://ucsb-cs56-pconrad.github.io/topics/github_ssh_keys/)
     
 3.  At the shell prompt on any of the csil machines, type the following command:
     ```
