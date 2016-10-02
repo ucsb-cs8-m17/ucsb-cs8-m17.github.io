@@ -1,9 +1,12 @@
 ---
-layout: default
+layout: defaultWithClock
 num: e01
 ---
 
+<div class="clock"></div>
+
 # Typo corrections for {{site.qtr}} exam {{page.num}}
+
 
 On the yellow handout, p.2., line 3 is incorrect:
 
@@ -27,3 +30,11 @@ For Question 2: java.lang.Integer has these constructors only:
 
 |`Integer(int value)` | Constructs a newly allocated Integer object that represents the specified int value. |
 | `Integer(String s)` |  Constructs a newly allocated Integer object that represents the int value indicated by the String parameter. |
+
+
+<script>
+	var clock = $('.clock').FlipClock({
+    	     clockFace: 'TwelveHourClock',
+	     showSeconds: false
+	});
+</script>
