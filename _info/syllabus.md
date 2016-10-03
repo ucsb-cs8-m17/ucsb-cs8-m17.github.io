@@ -4,16 +4,16 @@ layout: handout
 ready: false
 ---
 
+
 CS56, Fall 2016, Syllabus
 ===========================
-
 
 Basic Facts
 -----------
 
 * **Instructor**:  [Phill Conrad](http://www.cs.ucsb.edu/~pconrad)
 * **Lecture**: MW 12:30pm-1:45pm HSSB 1174, ATTENDANCE REQUIRED.
-* **TAs**:  TBD (contact via Piazza)
+* **TAs**:  Nick Brown, Michael Zhang (contact via Piazza)
 * **Lab** (50 minute discussion section) Thursday 4pm, 5pm or 6pm, Phelps 3525, ATTENDANCE REQUIRED.                                         
 * Office Hours: See: <http://www.cs.ucsb.edu/~pconrad/ofchrs>  
 
@@ -41,7 +41,7 @@ Note that "sharing code" doesn't mean "stealing code". We still don't take credi
 
 The official course description is here:
 
-<div style="background-color:#eee; border: 8px inset #333; font-size:75%; margin:1em; width:45em; padding: 0.5em;">
+<div style="background-color:#eee; border: 8px inset #333; font-size:75%; margin:1em; width:45em; padding: 0.5em;" markdown="1">
 
 CMPSC 56. Advanced Applications Programming
 (4) STAFF
@@ -50,8 +50,6 @@ Prerequisite: Computer Science 24 and 32 with a grade of C or better
 Advanced application programming using a high-level, virtual-machine-based language. Topics include generic programming, exception handling, programming language implementation; automatic memory management, and application development, management, and maintenance tools; event handling, concurrency and threading, and advanced library use.
 
 </div>
-
-<div style="page-break-before:always;">&nbsp;</div>
 
 Final Course Grades
 ===================
@@ -72,21 +70,25 @@ A+ grades: These may be awarded to the very best performing students in the clas
 
 | Grade Item                                                                   | Percentage of Final Grade |
 |------------------------------------------------------------------------------|---------------------------|
-| Midterm 1                                                                    | 30 %                      |
-| Final                                                                        | 30 %                      |
+| Midterm 1                                                                    | 20 %                      |
+| Midterm 2                                                                    | 20 %                      |
+| Final                                                                        | 20 %                      |
 | Labs (typically closed source, some open source), Hwks, In Class Assignments | 20 %                      |
 | Projects (open source)                                                       | 20 %                      |
 
 More On Grading
 ---------------
 
-<div style="font-size:90%">
-
-Grading: we'll have two exams--a midterms and a final. That part of the course will be traditional. And, there will be some traditional lab and homework assignments (and perhaps quizzes) where "everybody in the class does roughly the same thing"---those make up another 20% of your grade.
+We'll have three exams--two midterms and a final. That part of the course will be traditional. And, there will be some traditional lab and homework assignments (and perhaps quizzes) where "everybody in the class does roughly the same thing"---those make up another 20% of your grade.
 
 The remaining part of your grade--the last 20%--comes from project points which are explained in more detail later in this syllabus.
 
+
+<div style="page-break-before:always;">
+&nbsp;
 </div>
+
+<div style="font-size: 120%;">
 
 Project Points
 ==============
@@ -109,19 +111,23 @@ You may not earn more than 1100 total project points--any points in excess of 11
 
 How to interpret these "due dates":
 
-<div style="font-size:80%">
 
 -   Unless told otherwise in the instructions for a particular project points assignment, you may complete any project point assignment at any time.
 -   However, the points have to be "recorded" somewhere to count towards your grade.
 -   Before the first deadline , you have the possibility to earn up to 1100 project points.
 -   If there is a deadline for the first 300 points (Project deadine 1), if you haven't yet completed/submitted any project points work, the maximum number you can earn is now 800 (1100-300).
--   If there is a second deadline for 300 more points (Project 2), if you haven't yet completed/submitted any project points work, the maximum number you can earn is now 1100-600= 500.</s>
+-   If there is a second deadline for 300 more points (Project 2), if you haven't yet completed/submitted any project points work, the maximum number you can earn is now 1100-600= 500.
 -   You may "work ahead"---that is, if you earn 800 points for your first assignment, we'll count 300 towards Project 1, 300 towards Project 2, and 200 towards Project 3.
 -   However, once a deadline has passed, only project points earned before that deadline may be applied to that assignment.
 
+
 </div>
 
-<div style="page-break-before:always;">&nbsp;</div>
+<div style="page-break-before:always;">
+&nbsp;
+</div>
+
+<div style="font-size: 120%;">
 
 Attendance
 ==========
@@ -217,6 +223,14 @@ posted. If you wait until the last office hours opportunity during the
 two week window, and you are not able to be seen (e.g. because of a
 long line of students), then you lose the right to appeal your grade.
 
+</div>
+
+<div style="page-break-before:always;">
+&nbsp;
+</div>
+
+<div style="font-size: 120%;">
+
 Late Labs
 ---------
 
@@ -237,11 +251,19 @@ So:
 Accommodations for disabilities
 -------------------------------
 
-Information about how UCSB supports students with disabilities is
-available at the campus ADA website: <http://www.ada.ucsb.edu>. If you
-require any special accommodations due to disabilities, please let me
-know as soon as possible. You may contact me by email to request an
-appointment: .
+Students with disabilities may request academic accommodations for exams online through the UCSB Disabled Students Program at http://dsp.sa.ucsb.edu/. Please make your requests for exam accommodations through the online system as early in the quarter as possible to ensure proper arrangement.
+
+Managing stress
+---------------
+
+Personal concerns such as stress, anxiety, relationships, depression, cultural differences, can interfere with the ability of students to succeed and thrive. For helpful resources, please contact UCSB Counseling & Psychological Services (CAPS) at 805-893-4411 or visit http://counseling.sa.ucsb.edu/ .
+
+Responsible scholarship
+-----------------------
+
+Honesty and integrity in all academic work is essential for a valuable educational experience.  The Office of Judicial Affairs has policies, tips, and resources for proper citation use, recognizing actions considered to be cheating or other forms of academic theft, and students’ responsibilities, available on their website at: http://judicialaffairs.sa.ucsb.edu.  Students are responsible for educating themselves on the policies and to abide by them.
+
+Furthermore, for general academic support, students are encouraged to visit Campus Learning Assistance Services (CLAS) early and often. CLAS offers instructional groups, drop-in tutoring, writing and ESL services, skills workshops and one-on-one consultations. CLAS is located on the third floor of the Student Resource Building, or visit http://clas.sa.ucsb.edu
 
 Standard Disclaimer
 -------------------
@@ -251,3 +273,4 @@ the instructor's discretion, within the bounds of UC policy.
 
 (end of syllabus)
 
+</div>
