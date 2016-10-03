@@ -3,7 +3,7 @@ layout: defaultWithClock
 num: e01
 ---
 
-<div class="clock" style="float:right; border:1px solid black; padding: 1em;"></div>
+<div class="clock" style="float:right; width:300px; margin: 1em; border:1px solid black; padding: 1em;"></div>
 
 
 # Typo corrections, Clarifications, Hints for {{site.qtr}} exam {{page.num}}
