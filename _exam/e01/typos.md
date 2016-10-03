@@ -6,7 +6,7 @@ exam_end: "2016-10-19 13:45:00 -0700"
 
 <style>
   .clock { float:right; width:400px; margin: 2em; border:1px solid black; padding: 2em; white-space: nowrap; }
-  .countdown-clock { width: 500px; margin: 2em; border:1px solid black; padding: 1em; white-space: nowrap; font-size: 80%; }
+  .countdown-clock { width: 500px; margin: 1em; border:1px solid black; padding: 2em 1em 1em 1em; white-space: nowrap; font-size: 80%; }
 </style>
 
 <div class="clock"></div>
