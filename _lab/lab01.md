@@ -28,7 +28,9 @@ Here is an overview of the remaining steps in the lab:
     If you do not, please ask your mentor to invite you to the UCSB-CS56-F16 organization on github.
 
 3. Now, create a *private* repo for {{page.num}} under the UCSB-CS56-F16 organization on <github.com>
-    - It should be called {{page.num}}_yourgithubid
+    - It should be called <b>{{page.num}}_yourgithubid</b>
+    - It should be <b>private</b>, not public.
+    - The owner should be the <b>UCSB-CS56-F16</b> organization as the owner, not your own github id.
     - Add a .gitignore for Java and a README.md file
     - detailed instructions [here](https://ucsb-cs56-pconrad.github.io/topics/github_com_create_private_repo_under_org/)
 
