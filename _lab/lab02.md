@@ -86,7 +86,7 @@ From /cs/faculty/pconrad/public\_html/cs56/16W/labs/lab03/code, you will copy th
 
 <http://www.cs.ucsb.edu/~pconrad/cs56/16W/labs/lab03/code>
 
-Since one of the things we are coping is a subdirectory, we'll need to use a `cp` `-r` command, like this:
+Since one of the things we are copying is a subdirectory, we'll need to use a `cp` `-r` command, like this:
 
     cp -r /cs/faculty/pconrad/public_html/cs56/16W/labs/lab03/code/* .
 
