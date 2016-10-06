@@ -5,7 +5,7 @@ ready: true
 desc: "Tools for java development"
 assigned: 2016-09-29 16:00:00.00-7
 due: 2016-10-05 23:59:00.00-7
-submit_cs: https://submit.cs.ucsb.edu/form/project/550
+submit_cs: https://submit.cs.ucsb.edu/form/project/550/submission
 ---
 
 If you find typos or problems with the lab instructions, please report them on Piazza
