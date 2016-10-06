@@ -122,7 +122,10 @@ So, don't repeat yourself:
 
 Signify that you are finished by committing code to a github repo that contains a modified version of ex08, with all of the
 following:
-* a `build.xml` file (you shouldn't need to modify the example)
+
+* a `build.xml` file <s>(you shouldn't need to modify the example)</s> <b>Update: later instructions ask you to make 
+    a few modifications to the `build.xml` to update the javadoc, for example.  Please *do* make these modifications.</b>
+
 * a `src` subdirectory containing `Main.java`, `Rational.java`, and `RationalTest.java`
 * a `lib` subdirectory contining the jar file for JUnit
 * a `javadoc` subdirectory in which you have produced the javadoc by running `ant javadoc`
