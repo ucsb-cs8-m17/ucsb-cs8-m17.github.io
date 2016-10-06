@@ -41,6 +41,11 @@ If you choose to work in a pair, you should create TWO repos:
 -   Another for the "pair partner". In the pair partners repo, simply put a README.md file that has a link to the driver's repo, and an explanation that you are working in a pair.
 -   There should also be an explanation in the driver's repo that you are working in a pair.
 
+Register your pair on submit.cs
+===============================
+
+On submit.cs, on the page {{page.submit_cs}}, there should be a blue "Join Groups" button.     Use this to add another student to your pair.
+
 Working in a pair? Switch navigator/driver frequently and tradeoff who commits
 ==============================================================================
 
