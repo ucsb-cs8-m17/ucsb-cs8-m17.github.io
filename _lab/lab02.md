@@ -5,7 +5,7 @@ ready: false
 desc: "Polynomials"
 assigned: 2016-09-29 16:00:00.00-7
 due: 2016-10-05 17:00:00.00-7
-submit_cs_link: "https://submit.cs.ucsb.edu/p/xxx"
+submit_cs_link: "https://submit.cs.ucsb.edu/form/project/555"
 github_org: UCSB-CS56-F16
 ---
 
