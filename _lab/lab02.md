@@ -216,7 +216,7 @@ Generally speaking, when we set up a repository, we want to store only SOURCE CO
 
 We also don't want to store backup files, such as the files that emacs creates that end in tilde, such as Foo.java~, Bar.java~, etc.
 
-The .gitignore helps us do that. Use the more command to list the contents of your .gitignore file:
+The .gitignore helps us do that. Use the more command to list the contents of your .gitignore file, which will look something like this (if you created a .gitignore for Java and it has more contents than this, that is fine):
 
     -bash-4.2$ more .gitignore
     *~
