@@ -38,16 +38,6 @@ same project, or for some other project to which you are assigned.
 
 # {{site.qtr}}_{{page.num}}.md instructions
 
----
-topic: "M16 lab02.md instructions"
-desc: "Your first encounter with legacy code"
-layout: default
-mdname: "M16_lab02.md"
----
-
-
-# M16_lab02.md instructions
-
 Your next set of steps will be, in general, to learn about the project, and write about the current state of the project  Your goal is to understand what the project is about,  identifying things that are good, and things that could be improved.  
 
 For each repo, there is a list of known "issues".
