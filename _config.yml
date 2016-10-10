@@ -6,13 +6,14 @@ off_campus: http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048
 hfj_url: book/programming/java/0596009208
 hfdp_url: book/software-engineering-and-development/patterns/0596007124 
 
-ta_list: "(configure ta_list in _config.yml)"
-mentors_list: "(configure mentors_list in _config.yml)"
+ta_list: "Nick and Michael"
+mentors_list: "Alex, Angela, Chandler, Franklin, Geon, Jimmy, John, Jack, Steven, Vivek, and William"
 
 start_week: 0
 start_date: 2016-09-18 00:00:00.00-7:00
 num_weeks: 11
 extra_exam_week: true
+sections: "4pm, 5pm<br> or 6pm"
 
 cal_dates: >
   [
