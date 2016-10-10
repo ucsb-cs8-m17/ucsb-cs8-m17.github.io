@@ -36,6 +36,6 @@ In your next encounter, you'll start working on the "issues" that you read about
 same project, or for some other project to which you are assigned.
 
 <div style="display:none;">
-http://ucsb-cs56-m16.github.io/lab/lab02
+http://ucsb-cs56-f16.github.io/lab/lab03
 </div> 
 
