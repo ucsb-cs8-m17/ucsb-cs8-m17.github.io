@@ -9,6 +9,10 @@ hfdp_url: book/software-engineering-and-development/patterns/0596007124
 ta_list: "Nick and Michael"
 mentors_list: "Alex, Angela, Chandler, Franklin, Geon, Jimmy, John, Jack, Steven, Vivek, and William"
 
+legacy_wiki_url: https://foo.cs.ucsb.edu/56wiki
+legacy_wiki_name: "56wiki"
+
+
 start_week: 0
 start_date: 2016-09-18 00:00:00.00-7:00
 num_weeks: 11
