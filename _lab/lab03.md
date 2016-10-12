@@ -12,7 +12,7 @@ mdname: F16_lab03
 
 Before you begin this lab, you should be officially assigned to a mentor and to a pair.
 
-(In rare cases, we may allow trios, or individuals, but only with official permission from the instructor.  If you are solo or trio programming, see [this note](solo_trio).)
+(In rare cases, we may allow trios, or individuals, but only with official permission from the instructor.  If you are solo or trio programming, see [this note](solo_trio/).)
 
 
 If you have not yet been assigned to a mentor and pair, please contact your TA or instructor.
