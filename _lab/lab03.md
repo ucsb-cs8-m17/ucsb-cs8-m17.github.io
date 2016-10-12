@@ -20,8 +20,11 @@ If you have not yet been assigned to a mentor and pair, please contact your TA o
 
 Together with your pair partner, you will do the following steps.
 
-1. Ask your mentor to assign your pair a repo.   You can't just "choose" any one that you like; you need to be officially assigned one by a mentor, TA, or instructor.   They will record your choice on the course website.  TODO: Insert link to that web page here.
-2. Once you've been assigned to a repo, the pair partner listed as pair partner 1 should fork the repo to their own githubid.
+1. Consult the web page [https://ucsb-cs56-f16.github.io/info/projects/](https://ucsb-cs56-f16.github.io/info/projects/) to check that it accurately reflects your mentor, github id, pair partner, and pair partner's github id.  
+   * If you are not on the list, or if there is any error consult a mentor, TA or instructor to fix it.
+1. Then, find the legacy repo to which you've been assigned.  If you haven't been assigned a repo, ask your mentor to assign you and your pair 
+   partner to a repo.
+2. Once you've been assigned to a repo, the pair partner with the github id that comes "first" in the alphabet should fork the repo to their own githubid.   We'll call this person "pair partner 1".
 3. Then, pair partner 1 should add pair partner 2 as a collaborator (and if applicable, pair partner 3).
 3. Whoever is driving, clone the forked repo to the computer where you are working (this may be a directory on CSIL, or it may be
    your own laptop or desktop machine.  If it is your own computer, you'll need to install Java 8, and Ant.)
