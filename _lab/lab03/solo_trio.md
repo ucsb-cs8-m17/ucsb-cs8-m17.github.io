@@ -1,5 +1,5 @@
 ---
-topic: "lab02: solo and trio programmers"
+topic: "lab03: solo and trio programmers"
 desc: "Adapt the instructions using common sense"
 layout: default
 ---
@@ -15,5 +15,5 @@ Note that although solo and trio situations are rare, they do sometimes happen. 
    suggested for pair&nbsp;partner&nbsp;2, repeat the step for pair&nbsp;partner&nbsp;3.
 
 <div style="display:none;">
-http://ucsb-cs56-m16.github.io/lab/lab02/solo_trio
+http://ucsb-cs56-f16.github.io/lab/lab03/solo_trio
 </div>
