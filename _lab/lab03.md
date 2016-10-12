@@ -18,7 +18,7 @@ Before you begin this lab, you should be officially assigned to a mentor and to 
 If you have not yet been assigned to a mentor and pair, please contact your TA or instructor.
 
 
-Together with your pair partner, you will do the following steps.
+Together with your pair partner, you will do the following steps.   Note: this list is just an <em>overview</em> of the entire process, so that you can see a <em>short</em> list of all the things you need to do.   You'll have to consult the rest of the instructions for details.
 
 1. Consult the web page [https://ucsb-cs56-f16.github.io/info/projects/](https://ucsb-cs56-f16.github.io/info/projects/) to check that it accurately reflects your mentor, github id, pair partner, and pair partner's github id.  
    * If you are not on the list, or if there is any error consult a mentor, TA or instructor to fix it.
@@ -30,7 +30,7 @@ Together with your pair partner, you will do the following steps.
    your own laptop or desktop machine.  If it is your own computer, you'll need to install Java 8, and Ant.)
 4. Once you have cloned the *forked* repo, create a file called <tt>{{site.qtr}}_{{page.num}}.md</tt> in the root directory of the repo.   In this file, 
    at the top, put both pair partner's names (if you prefer you may use first name last initial, e.g. Selena G., Justin T.)
-5. In that file, using Markdown formatting, write answers to the questions listed below in the section <strong>{{site.qtr}}_{{page.num}}.md instructions</strong> below.
+5. In that file, using Markdown formatting, write answers to the questions listed below in the section <strong>{{site.qtr}}_{{page.num}}.md instructions</strong> below.    There are more detailed instructions below.
 6. Commit that file to the forked repo, then do a pull request back to the UCSB-CS56-Project repo you forked from.
 7. Once you've done the pull request, record that you've done the pull request on Gauchospace, following the instructions [here]({{page.gauchospace_link}}).
 
@@ -39,9 +39,7 @@ Then you are finished with {{page.num}}, and your first encounter with legacy co
 In your next encounter, you'll start working on the "issues" that you read about during your first encounter, either for this
 same project, or for some other project to which you are assigned.
 
-# {{site.qtr}}_{{page.num}}.md instructions
-
-Your next set of steps will be, in general, to learn about the project, and write about the current state of the project  Your goal is to understand what the project is about,  identifying things that are good, and things that could be improved.  
+# Find the list of "issues" for the project, and read through them.
 
 For each repo, there is a list of known "issues".
 * These are found on github.com on the ORIGINAL repo that you forked from, the one under https://github.com/UCSB-CS56-Projects
@@ -51,6 +49,39 @@ For each repo, there is a list of known "issues".
 You'll be trying to understand those issues, as well as determine additional issues that could be added.
 
 In the end, you are doing the steps you'd need to do to "get ready" to take on this as your legacy code project.  
+
+# {{site.qtr}}_{{page.num}}.md instructions
+
+Your next set of steps will be, in general, to learn about the project, and write about the current state of the project  Your goal is to understand what the project is about,  identifying things that are good, and things that could be improved.  
+
+In the root directory of your forked copy of the project repo, <strong>add a file called <tt>{{page.mdname}}</tt></strong> in which you write a short assessment of your findings.  
+
+This file <tt>{{page.mdname}}</tt> should include the following.  (If you are having trouble knowing how to complete these steps, read through the rest of the lab instructions, including the "frequently asked questions" section below before asking for help.)  
+
+* (a) (20 pts) A brief description of the project.  Here, I'm looking for a short description: probably 1 sentence, 2-3 at most.
+* (b) (20 pts) a set of user stories (as a X I can Y so that Z) that describe what the current software in its current state can do.
+* (c) (20 pts) a brief assessment of whether the software runs or not.   If it runs, briefly describe what it does,  
+* (d) (20 pts) a set of user stories (at least 2, but you are encouraged to write up to 4 or more if you can, as many as you think is reasonable) about features that COULD be added to the software to make it more useful, fun, better, etc.
+* (e) (20 pts) An assessment of the current quality of the README.md.   What information could be added to make it easier for the next generation of folks maintaining this code to use the software, and/or maintain the software? 
+* (f) (20 pts) An assessment of the current state of the build.xml file.   Are there targets that need descriptions?  Is there old legacy JWS stuff that needs to be removed?  (More on this below).
+* (g) (20 pts) An assessment of the current "issues".  Are there enough issues that you could earn 1000 points by working on this project?   Are the issues clear in terms of what the expectations are?
+* (h) (20 pts) A list of additional issues that you may have added, if any. For each, a link to the issue is good enough.
+* (i) (100 pts) Most important: an assessment of the actual code.  Write a bit about how the code is organized.  Are the purposes of the classes, and their methods clear?  Is it obvious how the classes relate to one another?   Is the code easy to read and understand?   If you had to give someone else that was going to work on the code just "one screenful of text" to help that programmer get up to speed quickly, what information would you convey?
+* (j) (40 pts) Related to code quality, but factored out into a separate issue because it is so important: how is the test coverage?   Are there JUnit tests at all?  If so, how much of the project is covered by testing?  Are there opportunities to expand test coverage, and if so, how would you go about it?
+
+# When you are done... do a pull request
+
+When you are finished, do a pull request back to original repo that you forked from.   The pull request will typically only be the change of adding your {{page.mdname}}, unless you went ahead and made some changes to improve the project.  If you did, those changes will count towards a future project grade.
+
+Your mentor will comment on the pull request, and then your TA will "accept" the pull request when your submission is graded.  The grade will put into Gauchospace, and your feedback will be added to your feedback repo.
+
+# Fill out the info on Gauchospace
+
+On Gauchospace, at {{page.gauchospace_link}} fill in the requested information (including the name of your pair partner).
+
+It is ok if only one pair partner adds all of the links on Gauchospace, but the <strong>second partner should at least make a submission on Gauchospace that mentions the name of their pair partner, so that we can record your grade for both pair partners.</strong>
+
+# Frequently Asked Questions
 
 ## Is this the project we'll be working on the rest of the quarter 
 
@@ -74,30 +105,9 @@ Why it might be a good idea to wait:
 
 * If you are NOT going to be taking on this project as YOUR legacy code project, but instead, are planning to take your chances on the second round selection process, you might be doing extra work by starting now.
 
-## Ok, got it.  We're ready to get started. What should we do? 
+## I don't even know where to start.  Can you help?
 
-Together with your pair partner, take turns driving/navigating through these steps.
-
-You can use regular or strong-style pairing, as you see fit.
-
-The main tasks are these:
-
-## Add a file to the repo called <tt>{{page.mdname}}</tt> in the root directory of the project.  In that file, write a short assessment of your findings.  
-
-It should include the following.  
-
-* (a) (20 pts) A brief description of the project.  Here, I'm looking for a short description: probably 1 sentence, 2-3 at most.
-* (b) (20 pts) a set of user stories (as a X I can Y so that Z) that describe what the current software in its current state can do.
-* (c) (20 pts) a brief assessment of whether the software runs or not.   If it runs, briefly describe what it does,  
-* (d) (20 pts) a set of user stories (at least 2, but you are encouraged to write up to 4 or more if you can, as many as you think is reasonable) about features that COULD be added to the software to make it more useful, fun, better, etc.
-* (e) (20 pts) An assessment of the current quality of the README.md.   What information could be added to make it easier for the next generation of folks maintaining this code to use the software, and/or maintain the software? 
-* (f) (20 pts) An assessment of the current state of the build.xml file.   Are there targets that need descriptions?  Is there old legacy JWS stuff that needs to be removed?  (More on this below).
-* (g) (20 pts) An assessment of the current "issues".  Are there enough issues that you could earn 1000 points by working on this project?   Are the issues clear in terms of what the expectations are?
-* (h) (20 pts) A list of additional issues that you may have added, if any. For each, a link to the issue is good enough.
-* (i) (100 pts) Most important: an assessment of the actual code.  Write a bit about how the code is organized.  Are the purposes of the classes, and their methods clear?  Is it obvious how the classes relate to one another?   Is the code easy to read and understand?   If you had to give someone else that was going to work on the code just "one screenful of text" to help that programmer get up to speed quickly, what information would you convey?
-* (j) (40 pts) Related to code quality, but factored out into a separate issue because it is so important: how is the test coverage?   Are there JUnit tests at all?  If so, how much of the project is covered by testing?  Are there opportunities to expand test coverage, and if so, how would you go about it?
-
-## How to get started 
+If you are having trouble getting started, I suggest that together with your pair partner, you take turns driving/navigating through these steps. You can use regular or strong-style pairing, as you see fit.
 
 1. Put your name, your partner's name, and each of your github ids in the  file.
 2. Read the README.md file and try to understand what the project is about.
@@ -105,7 +115,7 @@ It should include the following.
 4. Run the ant build.xml file with <code>ant -p</code> and see what the ant targets are.  Then also look into the build.xml file directly&mdash;if there are some targets that don't have description elements but SHOULD, that's something to notice.
 5. Try compiling and running the code and see if the code actually works or not.
 
-Once you've done all of that, show it to your mentor.  Then, along with your mentor, come up with a plan for some things you can do in about 2-3 hours time that can improve the code somewhat.  These may include:
+Once you've done all of that, invite your mentor to come over and talk with you about the repo you were assigned.  Your mentor will likely be familiar with the project already&mdash;over the last couple of weeks, they spent some time looking at it.  Along with your mentor, come up with a plan for some things you can do in about 2-3 hours time that can improve the code somewhat.  These may include:
 
 1. Writing proposals for improving the README (perhaps with screenshots, developer documentation, and build/usage instructions)
 1. Identifying bugs with the project
@@ -132,11 +142,6 @@ We may add some hints as to what those things might be here, so refresh and revi
 
 If/when we do add new material, we'll post on Piazza.
 
-## When you are done... do a pull request 
-
-When you are finished, do a pull request back to original repo that you forked from.   The pull request will typically only be the change of adding your {{page.mdname}}, unless you went ahead and made some changes to improve the project.  If you did, those changes will count towards a future project grade.
-
-Your mentor will comment on the pull request, and then your TA will "accept" the pull request when your submission is graded.  The grade will put into Gauchospace, and your feedback will be added to your feedback repo.
 
 
 ----
