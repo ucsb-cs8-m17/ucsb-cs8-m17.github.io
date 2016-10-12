@@ -5,7 +5,7 @@ layout: default
 ---
 
 
-# Special Note for Solo and Trio Programmers for [lab03](/lab/lab03)
+# Special Note for Solo and Trio Programmers for [lab03](/lab/lab03/)
 
 Note that although solo and trio situations are rare, they do sometimes happen.   Adjust the instructions using common sense.  For example:
 
