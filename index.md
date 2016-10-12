@@ -14,10 +14,7 @@ title: CS56, Fall 2016, pconrad
 </ul>
 </div>
 
-<div data-role="collapsible" data-collapsed="false">
-<h2 id="teams">Teams</h2>
-{%include teams_table.html %}
-</div>
+<p>(Looking for <b>Teams?</b> They were moved to the end of the page&mdash;please scroll down.)</p>
 
 <div data-role="collapsible" data-collapsed="false">
 <h2 id="labs">Labs:</h2>
@@ -35,3 +32,7 @@ title: CS56, Fall 2016, pconrad
 {%include exam_table.html %}
 </div>
 
+<div data-role="collapsible" data-collapsed="false">
+<h2 id="teams">Teams</h2>
+{%include teams_table.html %}
+</div>
