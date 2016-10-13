@@ -17,7 +17,7 @@ start_week: 0
 start_date: 2016-09-18 00:00:00.00-7:00
 num_weeks: 11
 extra_exam_week: true
-sections: "4pm, 5pm<br> or 6pm"
+sections: "4pm,&nbsp;5pm or&nbsp;6pm"
 
 cal_dates: >
   [
