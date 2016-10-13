@@ -36,9 +36,6 @@ Together with your pair partner, you will do the following steps.   Note: this l
 
 Then you are finished with {{page.num}}, and your first encounter with legacy code.
 
-In your next encounter, you'll start working on the "issues" that you read about during your first encounter, either for this
-same project, or for some other project to which you are assigned.
-
 # Find the list of "issues" for the project, and read through them.
 
 For each repo, there is a list of known "issues".
@@ -143,7 +140,11 @@ We may add some hints as to what those things might be here, so refresh and revi
 
 If/when we do add new material, we'll post on Piazza.
 
+## What happens after this lab?
 
+In your next encounter with legacy code, you'll start working on the "issues" that you read about during your first encounter, either for this same project, or for some other project to which you are assigned.
+
+After the first midterm, we'll update you on how the next round will go, and what your choices are in terms of staying with the project to which you were initially assigned, or possible switching to a different project.
 
 ----
 
