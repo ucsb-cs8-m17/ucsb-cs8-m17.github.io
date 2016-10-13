@@ -53,7 +53,7 @@ In the end, you are doing the steps you'd need to do to "get ready" to take on t
 
 # {{site.qtr}}_{{page.num}}.md instructions
 
-Your next set of steps will be, in general, to learn about the project, and write about the current state of the project  Your goal is to understand what the project is about,  identifying things that are good, and things that could be improved.  
+Your next set of steps will be, in general, to learn about the project, and write about the current state of the project  Your goal is to understand what the project is about, identifying things that are good, and things that could be improved.  
 
 In the root directory of your forked copy of the project repo, <strong>add a file called <tt>{{page.mdname}}</tt></strong> in which you write a short assessment of your findings.  
 
@@ -78,7 +78,7 @@ Your mentor will comment on the pull request, and then your TA will "accept" the
 
 # Fill out the info on Gauchospace
 
-On Gauchospace, at {{page.gauchospace_link}} fill in the requested information (including the name of your pair partner).
+On Gauchospace, at [{{page.gauchospace_link}}] fill in the requested information (including the name of your pair partner).
 
 It is ok if only one pair partner adds all of the links on Gauchospace, but the <strong>second partner should at least make a submission on Gauchospace that mentions the name of their pair partner, so that we can record your grade for both pair partners.</strong>
 
