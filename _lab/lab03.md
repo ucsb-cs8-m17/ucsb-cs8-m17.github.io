@@ -42,9 +42,10 @@ same project, or for some other project to which you are assigned.
 # Find the list of "issues" for the project, and read through them.
 
 For each repo, there is a list of known "issues".
- * These are found on github.com on the ORIGINAL repo that you forked from, the one under https://github.com/UCSB-CS56-Projects
- *  They will not be on your forked copy.
- *  IMPORTANT: When *adding* new issues, you will add them *directly* on the UCSB-CS56-Projects version of the repo, not on the forked copy.
+
+* These are found on github.com on the ORIGINAL repo that you forked from, the one under https://github.com/UCSB-CS56-Projects
+*  They will not be on your forked copy.
+*  IMPORTANT: When *adding* new issues, you will add them *directly* on the UCSB-CS56-Projects version of the repo, not on the forked copy.
 
 You'll be trying to understand those issues, as well as determine additional issues that could be added.
 
