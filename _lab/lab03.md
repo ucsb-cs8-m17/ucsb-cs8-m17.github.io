@@ -31,6 +31,7 @@ Together with your pair partner, you will do the following steps.   Note: this l
 4. Once you have cloned the *forked* repo, create a file called <tt>{{site.qtr}}_{{page.num}}.md</tt> in the root directory of the repo.   In this file, 
    at the top, put both pair partner's names (if you prefer you may use first name last initial, e.g. Selena G., Justin T.)
 5. In that file, using Markdown formatting, write answers to the questions listed below in the section <strong>{{site.qtr}}_{{page.num}}.md instructions</strong> below.    There are more detailed instructions below.
+   * Don't know Markdown? Check out this [cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)!
 6. Commit that file to the forked repo, then do a pull request back to the UCSB-CS56-Project repo you forked from.
 7. Once you've done the pull request, record that you've done the pull request on Gauchospace, following the instructions [here]({{page.gauchospace_link}}).
 
