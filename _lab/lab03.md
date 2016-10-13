@@ -27,7 +27,7 @@ Together with your pair partner, you will do the following steps.   Note: this l
 2. Once you've been assigned to a repo, the pair partner with the github id that comes "first" in the alphabet should fork the repo to their own githubid.   We'll call this person "pair partner 1".
 3. Then, pair partner 1 should add pair partner 2 as a collaborator (and if applicable, pair partner 3).
 3. Whoever is driving, clone the forked repo to the computer where you are working (this may be a directory on CSIL, or it may be
-   your own laptop or desktop machine.  If it is your own computer, you'll need to install Java 8, and Ant.)
+   your own laptop or desktop machine.  If it is your own computer, you'll need to install Java 8 and Ant.)
 4. Once you have cloned the *forked* repo, create a file called <tt>{{site.qtr}}_{{page.num}}.md</tt> in the root directory of the repo.   In this file, 
    at the top, put both pair partner's names (if you prefer you may use first name last initial, e.g. Selena G., Justin T.)
 5. In that file, using Markdown formatting, write answers to the questions listed below in the section <strong>{{site.qtr}}_{{page.num}}.md instructions</strong> below.    There are more detailed instructions below.
@@ -42,9 +42,9 @@ same project, or for some other project to which you are assigned.
 # Find the list of "issues" for the project, and read through them.
 
 For each repo, there is a list of known "issues".
-* These are found on github.com on the ORIGINAL repo that you forked from, the one under https://github.com/UCSB-CS56-Projects
-*  They will not be on your forked copy.
-*  IMPORTANT: When *adding* new issues, you will add them *directly* on the UCSB-CS56-Projects version of the repo, not on the forked copy.
+ * These are found on github.com on the ORIGINAL repo that you forked from, the one under https://github.com/UCSB-CS56-Projects
+ *  They will not be on your forked copy.
+ *  IMPORTANT: When *adding* new issues, you will add them *directly* on the UCSB-CS56-Projects version of the repo, not on the forked copy.
 
 You'll be trying to understand those issues, as well as determine additional issues that could be added.
 
