@@ -78,7 +78,7 @@ Your mentor will comment on the pull request, and then your TA will "accept" the
 
 # Fill out the info on Gauchospace
 
-On Gauchospace, at [{{page.gauchospace_link}}] fill in the requested information (including the name of your pair partner).
+On Gauchospace, at {{page.gauchospace_link}} fill in the requested information (including the name of your pair partner).
 
 It is ok if only one pair partner adds all of the links on Gauchospace, but the <strong>second partner should at least make a submission on Gauchospace that mentions the name of their pair partner, so that we can record your grade for both pair partners.</strong>
 
