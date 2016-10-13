@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab03
-ready: false
+ready: true
 desc: "First look at Legacy Code"
 assigned: 2016-10-13 16:00:00.00-7
 due: 2016-10-21 17:00:00.00-7
