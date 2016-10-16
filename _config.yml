@@ -68,6 +68,9 @@ collections:
   teams:
     output: true
     permalink: /teams/:path/
+  lectures:
+    output: true
+    permalink: /lectures/:path/
 
 
 
@@ -77,6 +80,12 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: default
+  - 
+    scope:
+      path: ""
+      type: lectures
+    values:
+      layout: lecture
   - 
     scope:
       path: ""

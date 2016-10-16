@@ -33,6 +33,6 @@ title: CS56, Fall 2016, pconrad
 </div>
 
 <div data-role="collapsible" data-collapsed="false">
-<h2 id="teams">Teams</h2>
-{%include teams_table.html %}
+<h2 id="teams">Lectures</h2>
+{%include lectures_table.html %}
 </div>
