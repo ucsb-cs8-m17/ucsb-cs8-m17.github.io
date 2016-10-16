@@ -1,6 +1,6 @@
 # UCSB-CS56-F16.github.io
 
-Website: http://ucsb-cs56-m16.github.io
+Website: http://ucsb-cs56-f16.github.io
 
 Jekyll status on Travis-CI: [![Build Status](https://travis-ci.org/UCSB-CS56-F16/UCSB-CS56-F16.github.io.svg?branch=master)](https://travis-ci.org/UCSB-CS56-F16/UCSB-CS56-F16.github.io)
 * Travis-ci: https://travis-ci.org/UCSB-CS56-F16/UCSB-CS56-F16.github.io
