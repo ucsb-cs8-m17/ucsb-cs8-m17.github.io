@@ -22,11 +22,11 @@ Topics for this lecture were taken from material about git/github here:
 
 And information about Java from here:
    
-* https://ucsb-cs56-pconrad.github.io/tutorials/rational_ex01/   
+* [rational_ex01](https://ucsb-cs56-pconrad.github.io/tutorials/rational_ex01/)   
     * private data members, public constructors, integers from command line arguments, main methods, built in toString method, simple compilation/execution with javac/java
-* https://ucsb-cs56-pconrad.github.io/tutorials/rational_ex02/   
+* [rational_ex02](https://ucsb-cs56-pconrad.github.io/tutorials/rational_ex02/)
     * toString method, public getters, simple build.xml file for Ant, mutiple classes with main() in a single project
-* https://ucsb-cs56-pconrad.github.io/tutorials/rational_ex03/   
+* [rational_ex03](https://ucsb-cs56-pconrad.github.io/tutorials/rational_ex03/)  
     * creating a jar file, automatic testing with junit, creating and publishing javadoc
-* https://ucsb-cs56-pconrad.github.io/tutorials/rational_ex04/   
+* [rational_ex04](https://ucsb-cs56-pconrad.github.io/tutorials/rational_ex04/) 
     * move source to /src and .class files to /build, adjustments to Ant build.xml, discuss immutable objects
