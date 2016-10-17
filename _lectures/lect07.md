@@ -7,7 +7,7 @@ date: 2016-10-17 12:30:00.00-7:00
 
 Today will be primarily focused on Exam Review
 
-* [Study guide for Midterm Exam E01](/exams/E01/)
+* [Study guide for Midterm Exam E01](/exam/e01/)
 
 # Practice Question on Garbage Collection
 
