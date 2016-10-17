@@ -9,7 +9,7 @@ Today will be primarily focused on Exam Review
 
 * [Study guide for Midterm Exam E01](/exam/e01/)
 
-# 
+
 
 # Practice Question on Garbage Collection
 
