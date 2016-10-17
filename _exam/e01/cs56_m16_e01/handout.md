@@ -135,7 +135,7 @@ public class Dog {
 
 	d5.setAsDogOfTheWeek();    /*  1 */
 	d2 = d1;                   /*  2 */
-	Dog d3 = d6;               /*  3 */ 
+	Dog d6 = d3;               /*  3 */ 
 	Dog temp = d2;             /*  4 */
 	d2 = d5;                   /*  5 */
 	d5 = temp;                 /*  6 */
