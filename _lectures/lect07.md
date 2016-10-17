@@ -1,6 +1,6 @@
 ---
 num: "Lecture 7"
-desc: "tbd"
+desc: "Review for Midterm Exam E01"
 ready: false
 date: 2016-10-17 12:30:00.00-7:00
 ---
