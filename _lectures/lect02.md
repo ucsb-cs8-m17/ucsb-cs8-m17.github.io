@@ -5,19 +5,7 @@ ready: false
 date: 2016-09-28 12:30:00.00-7:00
 ---
 
-{% for lect in site.lectures %}
-  {% if page==lect %}
-    {{lect.num}} is element {{forloop.index}}
-    {% if forloop.first %}
-       Next is {{ site.lectures[forloop.index + 1].url }}
-    {% elsif forloop.last %}
-       Prev is {{ site.lectures[forloop.index - 1].url }}
-    {% else %}
-      Prev is {{ site.lectures[forloop.index - 1].url }}
-      Next is {{ site.lectures[forloop.index + 1].url }}
-    {% endif %}
-  {% endif %}
-{% endfor %}
+
 
 # If you have notes from this lecture
 
