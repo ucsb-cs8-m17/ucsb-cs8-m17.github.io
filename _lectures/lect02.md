@@ -10,7 +10,7 @@ date: 2016-09-28 12:30:00.00-7:00
     {{lect.num}} is element {{forloop.index}}
     {% if forloop.first %}
        Next is {{ site.lectures[forloop.index + 1].url }}
-    {% elif forloop.last %}
+    {% elsif forloop.last %}
        Prev is {{ site.lectures[forloop.index - 1].url }}
     {% else %}
       Prev is {{ site.lectures[forloop.index - 1].url }}
