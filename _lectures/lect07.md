@@ -9,8 +9,12 @@ Today will be primarily focused on Exam Review
 
 * [Study guide for Midterm Exam E01](/exam/e01/)
 
+# 
+
 # Practice Question on Garbage Collection
 
-See: <https://ucsb-cs56-f16.github.io/exam/e01/cs56_m16_e01_practice_b/handout/>
+[Questions](/exam/e01/cs56_f16_e01_practice_c/)
+
+[Handout](/exam/e01/cs56_f16_e01_practice_c/handout/)
 
 Also: <https://github.com/UCSB-CS56-pconrad/java-garbage-collection-demo/blob/master/Dog.java>
