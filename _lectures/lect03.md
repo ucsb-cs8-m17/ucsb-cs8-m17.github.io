@@ -22,11 +22,11 @@ Topics for this lecture were taken from material about git/github here:
 
 And information about Java from here:
    
-* https://ucsb-cs56-pconrad.github.io/tutorials/rational_ex05
+* [rational_ex05](https://ucsb-cs56-pconrad.github.io/tutorials/rational_ex05)
      * move source to /src and .class files to /build, adjustments to Ant build.xml, discuss immutable objects
-* https://ucsb-cs56-pconrad.github.io/tutorials/rational_ex06/     
+* [rational_ex06](https://ucsb-cs56-pconrad.github.io/tutorials/rational_ex06/) 
      * understanding inheritance (from java.lang.Object), linking from our javadoc to Java standard libraries, negative rational numbers, multiplying rational numbers
-* https://ucsb-cs56-pconrad.github.io/tutorials/rational_ex07/         
+* [rational_ex07](https://ucsb-cs56-pconrad.github.io/tutorials/rational_ex07/)       
     * Exceptions, testing for Exceptions with JUnit
-* https://ucsb-cs56-pconrad.github.io/tutorials/rational_ex08/ 
+* [rational_ex08](https://ucsb-cs56-pconrad.github.io/tutorials/rational_ex08/)
     * functions (methods) to multiply two rational numbers
