@@ -13,8 +13,6 @@ Today will be primarily focused on Exam Review
 
 # Practice Question on Garbage Collection
 
-[Questions](/exam/e01/cs56_f16_e01_practice_c/)
-
-[Handout](/exam/e01/cs56_f16_e01_practice_c/handout/)
+[Questions](/exam/e01/cs56_f16_e01_practice_c/){:data-ajax="false"}&nbsp;[Handout](/exam/e01/cs56_f16_e01_practice_c/handout/){:data-ajax="false"}
 
 Also: <https://github.com/UCSB-CS56-pconrad/java-garbage-collection-demo/blob/master/Dog.java>
