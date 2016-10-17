@@ -5,6 +5,13 @@ ready: false
 date: 2016-09-28 12:30:00.00-7:00
 ---
 
+
+{% for lect in site.lectures %}
+  {% if page==lect %}
+     {{lect.num}}
+  {% endif %}
+{% endfor %}
+
 # If you have notes from this lecture
 
 ... please consider posting a summary to Piazza.
