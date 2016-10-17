@@ -7,7 +7,7 @@ exam_date: 2016-10-19 12:30:00.00-7
 ---
 
 Note: This is not a "complete" 100 point practice exam.  It has one or more sample problems for us
-to practice with in lecture.
+to practice with in lecture.   You can check your answers with the code in [this repo](https://github.com/UCSB-CS56-F16/lectureNotes_10.17)
 
 [For a full 100 point practice exam, click here.](/exam/e01/cs56_m16_e01_practice/){:data-ajax="false"}.
 
