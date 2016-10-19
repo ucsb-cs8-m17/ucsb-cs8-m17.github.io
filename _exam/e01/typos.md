@@ -17,7 +17,7 @@ Typo corrections, clarifications and hints will be placed on this page during th
 
 * Q6: `buidl.xml` should be `build.xml`
 
-* Q7: Missing word (shown in bold) "Briefly <strong>explain</strong> how the `.equals` method...
+* Q7: Missing word (shown in bold) "Briefly <strong>explain</strong> how the `.equals` method"...
 
 </div>
 
