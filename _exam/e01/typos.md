@@ -13,3 +13,4 @@ exam_end: "2016-10-19 13:45:00 -0700"
 
 Typo corrections, clarifications and hints will be placed on this page during the exam.
 
+* Q6: `buidl.xml` should be `build.xml`
