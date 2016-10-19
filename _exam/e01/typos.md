@@ -17,7 +17,9 @@ Typo corrections, clarifications and hints will be placed on this page during th
 
 * Q6: `buidl.xml` should be `build.xml`
 
-* Q7: Missing word (shown in bold) "Briefly <strong>explain</strong> how the `.equals` method"...
-
+* Q7c: 
+    * Missing word (shown in bold) "Briefly <strong>explain</strong> how the `.equals` method"...
+    * ALSO: "this specific case" means "this particular `a` and `b` with `Dog` objects that both have `Alice` as the name.
+    * "in general" means: the general case of not overriding the .equals method for Dog, regardless of what objects are being compared.
 </div>
 
