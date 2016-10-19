@@ -21,5 +21,7 @@ Typo corrections, clarifications and hints will be placed on this page during th
     * Missing word (shown in bold) "Briefly <strong>explain</strong> how the `.equals` method"... <s>overloaded</s> overridden
     * ALSO: "this specific case" means "this particular `a` and `b` with `Dog` objects that both have `Alice` as the name.
     * "in general" means: the general case of not overriding the .equals method for Dog, regardless of what objects are being compared.
+
+* Several students have asked "don't we need a getter for the `Dog` class?"  My response is: think about that very carefully.
 </div>
 
