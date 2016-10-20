@@ -643,10 +643,16 @@ Step 12: checking over your code
 
 Before you proceed further, check over the items in the rubric at the end of this lab file to ensure that you didn't leave anything out that would cause you to lose points!
 
-Step 13: Generate your javadoc (again, if you didn't do this before) and test it
---------------------------------------------------------------------------------
+Step 13: Generate your javadoc and test it
+-------------------------------------------
 
 Generate your Javadoc and give it a good going over. Make sure all the methods you created have good javadoc comments, and that the generated javadoc looks good.
+
+UNLIKE IN PREVIOUS LABS, you will NOT put your javadoc online.  Instead, just generate it into the javadoc subdirectory, which is in the .gitignore file, and look at it with a web browser to check it over.
+
+You can use the "File Open" feature of your web browser, or a "file://cs/students/mycsilid/cs56/F16-lab04/javadoc/index.html" type URL, as long as your web browser is on the same file system as your cloned github repo.
+
+The grader will generate the javadoc separately, and check it separately.
 
 Make any changes needed, and commit and push those.
 
