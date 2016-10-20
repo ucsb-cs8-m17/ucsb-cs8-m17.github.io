@@ -9,6 +9,7 @@ root_repo: https://github.com/UCSB-CS56-F16/F16-lab04
 repo_base_name: F16-lab04
 fork_tree_img: cs56-m16-lab06-fork-tree.png
 mentor_list_url: https://ucsb-cs56-f16.github.io/info/projects/
+space_register_drawings: https://gauchospace.ucsb.edu/courses/mod/forum/view.php?id=689271
 ---
 
 
@@ -45,7 +46,7 @@ repo and the mentors {% if site.mentors_list %}({{site.mentors_list}}){% endif %
 **jcruz** standing in as sample students—that's where each of you will
 be in this tree (i.e. at the leaves).
 
-![{{page.fork_tree_img}}]({{page.fork_tree_img}})
+<img src="https://docs.google.com/drawings/d/1W1iJ3a6SCuZa4JrABBVKR3j3niQKsOVmDe508h7tpWg/pub?w=1124&amp;h=454">
 
 The repo at the top of this tree is this one: <{{page.root_repo}}>
 
@@ -128,7 +129,7 @@ If you are unable to find that repo, please ask for help.
 
 | mentor | repo to fork |
 |----------|--------------|
-|Alex      | <https://github.com/<https://github.com/athielk/{{page.repo_base_name}}>
+|Alex      | <https://github.com/athielk/{{page.repo_base_name}}>
 |Angela	   | <https://github.com/asyung/{{page.repo_base_name}}>
 |Chandler  | <https://github.com/zhanchengqian/{{page.repo_base_name}}>
 |Franklin  | <https://github.com/Tektonbuilds/{{page.repo_base_name}}>
@@ -564,7 +565,7 @@ We need to stick to line drawings for now, because we are going to use them as a
 
 One catch: what you draw must be different from what everyone else in the class is drawing. There is a Gauchospace forum where you can register what you want to draw: that's right here:
 
--   <https://gauchospace.ucsb.edu/courses/mod/forum/view.php?id=621230>
+-   <{{page.gauchospace_register_drawings}}>
 
 BEFORE you register your drawing, though, read the rest of this section, down to where it says: ok, now you can register. :-)
 
@@ -603,7 +604,7 @@ So, now, if you have:
 
 you can register your drawing on Gauchospace. Here's the link again:
 
--   <https://gauchospace.ucsb.edu/courses/mod/forum/view.php?id=513441>
+-   <{{page.gauchospace_register_drawings}}>
 
 Then you are ready to start working on your own code under your YourCSILUsername/advanced directory.
 
@@ -642,10 +643,16 @@ Step 12: checking over your code
 
 Before you proceed further, check over the items in the rubric at the end of this lab file to ensure that you didn't leave anything out that would cause you to lose points!
 
-Step 13: Generate your javadoc (again, if you didn't do this before) and test it
---------------------------------------------------------------------------------
+Step 13: Generate your javadoc and test it
+-------------------------------------------
 
 Generate your Javadoc and give it a good going over. Make sure all the methods you created have good javadoc comments, and that the generated javadoc looks good.
+
+UNLIKE IN PREVIOUS LABS, you will NOT put your javadoc online.  Instead, just generate it into the javadoc subdirectory, which is in the .gitignore file, and look at it with a web browser to check it over.
+
+You can use the "File Open" feature of your web browser, or a "file://cs/students/mycsilid/cs56/F16-lab04/javadoc/index.html" type URL, as long as your web browser is on the same file system as your cloned github repo.
+
+The grader will generate the javadoc separately, and check it separately.
 
 Make any changes needed, and commit and push those.
 
