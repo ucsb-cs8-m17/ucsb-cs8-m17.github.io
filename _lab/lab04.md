@@ -46,7 +46,7 @@ repo and the mentors {% if site.mentors_list %}({{site.mentors_list}}){% endif %
 **jcruz** standing in as sample students—that's where each of you will
 be in this tree (i.e. at the leaves).
 
-![{{page.fork_tree_img}}]({{page.fork_tree_img}})
+<img src="https://docs.google.com/drawings/d/1W1iJ3a6SCuZa4JrABBVKR3j3niQKsOVmDe508h7tpWg/pub?w=1124&amp;h=454">
 
 The repo at the top of this tree is this one: <{{page.root_repo}}>
 
