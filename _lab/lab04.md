@@ -9,6 +9,7 @@ root_repo: https://github.com/UCSB-CS56-F16/F16-lab04
 repo_base_name: F16-lab04
 fork_tree_img: cs56-m16-lab06-fork-tree.png
 mentor_list_url: https://ucsb-cs56-f16.github.io/info/projects/
+space_register_drawings: https://gauchospace.ucsb.edu/courses/mod/forum/view.php?id=689271
 ---
 
 
@@ -603,7 +604,7 @@ So, now, if you have:
 
 you can register your drawing on Gauchospace. Here's the link again:
 
--   <https://gauchospace.ucsb.edu/courses/mod/forum/view.php?id=513441>
+-   <{{page.gauchospace_register_drawings}}>
 
 Then you are ready to start working on your own code under your YourCSILUsername/advanced directory.
 
