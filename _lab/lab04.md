@@ -129,7 +129,7 @@ If you are unable to find that repo, please ask for help.
 
 | mentor | repo to fork |
 |----------|--------------|
-|Alex      | <https://github.com/<https://github.com/athielk/{{page.repo_base_name}}>
+|Alex      | <https://github.com/athielk/{{page.repo_base_name}}>
 |Angela	   | <https://github.com/asyung/{{page.repo_base_name}}>
 |Chandler  | <https://github.com/zhanchengqian/{{page.repo_base_name}}>
 |Franklin  | <https://github.com/Tektonbuilds/{{page.repo_base_name}}>
