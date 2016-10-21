@@ -9,7 +9,7 @@ root_repo: https://github.com/UCSB-CS56-F16/F16-lab04
 repo_base_name: F16-lab04
 fork_tree_img: cs56-m16-lab06-fork-tree.png
 mentor_list_url: https://ucsb-cs56-f16.github.io/info/projects/
-space_register_drawings: https://gauchospace.ucsb.edu/courses/mod/forum/view.php?id=689271
+gauchospace_register_drawings: https://gauchospace.ucsb.edu/courses/mod/forum/view.php?id=689271
 ---
 
 
