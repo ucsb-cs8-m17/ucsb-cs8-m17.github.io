@@ -46,6 +46,7 @@ kramdown:
 exclude:
    - vendor
    - _exam/e02/cs56_m16_e02/code
+   - _exam/e01/cs56_f16_e01/code
 
 
 timezone: America/Los_Angeles

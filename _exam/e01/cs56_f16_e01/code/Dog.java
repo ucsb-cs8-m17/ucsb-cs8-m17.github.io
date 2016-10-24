@@ -1,14 +1,3 @@
----
-layout: examHandoutNoName
-num: e01
-ready: true
-desc: "Midterm Exam E01 Handout"
-exam_date: 2016-10-19 12:30:00.00-7
----
-
-## `Dog.java`
-
-{% highlight java linenos %}
 public class Dog {
 
     private static Dog dogOfTheWeek = null;
@@ -54,9 +43,20 @@ public class Dog {
 	resetDogOfTheWeek();     gc();
     }                              
 
+    public void finalize() {
+	System.out.println("Finalizing: " + this.name);
+    }
+
     public static void gc() {
-     // ... encourage garbage collection
-    }     
+	StackTraceElement ste = Thread.currentThread().getStackTrace()[2];
+	String where =
+	    ste.getClassName() + " "
+	    + ste.getMethodName()
+	    + " " + ste.getLineNumber() + " ";
+	System.out.println("Requesting gc at: " + where);
+	System.gc(); System.runFinalization ();
+	System.gc(); System.runFinalization ();
+    
+    }
 
 }
-{% endhighlight %}
