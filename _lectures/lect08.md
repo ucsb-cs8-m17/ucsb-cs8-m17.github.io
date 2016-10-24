@@ -13,6 +13,6 @@ Corgis databases
 
 Other Notes:
 
-* <https://github.edu/UCSB-CS56-F16/lectureNotes_10.24/>
+* <https://github.com/UCSB-CS56-F16/lectureNotes_10.24/>
 
 
