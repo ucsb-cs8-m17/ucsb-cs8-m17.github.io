@@ -11,6 +11,8 @@ Corgis databases
 * <https://think.cs.vt.edu/corgis/java/airlines/airlines.html>
 * <https://github.com/UCSB-CS56-pconrad/corgis-airlines-demo-01>
 
+Other Notes:
 
+* <https://github.edu/UCSB-CS56-F16/lectureNotes_10.24/>
 
 
