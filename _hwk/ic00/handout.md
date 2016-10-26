@@ -50,14 +50,17 @@ etc.
 ```
 
 Further instructions:
-* One review goes on one side of the worksheet, and the other on the reverse.
+* Your two individual reviews go on the front side of the IC00 worksheet.
 * When commenting on places where the code could be improved, you may like to phrase your remarks as a question that invites discussion, rather than as a direct critique.
 * When offering comments, please be as specific as you can about how the effect of the good practice you are observing or suggesting.
 * Find as many issues as you can, of both types (+ and ?). You should do your best to find at least two of each type, but don’t stop there
 
-<div style="page-break-before">&nbsp;</div>
+# SEE REVERSE SIDE FOR GROUP INSTRUCTIONS
+
+<div style="page-break-before:always;">&nbsp;</div>
 
 # Instructions—Part Two (group)
+
 
 Now get into groups of four, based on ONE of the two codes you reviewed.   For example:
 
@@ -73,6 +76,8 @@ You are now invited into a conversation with one another, where you produce a co
 * Author—Advocates on behalf of the code
 
 In fact, none of you is the author of the code—but one of you gets to pretend that she/he is.     This will help us practice being “diplomatic” in our sharing.  The “pretend author” should advocate for the code “as if” he/she authored it.
+
+Note that ONLY THE RECORDER needs to write down what the group decides; this is a collective submission on behalf of the group, but you are ALL CO-REPSONSIBLE for that submission.    
 
 # What to do:
 
