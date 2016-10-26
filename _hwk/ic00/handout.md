@@ -50,6 +50,7 @@ etc.
 ```
 
 Further instructions:
+
 * Your two individual reviews go on the front side of the IC00 worksheet.
 * When commenting on places where the code could be improved, you may like to phrase your remarks as a question that invites discussion, rather than as a direct critique.
 * When offering comments, please be as specific as you can about how the effect of the good practice you are observing or suggesting.
@@ -98,6 +99,7 @@ foreach (line of code that isn’t initial javadoc) do {
 ```
 
 Moderator’s roles:
+
 * Keep the discussion moving forward
 * Encourage all members to participate
 * Moderator may contribute their own ideas, but it is best to do so “last”
