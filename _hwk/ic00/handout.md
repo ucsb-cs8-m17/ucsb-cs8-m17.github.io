@@ -8,6 +8,7 @@ layout: handout
 ---
 
 # {{site.qtr}}, {{page.num}}
+
 ## {{page.desc}}
 
 (Note: Due date/time is one hour later for folks in 5pm section, and two hours later for folks in 6pm section.)
