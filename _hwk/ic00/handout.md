@@ -57,7 +57,9 @@ Further instructions:
 
 # SEE REVERSE SIDE FOR GROUP INSTRUCTIONS
 
-<div style="page-break-before:always;">&nbsp;</div>
+<div style="page-break-before:always;">&nbsp;
+
+</div>
 
 # Instructions—Part Two (group)
 
