@@ -7,6 +7,9 @@ due: 2016-10-27 16:50:00.00-8:00
 layout: handout
 ---
 
+# {{site.qtr}}, {{page.num}}
+## {{page.desc}}
+
 (Note: Due date/time is one hour later for folks in 5pm section, and two hours later for folks in 6pm section.)
 
 # Instructions: PART ONE (individual)
@@ -61,6 +64,10 @@ Further instructions:
 <div style="page-break-before:always;">&nbsp;
 
 </div>
+
+# {{site.qtr}}, {{page.num}}
+
+## {{page.desc}}
 
 # Instructions—Part Two (group)
 
