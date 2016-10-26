@@ -83,14 +83,15 @@ Note that ONLY THE RECORDER needs to write down what the group decides; this is 
 
 ```
 foreach (line of code that isn’t initial javadoc) do {
-	Reader reads the line of code
-	Moderator asks group what issues they have
-	All group members read their issues for this line  (moderator last)
-	Moderator facilitates a discussion
-	Recorder writes down the issues that reflect the group consensus
+	1) Reader reads the line of code
+	2) Moderator asks group what issues they have
+	3) All group members read their issues for this line  (moderator last)
+	4) Moderator facilitates a discussion
+	5) Recorder writes down the issues that reflect the group consensus
 		(same syntax as for part 1)
-if (this is last line of code)
-		do all steps above	 but from perspective of method “as a whole”
+        6) if (this is the last line of code)
+	   do all steps 1-5 above again but 
+	      from perspective of method “as a whole”
 }
 ```
 
