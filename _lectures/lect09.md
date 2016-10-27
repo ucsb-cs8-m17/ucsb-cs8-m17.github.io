@@ -14,8 +14,3 @@ A finite state automaton:
 A tokenizer corresponding to this FSA:
 
 
-
-# Corgis databases
-
-* <https://think.cs.vt.edu/corgis/java/airlines/airlines.html>
-* <https://github.com/UCSB-CS56-pconrad/corgis-airlines-demo-01>
