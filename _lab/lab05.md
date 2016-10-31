@@ -35,7 +35,7 @@ students indicate a preference to switch pairs or projects:
 
 -   Ensure that you have done a pull request for your {{page.legacy-code-first-look}} repo
     -   This is the one that you did the "code review" steps on.
-    -   This is the pull request that should, at a minimum, include a <tt>{{page.legacy-code-first-look-md-filename}}</tt>  file that has the elements indicated in the instructions for [{{page.legacy-code-first-look-lab}}](page.legacy-code-first-look-link)
+    -   This is the pull request that should, at a minimum, include a <tt>{{page.legacy-code-first-look-md-filename}}</tt>  file that has the elements indicated in the instructions for [{{page.legacy-code-first-look-lab}}]({{page.legacy-code-first-look-link}})
 
 At that point, what you do next depends on whether you are continuing on the same project, or starting a new one.
 
