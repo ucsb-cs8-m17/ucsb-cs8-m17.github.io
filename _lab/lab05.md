@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab05
-ready: false
+ready: true
 desc:  "Legacy Code Next Steps"
 assigned: 2016-10-30 17:30:00.00-7
 due: 2016-11-09 17:00:00.00-8
