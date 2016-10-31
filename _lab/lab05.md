@@ -41,11 +41,11 @@ At that point, what you do next depends on whether you are continuing on the sam
 
 -   If you are continuing on the same project, please see the instructions in the "Completing your Open Source Project" section below.
 
--   If you are switching projects, there are some additional steps you'll need to take first, detailed one this page: [Instructions for Switching Projects](switching).  After completing those steps, you'll continue with the steps under "Completing your Open Source Project" below.
+-   If you are switching projects, there are some additional steps you'll need to take first, detailed one this page: [Instructions for Switching Projects](switching/).  After completing those steps, you'll continue with the steps under "Completing your Open Source Project" below.
 
 # Completing Your Open Source Project
 
-To complete your open source project, you need to accumulate 1000 points. You may count up a small number of extra points towards extra credit in the course (see [Syllabus](/info/syllabus) for details.)
+To complete your open source project, you need to accumulate 1000 points. You may count up a small number of extra points towards extra credit in the course (see [Syllabus](/info/syllabus/) for details.)
 
 If you are still working on the same repo as in your initial code review, you might have already done some work on various issues.   If so, talk with your mentor about those, and ask your mentor to review your work on those issues.   If you have completed these successfully, and your mentor reviews your code, these can be submitted to the TA/Instructor for grading, and these can count towards your project points for this lab.
 
