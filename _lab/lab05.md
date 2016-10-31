@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab05
-ready: false
+ready: true
 desc:  "Legacy Code Next Steps"
 assigned: 2016-10-30 17:30:00.00-7
 due: 2016-11-09 17:00:00.00-8
@@ -49,9 +49,7 @@ To complete your open source project, you need to accumulate 1000 points. You ma
 
 If you are still working on the same repo as in your initial code review, you might have already done some work on various issues.   If so, talk with your mentor about those, and ask your mentor to review your work on those issues.   If you have completed these successfully, and your mentor reviews your code, these can be submitted to the TA/Instructor for grading, and these can count towards your project points for this lab.
 
-If not, then you start now. If there are not enough issues in your project, or if you have added issues, please ask your mentor to estimate the points for those issues. You may want to make a comment on the issue with your own suggestion, then negotiate.
-
-Use the rubric that 100 points is about 2 hours of work, more or less. Note that this is MORE OR LESS. That doesn't mean that if you put in 10 hours of work you automatically get 500 points. You have to actually accomplish something, not just "put in time". Time estimation in software is notoriously difficult. If you put in 10 hours of work, you should have something to show for it, even if it wasn't what you originally set out to do. The code should be demonstratably better in some way, and you should communicate with your mentor, TA and instructor EARLY AND OFTEN about what kinds of things you are running into.
+If not, then you start now. 
 
 When you complete issues, you make a pull request back to the github.com/UCSB-CS56-Projects verison of your repo, and you make a comment in the pull request: `fixes issue #5` (for example).  The mention of the issue by number, using the `#` symbol, should turn into into an automatic link to the issue.
 
