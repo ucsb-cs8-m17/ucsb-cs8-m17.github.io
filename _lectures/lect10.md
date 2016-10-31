@@ -20,3 +20,8 @@ date: 2016-10-31 12:30:00.00-7:00
 
 
 
+```
+-bash-4.3$ java -cp build/corgiAirlines.jar edu.ucsb.cs56.corgis.airlines.demos.ExampleStringSort
+[BOS, EWR, JFK, LAX, OAK, PHX, SAN, SBA, SFO, SJC, SNA]
+-bash-4.3$
+```
