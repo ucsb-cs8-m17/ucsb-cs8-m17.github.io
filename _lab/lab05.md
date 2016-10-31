@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab05
-ready: true
+ready: false
 desc:  "Legacy Code Next Steps"
 assigned: 2016-10-30 17:30:00.00-7
 due: 2016-11-09 17:00:00.00-8
@@ -23,7 +23,7 @@ You should complete at least 500 points by the time of the due date listed for {
 
 (If you are not switching pairs or projects, skip to the next section: "Open Source Project Next Steps")
 
-If you indicated that you wish to dissolve your pair, and/or keep your pair, and move to a new project,
+If you indicated that you wish to dissolve your pair, and/or keep your pair but move to a new project,
 you will need to indicate your preferences about which project you want to switch to.
 
 The available projects are listed here.  Additional projects may become available as/when other
