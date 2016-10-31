@@ -1,6 +1,6 @@
 ---
 num: "Lecture 9"
-desc: "More on Tokens, FSA; intro to Corgis databases"
+desc: "More on Tokens, FSA"
 ready: false
 date: 2016-10-26 12:30:00.00-7:00
 ---
@@ -14,3 +14,4 @@ A finite state automaton:
 A tokenizer corresponding to this FSA:
 
 
+* <https://github.com/UCSB-CS56-F16/lectureNotes_10.26>
