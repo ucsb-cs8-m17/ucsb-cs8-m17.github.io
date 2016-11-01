@@ -30,3 +30,34 @@ date: 2016-10-31 12:30:00.00-7:00
 [BOS, EWR, JFK, LAX, OAK, PHX, SAN, SBA, SFO, SJC, SNA]
 -bash-4.3$
 ```
+
+# Sorting with lambdas
+
+In [ExampleSort01.java](https://github.com/UCSB-CS56-pconrad/corgis-airlines-demo-01/blob/master/src/edu/ucsb/cs56/corgis/airlines/demos/ExampleSort01.java) we use a lambda to sort by Airport Code
+
+```java
+    public static void main(String[] args) {
+        // Get access to the library
+        AirlinesLibrary airlinesLibrary = new AirlinesLibrary();
+        // Access data inside the library
+        ArrayList<Airline> list_of_airline = airlinesLibrary.getReports(true);
+
+ 	      Collections.sort(list_of_airline,
+			    (a1,a2) ->
+			      a1.getAirport().toString().compareTo(a2.getAirport().toString()));
+	
+        AirlinePrinter.printNicely(list_of_airline);
+    }
+```
+
+The main class of [ExampleSort02.java](https://github.com/UCSB-CS56-pconrad/corgis-airlines-demo-01/blob/master/src/edu/ucsb/cs56/corgis/airlines/demos/ExampleSort02.java) is identical except for the lambda expression;
+here we sort by airline code (Carrier, e.g. AA for American Airlines, DL for Delta, etc.)
+
+```java
+ 		Collections.sort(list_of_airline,
+			 (a1,a2) ->
+			 a1.getCarrier().toString().compareTo
+			         (a2.getCarrier().toString()));
+```
+
+
