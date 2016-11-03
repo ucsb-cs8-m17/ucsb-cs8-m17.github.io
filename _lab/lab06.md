@@ -85,13 +85,14 @@ This is not the same as addition and multiplication, which associate to the left
 care of for you by careful design of the grammar.  Provided you implement the grammar correctly, there won't be any problem with 
 implementing the correct "associativity" of the operators.
 
-= Comparison operators = 
+# Comparison operators
 
 All six of the comparison operators compare the integer values on the left and right.  They will each return a true or false value, with true represented as the integer `1`, and false represented as the integer `0`.    Accordingly, there is still only one *type* in the system, namely *integer*.
 
-In the tokenizer, adding these operators will entail handling `==`, `!=`, `<`, `<=`, '>', and '>=' as fundamentally new tokens.  You'll need to defined new classes for these tokens that implement the [`Token`]({{page.javadoc_prefix}}edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.html) interface defined in `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.java`.   As models, you might look at the classes that currently implement that interface.  You can figure out what those are from looking at the javadoc for [`interface edu.ucsb.cs56.pconrad.parsing.tokenizer.Token`]({{page.javadoc_prefix}}edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.html).
+In the tokenizer, adding these operators will entail handling `==`, `!=`, `<`, `<=`, `>`, and `>=` as fundamentally new tokens.  You'll need to defined new classes for these tokens that implement the [`Token`]({{page.javadoc_prefix}}edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.html) interface defined in `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.java`.   As models, you might look at the classes that currently implement that interface.  You can figure out what those are from looking at the javadoc for [`interface edu.ucsb.cs56.pconrad.parsing.tokenizer.Token`]({{page.javadoc_prefix}}edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.html).
 
 You get to make some design decisions.  One of them is this:
+
 * You can decide to either add six entirely new Token classes, e.g. `EqualsToken`, `NotEqualsToken`, etc.
 * Or, you could implement just one class, e.g. `ComparisonOperatorToken`, or `CompOpToken`, or whatever you want to call it, that in some way handles the variation among the six different operators (in the same way that there is only one class for `IntToken`, even though with 32 bits, there are in fact over four billion different possible integer tokens.
 
@@ -125,22 +126,24 @@ primary ::= '(' expression ')' | INTEGER | '-' primary
 
 # Modifying the interpreter
 
-The interpreter will also need to be modified to handle the seven new operators.
+The interpreter will also need to be modified to handle the seven new operators (six comparison operators, and exponent operator).
 
-Expressions involving comparison operators will be evaluated and will return either `1` for true, or `0` for false.   This means that there is a new type of entity that can be part of the Abstract Syntax Trees (ASTs).  You'll need to understand the code that implements the ASTs, and determine what needs to be changed to allow for this new structure.   You'll do something similar for the exponent operator.
+Expressions involving comparison operators will be evaluated and will return either `1` for true, or `0` for false.   This means that there is a new type of entity that can be part of the Abstract Syntax Trees (ASTs).  You'll need to understand the code that implements the ASTs, and determine what needs to be changed to allow for this new structure.   
+
+You'll do something similar for the exponent operator.
 
 The `main` function defined in `src/edu/ucsb/cs56/pconrad/parsing/Main.java` provides a "Read/Eval/Print" loop (REPL) for the combined tokenizer/parser/interpreter.    This is sometimes also called a "Command Line Interface", though we don't really have any commands, except for "q" for quit.  This should work properly with the new operations you have added, and you **should not** modify `main` in any way.
 
-# Understanding the Starter Code #
+# Understanding the Starter Code
 
-The starter code you are given is fairly complex.    The [cs56-parsing-tutorial]({{page.tutorial_repo}}) has lots of information to help you.  We are not going to repeat that information here&mdash;we are only going to suggest&mdash;again&mdash;that you thoroughy read that tutorial.
+The starter code you are given is fairly complex.    The [CS56 Parsing Tutorial]({{page.tutorial_repo}}) has lots of information to help you.  We are not going to repeat that information here&mdash;we are only going to suggest&mdash;again&mdash;that you thoroughy read that tutorial.
 
 
 # Javadoc for the Starter Code #
 
 Javadoc for the starter code in [cs56-parsing-assignment]({{page.starter_repo}}) is available:
 
-* [cs56-parsing-assignment-javadoc](https://ucsb-cs56-m16.github.io/cs56-parsing-assignment-javadoc/).
+* [lab06_starter_code_javadoc]({{page.javadoc_prefix}}/index.html)
 
 # Getting Started #
 
@@ -246,7 +249,7 @@ You may **not** modify the following files:
 - `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/TokenFactory.java`
 - `src/edu/ucsb/cs56/pconrad/parsing/syntax/ASTFactory.java`
 
-If any changes are made to the above files, it very likely indicates that your code will break on the internal tests suite.
+If any changes are made to the above files, it very likely indicates that your code will break on the internal test suite.
 Additionally, you may **not** modify the following components, though the files containing the components may be modified:
 
 - `src/edu/ucsb/cs56/pconrad/parsing/DefaultInterpreterInterface.java` must extend `InterpreterInterface`.  This is necessary for the test suites, which ultimately call into your code through `DefaultInterpreterInterface`'s `static DEFAULT` field.
@@ -254,21 +257,11 @@ Additionally, you may **not** modify the following components, though the files 
 - `src/edu/ucsb/cs56/pconrad/parsing/syntax/DefaultASTFactory.java` must implement `ASTFactory`.  The `static DEFAULT` field is used in the test suites.
 
 The above restrictions are not arbitrary.
+
 The interfaces for the various components are already sensible, so changes to these interfaces will likely result in more fragile code.
 Additionally, these interfaces are necessary to interact with our secret tests, which must make some assumptions about your code (e.g., how to call it and what it returns).
+
 This is also somewhat realistic of a production setting, where certain implementation details are fixed.
-
-Additionally, there are a number of design patterns which you must conform to.
-These are listed below, along where they must be used:
-
-* The [Visitor design pattern](https://github.com/UCSB-CS56-M16/visitor-pattern-tutorial) must be used in `Token` (in `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.java`) and in `AST` (in `src/edu/ucsb/cs56/pconrad/parsing/syntax/AST.java`).  Specifically, this is for performing different operations depending on which `Token` or `AST` node is observed.
-* The [State design pattern](https://en.wikipedia.org/wiki/State_pattern) (see also <span data-hfdp="10">HFDP Chapter 10</span>) must be used in `Tokenizer` (in `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/Tokenizer.java`).  This is for piecing together different tokens in a way that they are independent of each other.
-* The [Factory design pattern](https://en.wikipedia.org/wiki/Factory_method_pattern) (see also <span data-hfdp="4">HFDP Chapter 10</span>) must be used in `DefaultTokenFactory` (in `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/DefaultTokenFactory.java`), and in `DefaultASTFactory` (in `src/edu/ucsb/cs56/pconrad/parsing/syntax/DefaultASTFactory.java`).  Because these components are used in the provided test suite, you are unable to change their corresponding interfaces in `TokenFactory` (in `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/TokenFactory.java`) and `ASTFactory` (in `src/edu/ucsb/cs56/pconrad/parsing/syntax/ASTFactory.java`).  However, you may change the implementations of these interfaces in `DefaultTokenFactory` and `DefaultASTFactory`.
-
-The provided code already uses the above three design patterns, so your only real requirement here is that you don't strip out the use of these patterns.
-For the most part, your code should gracefully integrate into these patterns.
-For example, many tokenizer modifications can be performed by simply adding additional state classes to the state design pattern.
-If you do find it difficult to integrate something into these design patterns, it may indicate a problem in your fundamental approach.
 
 Other than the above restrictions, you may make any modifications necessary to make the tests pass.
 This includes adding in new files and modifying existing files.
@@ -277,11 +270,15 @@ This includes adding in new files and modifying existing files.
 # General Suggestions #
 
 As previously stated, you should first focus on getting the tests for the tokenizer to pass, then the tests for the parser to pass, and finally the tests for the evaluator to pass.
+
 While it's possible to pull in all the tests at once, you'll be making much more work for yourself if you do this; in this case, effectively, you won't be able to properly test anything until **all** code has been written.
+
 Additionally, because each component builds on the other (i.e., the parser needs the tokenizer, and the evaluator needs the parser), this becomes a practical problem if we apply end-to-end testing.
+
 For example, your evaluator and parser might work just fine, but if your tokenizer is broken, we cannot run `Main`, so we can't actually test the tokenizer and the parser easily.
 
 It is expected that some edits will need to span multiple components.
+
 For example, if an AST node were removed, then this would require modifications to both the parser and the evaluator, as both deal with AST nodes (the parser produces them while the evaluator uses them).
 That said, if edits in one component require many edits in other components, you might want to stop and rethink your design.
 This isn't necessarily wrong, and you are free to make such edits, but you might be making a lot more work for yourself than necessary.
@@ -303,30 +300,31 @@ This section provides some hints on how to get things to compile, broken down by
 
 ## Tokenizer ##
 
-You'll need to implement the `makeEqualsToken` and the `makeNotEquals` methods in `DefaultTokenFactory` (`src/edu/ucsb/cs56/pconrad/parsing/tokenizer/DefaultTokenFactory.java`), which are now required by the updated `TokenFactory` interface (`src/edu/ucsb/cs56/pconrad/parsing/tokenizer/TokenFactory.java`).
+Start by implementing the `makeEqualsToken` and the `makeNotEquals` methods in `DefaultTokenFactory` (`src/edu/ucsb/cs56/pconrad/parsing/tokenizer/DefaultTokenFactory.java`), which are now required by the updated `TokenFactory` interface (`src/edu/ucsb/cs56/pconrad/parsing/tokenizer/TokenFactory.java`).
 This will require you to add tokens for `==` and `!=`.
 There are a variety of ways to accomplish this; the only constraint is that these new tokens must implement the `Token` interface (`src/edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.java`).
 
-If you end up adding in whole new tokens, the `accept` method will need an implementation (`accept` is one of the methods in the `Token` interface).
-Just for getting the tokenizer to compile, it is sufficient to just `return null` in the method.
-Currently, the only place `accept` is used is in the parser, so this returning of `null` is not a concern until you start working on the parser.
+Then continue with implementations of the other four comparison operator tokens, and the exponent operator token.  This is necessary just to get the code to compile.
 
-If you end up modifying the existing token definitions at all, you'll likely need to make edits to `Parser`, which is currently somewhat dependent on the different implementations of `Token` which are available.
+Then, to get the tests to pass, modify the `Tokenizer.java` to add in the new states and transitions needed to recognize the new tokens you have added.
 
 ## Parser ##
 
-You will first need to get `DefaultASTFactory` (`src/edu/ucsb/cs56/pconrad/parsing/syntax/DefaultASTFactory.java`) compiling by providing implementations for the `makeEqualsNode` and `makeNotEqualsNode` methods, which are now required by the updated `ASTFactory` interface (`src/edu/ucsb/cs56/pconrad/parsing/syntax/ASTFactory.java`).
-This will require editing or adding files to the code in `syntax`.
+You will first need to get `DefaultASTFactory` (`src/edu/ucsb/cs56/pconrad/parsing/syntax/DefaultASTFactory.java`) compiling by providing implementations for the `makeEqualsNode` and `makeNotEqualsNode` methods, which are now required by the updated `ASTFactory` interface (`src/edu/ucsb/cs56/pconrad/parsing/syntax/ASTFactory.java`).  This will require editing or adding files to the code in `syntax`.
+
+Continue with the four other comparison operators, and the exponent operator.
 
 If you add in whole AST nodes, they must implement the `AST` interface (`src/edu/ucsb/cs56/pconrad/parsing/syntax/AST.java`).
-As with the tokenizer previously, while there is an `accept` method you'll need to implement, `return null` should be sufficient here, as `accept` is currently used only in the evaluator.
-You can fix this later.
+
+Then, focus on the code in `Parser.java` and making it correspond to the new productions in the grammar.  
+
+Depending on how you approach the problem, you may (or may not) find it necessary to modify the `OperatorScaffold`, since it currently is based on an assumption that every operator will be a single character, which is no longer true.     There are ways of writing the code that require this file to change, and other ways that don't.  Which approach you take is up to you.
 
 ## Evaluator ##
 
 Depending on how you implemented the tokenizer and the parser, it is possible that the evaluator tests compile as-is.
-If not, it is likely do to a change in either the `ASTVisitor` (`src/edu/ucsb/cs56/pconrad/parsing/syntax/ASTVisitor.java`) or `OperatorVisitor` (`src/edu/ucsb/cs56/pconrad/parsing/syntax/OperatorVisitor.java`) interfaces, as these are used in `EvaluatorASTVisitor` (`src/edu/ucsb/cs56/pconrad/parsing/evaluator/EvaluatorASTVisitor.java`) and `EvaluatorOperatorVisitor` (`src/edu/ucsb/cs56/pconrad/parsing/evaluator/EvaluatorOperatorVisitor.java`).
-You'll likely want to update these first.
+
+However, it is likely that even if the code compiles, the tests won't actually pass.   So you'll need to modify code, likely in `Evaluator.java` to properly evaluator the new kinds of ASTs that now exist in the language.
 
 
 # Suggested Order of Work for Getting the Tests to Pass #
@@ -336,21 +334,17 @@ This section provides some hints on how to get the tests to pass, broken down by
 ## Tokenizer ##
 
 The bulk of the work will be in recognizing the new tokens.
-This will likely entail adding in new states to the state pattern used in `Tokenizer`.
+This will likely entail adding in new states to the `Tokenizer`.
 If you do end up adding new states, you may want to draw out the state machine representing what you are handling first, in order to make sure your fundamental design is correct.
 Ideally, you should avoid adding in a state unless you are absolutely sure it needs to be there; extra states mean extra code, which means more room for bugs to come into play.
 
 ## Parser ##
 
-If you ended up adding in whole new tokens with your tokenizer edits, you should replace any stubs (e.g., `return null`) for the `accept` method in implementors of `Token` with actual implementation.
-As part of this process, you might need to edit the `TokenVisitor` (`src/edu/ucsb/cs56/pconrad/parsing/tokenizer/TokenVisitor.java`) interface, along with any classes which implement `TokenVisitor` in the parser.
 The parser itself will also need to be modified to add in the new production, which will (somewhat ironically) likely be the smallest edit you need to perform for the parser.
 
 ## Evaluator ##
 
-Similar to the tokenizer, if you ended up adding in whole new AST nodes with your parser edits, you should replace any stubs for the `accept` method in implementors of `AST` with actual implementation.
-You might need to edit `ASTVisitor` (`src/edu/ucsb/cs56/pconrad/parsing/syntax/ASTVisitor.java`) as part of this process.
-Once again, depending on your design, it is likely that actually updating the evaluator to handle `==` and `!=` will be a relatively small change.
+Once again, depending on your design, it is likely that actually updating the evaluator to handle the new types of ASTs will be a relatively small change.
 
 # Suggestions for Devising Your Own Tests #
 
@@ -379,8 +373,6 @@ Consider the following cases:
 * What should happen if there is whitespace or something unexpected in the middle of a `==` or `!=` token, e.g. if the input is `2=3` or `2! =3` ?
 * What should happen if the input ends in the middle of a `==` or `!=` token, e.g. `2+3=` or `4/5!` ?
 
-In both cases, a `TokenizerException` should be thrown.    
-
 </div>
 
 # Submission
@@ -401,7 +393,7 @@ Credits: This lab primarily written by Kyle Dewey, with edits by Phill Conrad.  
 
 
 <div style="display:none">
-http://ucsb-cs56-m16.github.io/lab/lab05/
+http://ucsb-cs56-f16.github.io/lab/lab06/
 </div>
 
 
