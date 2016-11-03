@@ -13,6 +13,8 @@ submit_cs_join_groups: "https://submit.cs.ucsb.edu/TBD"
 course_github_organization: UCSB-CS56-F16
 ---
 
+<div style="display:none">http://ucsb-cs56-f16.github.io/lab/lab06</div>
+
 <style>
  div.tip {
    
