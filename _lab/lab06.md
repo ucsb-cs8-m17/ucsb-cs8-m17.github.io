@@ -42,12 +42,44 @@ The remainder of this writeup assumes that you have thoughly read and understood
 
 </div>
 
-The provided interpreter may or may not be buggy; it is your responsibility to test things thoroughly.
+# A first look at the starter code for this assignment
 
-The bulk of the difficulty of this assignment is expected to be in determining exactly what in the existing interpreter must be modified, without dramatically changing how the interpreter works.
+The starter code for this assignment, and javadoc that goes along with it is here:
 
+* <{{page.starter_repo}}>
+* <{{page.javadoc_prefix}}>
+
+Don't do anything with the starter code yet other than just look at it&mdash;there is a specific way that you'll set up your repo for this assignment and pull that starter code in, and instructions on that appear later in this lab description.  At this point, I'm just giving you the link so that you can refer to the repo as you read these instructions.
+
+The provided starter code may or may have bugs; it is your responsibility to test things thoroughly.
+
+# Not a lot of code, but a lot of challenge
+
+The bulk of the difficulty of this assignment is expected to be in determining exactly what in the existing interpreter must be modified, without dramatically changing how the interpreter works.   
+
+The amount of new code you need to add is relatively small, and the code is relatively straightforward.  
+
+However, figuring out exactly what code you need to add, and where to add it, may be moderately to very challenging.   <em>This is typical of a good bit of the coding that you do in real-world development projects</em>.
 
 # What You'll Implement #
+
+The starter code you are given implements an intepreter for integer expressions involving `+`, `-`, `*`, `/`, parentheses, and unary minus (minus sign in front of an expression.)
+
+Your task is to update all three components of the starter code&mdash;the tokenizer, parser, and interpreter&mdash;to handle the following new features:
+
+- Six comparison operators, (`==`, `!=`, `<`, `<=`, '>', '>=') returning 0 for false, and 1 for true
+- An exponent operator, `**` (i.e. `3**2` evalutes to $$ 3^2 = 9 $$ and `2**3` evaluates to $$ 2^3 = 8 $$.
+
+The exponent operator associates to the right rather than the left:
+
+* `2**3**2` should be intepreted as `2**(3**2)`, i.e. $$ 2^9 = 512 $$
+* `2**3**2` should be NOT intepreted as `(2**3)**2`, i.e. $$ 8^2 = 64 $$
+
+This is not the same as addition and multiplication, which associate to the left.  Fortunately, this detail has already been taken
+care of for you by careful design of the grammar.  Provided you implement the grammar correctly, there won't be any problem with 
+implementing the correct "associativity" of the operators.
+
+# How the grammar will change
 
 As a reminder from the [CS56 Parsing Tutorial]({{page.tutorial_repo}}), the starter code handles the following grammar:
 
@@ -71,19 +103,6 @@ primary ::= '(' expression ')' | INTEGER | '-' primary
 ```
 
 
-Your task is to update all three components of the starter code&mdash;the tokenizer, parser, and interpreter&mdash;to handle the following new features:
-
-- Six comparison operators, (`==`, `!=`, `<`, `<=`, '>', '>=')
-- An exponent operator, `**` (i.e. `3**2` evalutes to $$ 3^2 = 9 $$ and `2**3` evaluates to $$ 2^3 = 8 $$.
-
-The exponent operator associates to the right rather than the left:
-
-* `2**3**2` should be intepreted as `2**(3**2)`, i.e. $$ 2^9 = 512 $$
-* `2**3**2` should be NOT intepreted as `(2**3)**2`, i.e. $$ 8^2 = 64 $$
-
-This is not the same as addition and multiplication, which associate to the left.  Fortunately, this detail has already been taken
-care of for you by careful design of the grammar.  Provided you implement the grammar correctly, there won't be any problem with 
-implementing the correct "associativity" of the operators.
 
 # Comparison operators
 
@@ -123,6 +142,8 @@ primary ::= '(' expression ')' | INTEGER | '-' primary
 
 * `comparison-expression` for handling comparison operators
 * `exponent-expression` for handling exponentiation operators
+
+This involves not only modifying the parsing code that implements the productions, but adding new kinds of AST nodes as well.
 
 # Modifying the interpreter
 
