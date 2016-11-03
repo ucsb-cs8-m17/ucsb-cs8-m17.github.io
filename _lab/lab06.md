@@ -112,14 +112,14 @@ primary ::= '(' expression ')' | INTEGER | '-' primary
 
 All six of the comparison operators compare the integer values on the left and right.  They will each return a true or false value, with true represented as the integer `1`, and false represented as the integer `0`.    Accordingly, there is still only one *type* in the system, namely *integer*.
 
-In the tokenizer, adding these operators will entail handling `==`, `!=`, `<`, `<=`, `>`, and `>=` as fundamentally new tokens.  You'll need to defined new classes for these tokens that implement the [`Token`]({{page.javadoc_prefix}}edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.html){: data-ajax="false" } interface defined in `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.java`.   As models, you might look at the classes that currently implement that interface.  You can figure out what those are from looking at the javadoc for [`interface edu.ucsb.cs56.pconrad.parsing.tokenizer.Token`]({{page.javadoc_prefix}}edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.html){: data-ajax="false" }.
+In the tokenizer, adding these operators will entail handling `==`, `!=`, `<`, `<=`, `>`, and `>=` as fundamentally new tokens.  You'll need to defined new classes for these tokens that extend the [`Token`]({{page.javadoc_prefix}}edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.html){: data-ajax="false" } class defined in `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.java`.   As models, you might look at the classes that currently extend that class.  You can figure out what those are from looking at the javadoc for [`class edu.ucsb.cs56.pconrad.parsing.tokenizer.Token`]({{page.javadoc_prefix}}edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.html){: data-ajax="false" }.
 
 You get to make some design decisions.  One of them is this:
 
 * You can decide to either add six entirely new Token classes, e.g. `EqualsToken`, `NotEqualsToken`, etc.
 * Or, you could implement just one class, e.g. `ComparisonOperatorToken`, or `CompOpToken`, or whatever you want to call it, that in some way handles the variation among the six different operators (in the same way that there is only one class for `IntToken`, even though with 32 bits, there are in fact over four billion different possible integer tokens.
 
-In order to leave that decision up to you, the tests are decoupled from the actual implementation of the specific concrete classes that implement `Token` by means of a Factory object.   The `TokenFactory` is an interface that specifies the names of methods to produce every kind of token that is needed in a test case.      There is a `DefaultTokenFactory` class where you specify the concrete classes that actually correspond to the various tokens.    
+In order to leave that decision up to you, the tests are decoupled from the actual implementation of the specific concrete classes that extend `Token` by means of a Factory object.   The `TokenFactory` is an interface that specifies the names of methods to produce every kind of token that is needed in a test case.      There is a `DefaultTokenFactory` class where you specify the concrete classes that actually correspond to the various tokens.    
 
 # Updating the Parser
 
