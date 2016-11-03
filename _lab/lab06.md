@@ -31,12 +31,12 @@ course_github_organization: UCSB-CS56-F16
 
 In this assignment, you will add some features to an existing parser and interpreter of arithmetic expressions.
 
-You should start by reading the [cs56-parsing-tutorial]({{page.tutorial_repo}}).   It contains important background
+You should start by reading the [CS56 Parsing Tutorial]({{page.tutorial_repo}}).   It contains important background
 information about parsing, grammars, tokens, etc.   
 
 <div class="tip" markdown="1">
 
-The remainder of this writeup assumes that you have thoughly read and understood the information in the [cs56-parsing-tutorial]({{page.tutorial_repo}}).  
+The remainder of this writeup assumes that you have thoughly read and understood the information in the [CS56 Parsing Tutorial]({{page.tutorial_repo}}).  
 
 *If you have not, it will not make any sense to you.*
 
@@ -49,7 +49,7 @@ The bulk of the difficulty of this assignment is expected to be in determining e
 
 # What You'll Implement #
 
-As a reminder from the [cs56-parsing-tutorial]({{page.tutorial_repo}}), the starter code handles the following grammar:
+As a reminder from the [CS56 Parsing Tutorial]({{page.tutorial_repo}}), the starter code handles the following grammar:
 
 ```
 expression ::= additive-expression
