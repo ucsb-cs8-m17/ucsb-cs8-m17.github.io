@@ -71,7 +71,7 @@ The starter code you are given implements an intepreter for integer expressions 
 
 Your task is to update all three components of the starter code&mdash;the tokenizer, parser, and interpreter&mdash;to handle the following new features:
 
-- Six comparison operators, (`==`, `!=`, `<`, `<=`, '>', '>=') returning 0 for false, and 1 for true
+- Six comparison operators, (`==`, `!=`, `<`, `<=`, `>`, `>=`) returning 0 for false, and 1 for true
 - An exponent operator, `**` (i.e. `3**2` evalutes to $$ 3^2 = 9 $$ and `2**3` evaluates to $$ 2^3 = 8 $$.
 
 The exponent operator associates to the right rather than the left:
@@ -112,7 +112,7 @@ primary ::= '(' expression ')' | INTEGER | '-' primary
 
 All six of the comparison operators compare the integer values on the left and right.  They will each return a true or false value, with true represented as the integer `1`, and false represented as the integer `0`.    Accordingly, there is still only one *type* in the system, namely *integer*.
 
-In the tokenizer, adding these operators will entail handling `==`, `!=`, `<`, `<=`, `>`, and `>=` as fundamentally new tokens.  You'll need to defined new classes for these tokens that extend the [`Token`]({{page.javadoc_prefix}}edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.html){: data-ajax="false" } class defined in `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.java`.   As models, you might look at the classes that currently extend that class.  You can figure out what those are from looking at the javadoc for [`class edu.ucsb.cs56.pconrad.parsing.tokenizer.Token`]({{page.javadoc_prefix}}edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.html){: data-ajax="false" }.
+In the tokenizer, adding these operators will entail handling `==`, `!=`, `<`, `<=`, `>`, and `>=` as fundamentally new tokens.  You'll need to defined new classes for these tokens that extend the [`Token`]({{page.javadoc_prefix}}edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.html){: data-ajax="false" } class defined in `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.java`.   As models, you might look at the classes that currently extend that class.  You can figure out what those are from looking at the javadoc for [`class edu.ucsb.cs56.pconrad.parsing.tokenizer.Token`]({{page.javadoc_prefix}}edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.html){: data-ajax="false" } and looking at the list of "Direct Known Subclasses".
 
 You get to make some design decisions.  One of them is this:
 
