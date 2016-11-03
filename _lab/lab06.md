@@ -112,7 +112,7 @@ primary ::= '(' expression ')' | INTEGER | '-' primary
 
 All six of the comparison operators compare the integer values on the left and right.  They will each return a true or false value, with true represented as the integer `1`, and false represented as the integer `0`.    Accordingly, there is still only one *type* in the system, namely *integer*.
 
-In the tokenizer, adding these operators will entail handling `==`, `!=`, `<`, `<=`, `>`, and `>=` as fundamentally new tokens.  You'll need to defined new classes for these tokens that implement the [`Token`]({{page.javadoc_prefix}}edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.html) interface defined in `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.java`.   As models, you might look at the classes that currently implement that interface.  You can figure out what those are from looking at the javadoc for [`interface edu.ucsb.cs56.pconrad.parsing.tokenizer.Token`]({{page.javadoc_prefix}}edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.html).
+In the tokenizer, adding these operators will entail handling `==`, `!=`, `<`, `<=`, `>`, and `>=` as fundamentally new tokens.  You'll need to defined new classes for these tokens that implement the [`Token`]({{page.javadoc_prefix}}edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.html){: data-ajax="false" } interface defined in `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.java`.   As models, you might look at the classes that currently implement that interface.  You can figure out what those are from looking at the javadoc for [`interface edu.ucsb.cs56.pconrad.parsing.tokenizer.Token`]({{page.javadoc_prefix}}edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.html){: data-ajax="false" }.
 
 You get to make some design decisions.  One of them is this:
 
@@ -168,7 +168,7 @@ The starter code you are given is fairly complex.    The [CS56 Parsing Tutorial]
 
 Javadoc for the starter code in [cs56-parsing-assignment]({{page.starter_repo}}) is available:
 
-* [lab06_starter_code_javadoc]({{page.javadoc_prefix}}/index.html)
+* [lab06_starter_code_javadoc]({{page.javadoc_prefix}}index.html){: data-ajax="false" }
 
 # Getting Started #
 
