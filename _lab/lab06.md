@@ -6,7 +6,7 @@ desc: "Recursive Descent Parsing"
 assigned: 2016-11-02 12:30:00.00-7
 due: 2016-11-09 17:00:00.00-7
 starter_repo: "https://github.com/UCSB-CS56-F16/lab06_starter_code"
-javadoc_prefix: "https://tbd.tbd/javadoc"
+javadoc_prefix: "https://ucsb-cs56-f16.github.io/lab06_starter_code_javadoc/javadoc"
 tutorial_repo: "https://ucsb-cs56-pconrad.github.io/tutorials/parsing/"
 submit_cs_link: "https://submit.cs.ucsb.edu/TBD"
 submit_cs_join_groups: "https://submit.cs.ucsb.edu/TBD"
