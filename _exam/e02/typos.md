@@ -1,6 +1,8 @@
 ---
 layout: default
 num: e02
+desc: "Midterm Exam typos/corrections/clarifications"
+exam_date: 2016-11-16 12:30:00.00-6
 ---
 
 <div style="display:none;">
