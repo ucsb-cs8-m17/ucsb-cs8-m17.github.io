@@ -1,6 +1,6 @@
 ---
 num: "Lecture 11"
-desc: "tbd"
+desc: "Factory Design Pattern, instanceof as a code smell, Parsing"
 ready: false
 date: 2016-11-02 12:30:00.00-7:00
 ---
