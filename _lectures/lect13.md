@@ -18,3 +18,14 @@ In particular, this [segment of code](https://github.com/UCSB-CS56-F16/lab06_sta
   }
 ```    
 
+Let's review the big picture:
+
+* Tokenizing goes from `String` to `ArrayList<Token>`
+    * The file [Tokenizer.java](https://github.com/UCSB-CS56-F16/lab06_starter_code/blob/master/src/edu/ucsb/cs56/pconrad/parsing/tokenizer/Tokenizer.java) is an implementation of the finite state automaton
+* Parsing goes from `ArrayList<Token>` to `AST`
+    * The file [Parser.jvaa](https://github.com/UCSB-CS56-F16/lab06_starter_code/blob/master/src/edu/ucsb/cs56/pconrad/parsing/parser/Parser.java) is an implementation of the context-free grammar.
+* Evaluator goes from `AST` to plain old `int`
+
+We can see that in this file:
+
+* <https://github.com/UCSB-CS56-F16/lab06_starter_code/blob/master/src/edu/ucsb/cs56/pconrad/parsing/DefaultInterpreterInterface.java>
