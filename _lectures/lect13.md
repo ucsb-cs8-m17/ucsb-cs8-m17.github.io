@@ -10,6 +10,10 @@ date: 2016-11-09 12:30:00.00-7:00
 * tl;dr: communicate with your mentor, and everything will be fine.
 * fail to communicate with your mentor, and you are going to have a bad time.
 
+# Information about the next two Wednesdays
+
+* will be explained in class.
+
 # lab06: some context and high level help
 
 Let's look at the big picture of lab06:
