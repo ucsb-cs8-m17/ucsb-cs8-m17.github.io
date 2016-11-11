@@ -274,23 +274,10 @@ You may **not** modify the following files:
 - `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/TokenFactory.java`
 - `src/edu/ucsb/cs56/pconrad/parsing/syntax/ASTFactory.java`
 
-If any changes are made to the above files, it very likely indicates that your code will break on the internal test suite.
-Additionally, you may **not** modify the following components, though the files containing the components may be modified:
-
-- `src/edu/ucsb/cs56/pconrad/parsing/DefaultInterpreterInterface.java` must extend `InterpreterInterface`.  This is necessary for the test suites, which ultimately call into your code through `DefaultInterpreterInterface`'s `static DEFAULT` field.
-- `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/DefaultTokenFactory.java` must implement `TokenFactory`.  The `static DEFAULT` field is used in the test suites.
-- `src/edu/ucsb/cs56/pconrad/parsing/syntax/DefaultASTFactory.java` must implement `ASTFactory`.  The `static DEFAULT` field is used in the test suites.
-
-The above restrictions are not arbitrary.
-
-The interfaces for the various components are already sensible, so changes to these interfaces will likely result in more fragile code.
-Additionally, these interfaces are necessary to interact with our secret tests, which must make some assumptions about your code (e.g., how to call it and what it returns).
-
-This is also somewhat realistic of a production setting, where certain implementation details are fixed.
+The above restrictions are not arbitrary.  If any changes are made to the above files, it very likely indicates that your code will fail to pass the tests on submit.cs    This is also somewhat realistic of a production setting, where certain implementation details are fixed.
 
 Other than the above restrictions, you may make any modifications necessary to make the tests pass.
 This includes adding in new files and modifying existing files.
-
 
 # General Suggestions #
 
