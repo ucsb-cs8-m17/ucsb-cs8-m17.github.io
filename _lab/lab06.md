@@ -40,7 +40,7 @@ information about parsing, grammars, tokens, etc.
 
 <div class="tip" markdown="1">
 
-The remainder of this writeup assumes that you have thoughly read and understood the information in the [CS56 Parsing Tutorial]({{page.tutorial_repo}}).  
+The remainder of this writeup assumes that you have thoroughly read and understood the information in the [CS56 Parsing Tutorial]({{page.tutorial_repo}}).  
 
 *If you have not, it will not make any sense to you.*
 
@@ -55,7 +55,7 @@ The starter code for this assignment, and javadoc that goes along with it is her
 
 Don't do anything with the starter code yet other than just look at it&mdash;there is a specific way that you'll set up your repo for this assignment and pull that starter code in, and instructions on that appear later in this lab description.  At this point, I'm just giving you the link so that you can refer to the repo as you read these instructions.
 
-The provided starter code may or may have bugs; it is your responsibility to test things thoroughly.
+The provided starter code may or may not have bugs; it is your responsibility to test things thoroughly.
 
 # Not a lot of code, but a lot of challenge
 
