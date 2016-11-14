@@ -393,11 +393,12 @@ Please submit your work two ways:
 
 * Please make a submission on submit.cs at: <{{page.submit_cs_link}}>
     *   If working in a pair: Please register your pair on submit.cs using the "Join Groups" feature.
-* Please also submit via Gauchospace by providing a link to your repository in the normal way.  
-  The assignment on Gauchospace is here: <{{page.gauchospace_link}}>
-    *   If working in a pair, both pair partners should submit on Gauchospace, but only one submission per pair
-        is needed on submit.cs
+* UPDATE: Submission via submit.cs is sufficient (the text below has been removed). 
+* <s>Please also submit via Gauchospace by providing a link to your repository in the normal way.  </s>
+    *   <s>If working in a pair, both pair partners should submit on Gauchospace, but only one submission per pair
+    is needed on submit.cs</s>
 
+Be sure that <b>if you are working in a pair</b>, that you have added your group via the "Join Groups" feature <{{page.submit_cs_join_groups}}> 
 
 ----
 
