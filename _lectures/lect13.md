@@ -1,7 +1,7 @@
 ---
 num: "Lecture 13"
-desc: "tbd"
-ready: false
+desc: "Information about lab05 deadline, and legacy code progress"
+ready: true
 date: 2016-11-09 12:30:00.00-7:00
 ---
 
