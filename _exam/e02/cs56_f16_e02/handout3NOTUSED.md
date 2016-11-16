@@ -1,11 +1,3 @@
----
-layout: examHandoutNoName
-num: e02
-ready: true
-desc: "Legal Cheat Sheet"
-exam_date: 2016-11-16 12:30:00.00-8
----
-
 <div style="font-size:85%; font-family: Arial Narrow, sans-serif;" markdown="1">
 
 # class `java.util.ArrayList<E>`
@@ -91,8 +83,81 @@ only for space reasons)</p>
 
 </div>
 
+<p class="page-break-before">
+</p>
 
+# interface `java.lang.Comparable<T>`
 
+<dl>
+<dt markdown="1"> `int compareTo(T o)`
+</dt>
+<dd>Compares this object with the specified object for order.
+</dd>
+</dl>
 
+# SortDemo01.java
 
+This program compiles and runs, with the output as shown.
 
+{% highlight java linenos %}
+import java.util.ArrayList;
+import java.util.Collections;
+public class SortDemo1 {
+  public static void main(String[] args) {
+    ArrayList<Integer> nums = new ArrayList<Integer>();
+    
+    int [] values = new int [] {45,32,87,12,92,16};
+    for (int i: values) { 
+      nums.add(i); 
+    }
+    Collections.sort(nums);
+    System.out.println("nums=" + nums);
+  }
+}
+{% endhighlight %}
+
+Output:
+
+```
+$ java SortDemo1
+nums=[12, 16, 32, 45, 87, 92]
+$ 
+```
+
+# SortDemo02.java
+
+This code compiles (provided the implemenatation of `arrayToArrayList` is
+correct.)  The output is as shown.
+
+{% highlight java linenos %}
+import java.util.ArrayList;
+import java.util.Collections;
+public class SortDemo2 {
+
+  public static ArrayList<Integer> arrayToArrayList(int [] array) {
+
+  // The code for this method is a question on the exam
+  
+  }
+
+  public static void main(String[] args) {
+    ArrayList<ArrayList<Integer>> factorizations = new ArrayList<ArrayList<Integer>>();
+
+    factorizations.add(arrayToArrayList(new int [] {3,3,5})); // factors of 45
+    factorizations.add(arrayToArrayList(new int [] {2,2,2,2,2})); // factors of 32
+    factorizations.add(arrayToArrayList(new int [] {3,29}));    // factors of 87
+    factorizations.add(arrayToArrayList(new int [] {2,2,3}));  // factors of 12
+    factorizations.add(arrayToArrayList(new int [] {2,2,23})); // factors of 92
+    factorizations.add(arrayToArrayList(new int [] {2,2,2,2})); // factors of 16
+    // Collections.sort(factorizations);
+    System.out.println("factorizations=" + factorizations);
+  }
+}
+{% endhighlight %}
+
+Output:
+```
+$ java SortDemo2
+factorizations=[[3, 3, 5], [2, 2, 2, 2, 2], [3, 29], [2, 2, 3], [2, 2, 23], [2, 2, 2, 2]]
+$ 
+```
