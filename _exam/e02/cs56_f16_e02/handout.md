@@ -6,9 +6,9 @@ desc: "Midterm Exam E02 Handout"
 exam_date: 2016-11-16 12:30:00.00-8
 ---
 
-<h2>Code for Amazoony question</h2>
+<div style="font-size:80%;">
 
-<div style="font-size:85%;">
+<h2>Code for Amazoony question</h2>
 
 ## Product.java
 {% highlight java linenos %}
