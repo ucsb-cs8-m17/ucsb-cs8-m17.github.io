@@ -84,6 +84,10 @@ div.exam-page-header * td.course-qtr {
 }
 
 
+table.exam-name-header-table {
+  width: 200px;
+  border: 3px solid black;
+}
 
 table.exam-name-header-table *  {
     border-collapse: collapse;
@@ -94,7 +98,7 @@ table.exam-name-header-table *  {
 
 
 .exam-header-name {
-    width:50%; text-align:left; border-bottom:none;
+    text-align:left; border-bottom:none;
     line-height: 30px;
 }
 
@@ -106,7 +110,7 @@ table.exam-name-header-table *  {
 }
 
 .exam-header-umail-label {
-   padding-right:300px; 
+   padding-right:250px;   /* THIS CONTROLS THE WIDTH OF ODD PAGE HEADERS */
    border-right:none; 
    vertical-align:middle; 
    height:1.5em; 
