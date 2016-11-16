@@ -8,11 +8,11 @@ exam_end: "2016-11-16 13:45:00 -0800"
 
 {% include exam_clock.html %}
 
-<div style="display:none;">
+<div style="display:none; clear:both;">
 http://ucsb-cs56-f16.github.io/exam/e02/typos/
 </div>
 
-<b style="clear:both;">Typo corrections and hints for {{site.qtr}} exam {{page.num}}</b>
+<b >Typo corrections and hints for {{site.qtr}} exam {{page.num}}</b>
 
 On question 4, the question references both FileNotFound and IOException.  This is a typo.  Those should both have been IOException, or both FileNotFound exception.
 
