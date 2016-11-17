@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab08
-ready: false
+ready: true
 desc: "Continue work on legacy code, perhaps try web programming"
 assigned: 2016-11-17 16:00:00.00-8
 due: 2016-11-17 19:00:00.00-8
