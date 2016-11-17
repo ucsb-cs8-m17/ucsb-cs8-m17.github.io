@@ -35,7 +35,18 @@ I will lecture on this topic on the Wednesday before Thanksgiving break for anyo
 
 # SparkJava
 
+You can learn more about SparkJava, a framework for building webapps in Java, at these links:
+
+
+* [SparkJava: Getting Started](https://pconrad-webapps.github.io/topics/sparkjava_getting_started/)&mash;this is a starting point that explains a bit about how to work with Maven, which is one of the prerequisistes for getting started with SparkJava.
+
+* [SparkJava: Bootstrap](https://pconrad-webapps.github.io/topics/sparkjava_bootstrap/) This explains how to incorporate Bootstrap, a package of CSS and Javascript files, into a SparkJava webapp so that your User Interface looks "nice".  
+    * I put "nice" in quotes, because for some people a Bootstrap based UI is like nails on a chalkboard
+    * Nevertheless, it is *definitely* an easy way to get something up quickly, unless/until you want to dive into the gory details of web "design" as opposed to web "programming".
+
 # Heroku
+
+
 
 # MongoDB
 
