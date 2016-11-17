@@ -11,8 +11,8 @@ THERE IS NOTHING TO SUBMIT FOR THIS LAB.
 
 However, you SHOULD be here in person to consult with your mentor about your progress on your legacy code labs:
 
-* [lab05](/labs/lab05/)
-* [lab07](/labs/lab07/)
+* [lab05](/lab/lab05/)
+* [lab07](/lab/lab07/)
 
 Check in with your mentor, and be sure that you, pair partner, and your mentor have a DOCUMENTED PLAN in your FEEDBACK repo for how you are going to get to your final 1000 points.
 
