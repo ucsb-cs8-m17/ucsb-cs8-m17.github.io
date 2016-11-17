@@ -46,8 +46,26 @@ You can learn more about SparkJava, a framework for building webapps in Java, at
 
 # Heroku
 
+SparkJava webapps can be run on [Heroku](https://pconrad-webapps.github.io/topics/heroku/), a cloud computing platform.
 
+There are at least two ways to deploy a SparkJava app on Heroku:
+
+* Via connecting a github repo to automatically deploy your app on Heroku.   This is straightforward, and you do it through the Heroku website dashboard.  You simply configure your Heroku app to automatically deploy every time you do a push to the `origin master` branch.  This is the way I recommend you work, if you are working primarily on CSIL.
+* Via the heroku command line toolbelt (which is great, if you are working on your own computer, where you can install the Heroku toolbelt easily, but it totally isn't worth trying if you are running on CSIL).  This also works fine on your own computer.
+
+We do not yet have documentation for this online, but would be happy to show you how it works.   One we DO have documentation, a link to it will appear here.
 
 # MongoDB
 
+This series of article explains what MongoDB is, and how to use it:
+
+https://pconrad-webapps.github.io/topics/mongodb/
+
 # Incorporating Corgis data into a SparkJava/MongoDB webapp.
+
+These two example repos show how data from the [Virginia Tech Corgis Project](https://think.cs.vt.edu/corgis/) can be incorporated into a Java webapp.
+
+Good, clear instructions are still a work in progress, but for what they are worth, the README.md files do have an "initial attempt" at this:
+
+* <https://github.com/pconrad-webapps/sparkjava-corgis-airlines-demo>
+* <https://github.com/pconrad-webapps/sparkjava-corgis-graduates-demo>
