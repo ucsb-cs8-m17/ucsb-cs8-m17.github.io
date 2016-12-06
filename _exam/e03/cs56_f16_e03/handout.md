@@ -8,7 +8,7 @@ exam_date: 2016-12-06 12:00:00.00-8
 
 <div style="font-size:80%;">
 
-<h2>Code for Amazoony question</h2>
+<h2>Code for Amazany question</h2>
 
 ## Product.java
 {% highlight java linenos %}
