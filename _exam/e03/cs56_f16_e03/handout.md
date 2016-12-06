@@ -1,9 +1,9 @@
 ---
 layout: examHandoutNoName
-num: e02
+num: e03
 ready: true
-desc: "Midterm Exam E02 Handout"
-exam_date: 2016-11-16 12:30:00.00-8
+desc: "Final Exam E03 Handout"
+exam_date: 2016-12-06 12:00:00.00-8
 ---
 
 <div style="font-size:80%;">
