@@ -1,6 +1,15 @@
 # UCSB-CS8-M17.github.io
 
 
+```
+CMPSC 8	INTRO TO COMP SCI	Full		CONRAD P T 
+TWR	9:30 am - 10:50am	PSYCH1924	65 / 65	
+CMPSC 8		Full	02568/B		F	11:00am - 12:20pm	PHELP3525	16 / 16	
+CMPSC 8		Full	02576/B		F	12:30pm - 1:50pm	PHELP3525	16 / 16	
+CMPSC 8		Full	02584/B		F	2:00pm - 3:20pm	PHELP3525	16 / 16	
+CMPSC 8		Full	15404/B		F	3:30pm - 4:50pm	PHELP3525	17 / 17	
+```
+
 Get info from here:  <http://www.summer.ucsb.edu/session-b> and add to course calendar.
 
 ```
