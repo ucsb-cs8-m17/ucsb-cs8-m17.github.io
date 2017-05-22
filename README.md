@@ -1,4 +1,16 @@
-# UCSB-CS8-M17.github.io
+# ucsb-cs8-m17.github.io
+
+Website: http://ucsb-cs8-m17.github.io
+
+To test locally:
+* One time setup:
+    * `git clone` the repo
+    * Install rvm (the Ruby version manager)
+    * Run `./setup.sh` to install correct ruby version, bundler version, and bundle the gems
+* From then on, to test the site locally:
+    * Run `./jekyll.sh
+    * Point browser to localhost:4000
+
 
 
 ```
@@ -38,3 +50,4 @@ Saturday, September 16, 2017
 Front Page Date: 
 Thursday, January 12, 2017
 ```
+
