@@ -1,10 +1,19 @@
+
+course: "CS8"
+legacy_wiki_name: 8wiki
+legacy_wiki_url: "https://foo.cs.ucsb.edu/8wiki" 
+qtr: "M17"
+quarter: "Summer 2017"
+ta_list: "Sanjana, Tawny and Seemanta"
+instructor: "Conrad"
+
 github_url: https://github.com/ucsb-cs8-m17/ucsb-cs8-m17.github.io
 course_site: http://ucsb-cs8.github.io
 
 on_campus: http://proquest.safaribooksonline.com
 off_campus: http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048
 
-ta_list: "fill in TAs here"
+
 
 legacy_wiki_url: https://foo.cs.ucsb.edu/8wiki
 legacy_wiki_name: "8wiki"
@@ -29,11 +38,6 @@ cal_dates: >
   ]
 
 
-course: "CS8"
-legacy_wiki_name: 8wiki
-legacy_wiki_url: "https://foo.cs.ucsb.edu/8wiki" 
-qtr: "M17"
-quarter: "Summer 2017"
 
 kramdown:
    parse_block_html: true
