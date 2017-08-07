@@ -156,6 +156,24 @@ ol li ol li {
    list-style-type: lower-alpha;
 }
 
+ol li ol li ol li{
+   list-style-type: lower-roman;
+}
+
+
+ol li ol li ul li {
+    list-style-type: circle;
+}
+
+ol li ul li {
+    list-style-type: circle;
+}
+
+ul li {
+    list-style-type: circle;
+}
+
+
 div.not-ready-warning {
    width:80%;
    margin-left:auto;
@@ -189,6 +207,7 @@ td.h03-table table * td,th {
     border: 1px solid black;
     padding: 4px;
 }
+
 
 
 
