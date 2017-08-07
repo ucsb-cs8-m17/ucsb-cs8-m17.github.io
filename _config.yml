@@ -28,6 +28,7 @@ sections: "11am,&nbsp;12:30pm,&nbsp;2pm&nbsp;or&nbsp;3:30pm"
 cal_dates: >
   [
   {"label":"First day of session B", "date":"2017-08-07" },
+  {"label":"Solar Eclipse peaks at 10:18am", "date":"2017-08-21"},
   {"label":"Last day to Add","date":"2017-08-11" },
   {"label":"Last day to Add with code","date":"2017-08-17" },
   {"label":"Drop w/ Full Refund","date":"2017-08-11" },
