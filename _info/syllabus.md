@@ -166,11 +166,6 @@ The same is true of programming. Programming is not a series of facts to be memo
 </table>
 
 
-https://foo.cs.ucsb.edu/8wiki/LocalImages/python.jpg
-
-(Image credit: Randall Munro http://xkcd.com/353/)
-
-
 
 Final Course Grades
 ===================
@@ -325,6 +320,19 @@ Standard Disclaimer
 This syllabus is as accurate as possible, but is subject to change at
 the instructor's discretion, within the bounds of UC policy.
 
+<div style="page-break-before:always">
+
+
+![Python cartoon](https://foo.cs.ucsb.edu/8wiki/LocalImages/python.jpg)
+
+(Image credit: Randall Munro http://xkcd.com/353/)
+
 (end of syllabus)
+
+</div>
+
+
+
+
 
 </div>
