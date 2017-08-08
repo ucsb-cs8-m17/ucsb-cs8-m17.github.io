@@ -153,7 +153,7 @@ When you have the IDLE window up, you are ready for the next step.
 
 ## Step 6: Save a file in IDLE
 
-In IDLE, select &quot;File=&gt;New Window&quot; to open a new &quot;untitled&quot; window for Python code.
+In IDLE, select "File=&gt;New File" to open a new "untitled" window for Python code.
 
 When it comes up, click and drag the window by its title bar over to the right
 of your Python Shell window.
