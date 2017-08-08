@@ -89,7 +89,7 @@ Each of the pwd commands &quot;prints the working directory&quot;,
 i.e. it tells you where you are on the hard drive.
 
 *  Your home directory is something like <strong>/cs/student/jsmith</strong>
-   or <strong>/engr/student/mdiaz</strong></li>
+   or <strong>/engr/student/mdiaz</strong>
 *  Under that, you might have a directory cs8&mdash;that would show up as
    <strong>/cs/student/jsmith/cs8</strong>, or <strong>/engr/student/mdiaz/cs8</strong>
 
