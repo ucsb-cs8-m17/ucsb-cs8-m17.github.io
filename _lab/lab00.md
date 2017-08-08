@@ -180,20 +180,22 @@ You are encouraged to do that, because it helps someone looking at your code kno
 
 In Python, a `#` starts a comment.  Everything from the `#` to the end of that line is part of the comment.
 
-Enter this program in IDLE, then run it. 
 
-The use of IDLE to run programs will be demonstrated in lecture.  If you need a referesher, this video may be helpful:
+Enter this program in IDLE, then save it.
+
+## Step 7: Running your program.
+
+To run your program, select the "Run" option from the menu.  You should see the "Hello World!" message.
 
 I'll demonstrate the use of Idle in lecture, since its much easier to just follow along than to try to explain everything in a text document.   If you need a further demonstration, you can find one on YouTube.  For example: 
 [This video starting a 4:53](https://www.youtube.com/watch?v=kXbpB5_ywDw&t=4m53s)  (That video is for Python 3.1, but the stuff shown in the video is the same across all versions of Python 3.x).
 
 
-
-# Uploading your program to submit.cs
+## Step 8: Uploading your program to submit.cs
 
 Next, we'll try submitting our program to submit.cs, which is an autograder system used by many Computer Science department courses at UCSB.    You'll get some immediate feedback on whether you did it properly.
 
-# Creating your submit.cs account
+### Creating your submit.cs account
 
 You may have already done the steps in this section--an email was sent out through Gauchospace inviting you to do so.   If you have, you may skip this section.
 
@@ -207,7 +209,7 @@ Otherwise, to create your submit.cs account, please take the following steps:
 
 At that point, you should be good to go.
 
-# Navigate to the page for submitting lab00
+### Navigate to the page for submitting lab00
 
 The page for submitting lab00 is here: https://submit.cs.ucsb.edu/form/project/{{page.submit_cs_pnum}}/submission
 
