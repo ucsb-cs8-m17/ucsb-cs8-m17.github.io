@@ -4,10 +4,6 @@ layout: handout
 ready: false
 ---
 
-
-{{page.title}}
-==============
-
 Basic Facts
 -----------
 
