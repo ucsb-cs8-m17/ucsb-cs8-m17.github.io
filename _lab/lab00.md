@@ -32,13 +32,14 @@ challenging.    Future labs will require quite a bit more thought!
 ## Step 1: Verify your College of Engineering Account(s)
 
 The Gauchospace message that welcomed you to the course invited you to 
-create a College of Engineering account at this link:
+create a College of Engineering account (also known as a ECI account, or a CSIL account) at this link:
 
 <https://accounts.engr.ucsb.edu/create/>
 
 We hope you did that&mdash;if so, you should be able to use that account to login on the computers
 in Phelps 3525, as well as the computers in the CSIL lab. 
 
+If you ever forget the password to your ECI/CSIL account, you can reset it here:
 
 If your account doesn't work, ask a TA for assistance.
 
@@ -95,6 +96,7 @@ i.e. it tells you where you are on the hard drive.
 At the command prompt, type each of these commands. What you type is shown in bold.
 You should get back exactly the output shown, (except that the part in italics may be different&mdash;each user will have something different show up there.)
 
+NOTE: your prompt may not be exactly like the one shown here.  Instead of `-bash-4.2$ `, you might have something like `[cgaucho@cstl-15 ~]$ `.    The `cgaucho` here is your username, the `cstl-15` is where you are logged in, and the `~` is your current directory.    Don't be distracted by this detail.
 
 <pre>-bash-4.2$ <strong>cd</strong>
 -bash-4.2$ <strong>pwd</strong>
