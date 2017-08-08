@@ -1,20 +1,20 @@
 ---
-title: "Syllabus, CMPSC 56, Fall 2016"
+title: "Syllabus, CMPSC 8, Summer 2017"
 layout: handout
 ready: false
 ---
 
 
-CS56, Fall 2016, Syllabus
-===========================
+{{page.title}}
+==============
 
 Basic Facts
 -----------
 
 * **Instructor**:  [Phill Conrad](http://www.cs.ucsb.edu/~pconrad)
-* **Lecture**: MW 12:30pm-1:45pm HSSB 1174, ATTENDANCE REQUIRED.
-* **TAs**:  Nick Brown, Michael Zhang (contact via Piazza)
-* **Lab** (50 minute discussion section) Thursday 4pm, 5pm or 6pm, Phelps 3525, ATTENDANCE REQUIRED.                                         
+* **Lecture**: TWR 9:30pm-10:50am Psych 1924, ATTENDANCE REQUIRED.
+* **TAs**:  {{site.TAs}} (contact via Piazza)
+* **Lab** (80 minute discussion section) Friday 11am, 12:30pm, 2pm or 3:30pm Phelps 3525, ATTENDANCE REQUIRED.                                         
 * Office Hours: See: <http://www.cs.ucsb.edu/~pconrad/ofchrs>  
 
 For course website links, visit the course Gauchospace site.
@@ -22,32 +22,13 @@ For course website links, visit the course Gauchospace site.
 About the Course
 ----------------
 
--   Our goal is to learn Java---but not just to learn Java for the sake of learning Java. After all, some of you already "know Java", at some level.
--   Our bigger goals are:
-    -   to practice using big APIs to get stuff done--a very relevant real world job skill!
-    -   to learn how to learn a new language or technology--something you'll do a lot in your career
-    -   to learn about a few specific topics: the JVM, threads, Swing GUIs, etc..
-    -   to learn some professional-level, real-world programming practices.
-
-The way I'm planning to teach the course is a bit different from what you may have experienced before--I'm trying to create a learning environment that *mirrors how real world software is developed* more than is the case is traditionally structured courses.
-
-So, the emphasis will be on:
-
--   open source, and sharing code, not keeping code secret
--   collaboration
--   writing code, that, where possible is actually useful and usable.
-
-Note that "sharing code" doesn't mean "stealing code". We still don't take credit for other people's work---academic honesty still applies. It just 'looks different' in this course.
-
-The official course description is here:
-
 <div style="background-color:#eee; border: 8px inset #333; font-size:75%; margin:1em; width:45em; padding: 0.5em;" markdown="1">
 
-CMPSC 56. Advanced Applications Programming
-(4) STAFF
-Prerequisite: Computer Science 24 and 32 with a grade of C or better
+CMPSC 8: Introduction to Computer Science
 
-Advanced application programming using a high-level, virtual-machine-based language. Topics include generic programming, exception handling, programming language implementation; automatic memory management, and application development, management, and maintenance tools; event handling, concurrency and threading, and advanced library use.
+Not open for credit to students who have completed Computer Science 16 or Engineering 3.
+
+Introduction to computer program development for students with little to no programming experience. Basic programming concepts, variables and expressions, data and control structures, algorithms, debugging, program design, and documentation.
 
 </div>
 
@@ -70,58 +51,11 @@ A+ grades: These may be awarded to the very best performing students in the clas
 
 | Grade Item                                                                   | Percentage of Final Grade |
 |------------------------------------------------------------------------------|---------------------------|
-| Midterm 1                                                                    | 20 %                      |
-| Midterm 2                                                                    | 20 %                      |
-| Final                                                                        | 20 %                      |
-| Labs (typically closed source, some open source), Hwks, In Class Assignments | 20 %                      |
-| Projects (open source)                                                       | 20 %                      |
-
-More On Grading
----------------
-
-We'll have three exams--two midterms and a final. That part of the course will be traditional. And, there will be some traditional lab and homework assignments (and perhaps quizzes) where "everybody in the class does roughly the same thing"---those make up another 20% of your grade.
-
-The remaining part of your grade--the last 20%--comes from project points which are explained in more detail later in this syllabus.
+| Midterm 2                                                                    | 35 %                      |
+| Final                                                                        | 35 %                      |
+| Labs (typically closed source, some open source), Hwks, In Class Assignments | 30 %                      |
 
 
-<div style="page-break-before:always;">
-&nbsp;
-</div>
-
-<div style="font-size: 120%;">
-
-Project Points
-==============
-
-Project points assignments can be found in public github repositories in the Organization: <http://github.com/organizations/UCSB-CS56-Projects>. The way in which these will be assigned will be explained later in the course.
-
-To earn a "perfect score" (100%) for this 20% component of your grade, you need to earn 1000 project points. If you only earn 800, then an 80% will be recorded for that 20% of your grade.
-
-Some projects are worth more points, and some worth fewer.
-
-If you accumulate more than 1000 project points, up to 100 project points may be used to raise your final average in the class up to 2.0 points. (The points will be recorded as extra credit). (Each point raises your final course average by 0.02% ).
-
-You may not earn more than 1100 total project points--any points in excess of 1100 will not count towards your grade (though you'll probably learn a lot from having under taken the work to earn them.)
-
-### Project Point Deadlines
-
--   You may earn up to 1100 project points over the course of the quarter
--   There may be intermediate deadlines by which you need to accmulate certain numbers of points, e.g. 500, 800, etc.
--   The final deadline for project points is the last day of instruction at 5pm.
-
-How to interpret these "due dates":
-
-
--   Unless told otherwise in the instructions for a particular project points assignment, you may complete any project point assignment at any time.
--   However, the points have to be "recorded" somewhere to count towards your grade.
--   Before the first deadline , you have the possibility to earn up to 1100 project points.
--   If there is a deadline for the first 300 points (Project deadine 1), if you haven't yet completed/submitted any project points work, the maximum number you can earn is now 800 (1100-300).
--   If there is a second deadline for 300 more points (Project 2), if you haven't yet completed/submitted any project points work, the maximum number you can earn is now 1100-600= 500.
--   You may "work ahead"---that is, if you earn 800 points for your first assignment, we'll count 300 towards Project 1, 300 towards Project 2, and 200 towards Project 3.
--   However, once a deadline has passed, only project points earned before that deadline may be applied to that assignment.
-
-
-</div>
 
 <div style="page-break-before:always;">
 &nbsp;
@@ -132,18 +66,7 @@ How to interpret these "due dates":
 Attendance
 ==========
 
-This course moves quickly. So attendance is very important.
-
-This is even more true in the summer.
-
-We'll be trying to master the material from about 14 chapters in the
-book, at about 2 chapters per week. We need to go at that pace,
-because we'll lose a couple of weeks to exams, and the last few
-lectures the quarter, you can't really start anything new, because
-there isn't time to put it into practice with programming
-assignments. If you don't put it into practice, you aren't very likely
-to learn it in any way that is going to stick with you, so there isn't
-much point in just "going through the motions".
+This course moves quickly. So attendance is very important.  This is even more true in the summer.
 
 As a result, there will be something you have to turn in at almost
 every class. In this way, attendance is taken, and required.
@@ -152,22 +75,14 @@ These things you have to turn in will be a combination of in-class
 activities, and homework completed outside of class, but handed in on
 paper during class.
 
-Quizzes may occur at anytime, announced or unannounced. Missed quizzes
-may not be made up, except per the "personal day/sick day" below—if
-you miss a quiz for any reason, and have already used your personal
-day/sick day, you will have to make up the points with extra credit.
-
-Thus attendance is required, and reading the assigned readings is
-required.
-
-Missing homework/in-class activities: Drop the lowest 3
+Missing homework/in-class activities: Drop the lowest 4
 -------------------------------------------------------
 
 If you miss a class, you miss the opportunity for the points on that
 in-class assignment, or homework that was due. Period.
 
 There is no makeup. In lieu of providing a makeup opportunity, I will
-drop the lowest 3 homework/in-class-assignment grades (which may be
+drop the lowest 4 homework/in-class-assignment grades (which may be
 zeros if you miss an assignment.) Each homework and in-class-activity
 will be of equal value (100 pts).
 
@@ -178,7 +93,6 @@ Notes sheets on exams
 -   You are permitted only one sheet per exam.
 -   Your notes sheet will be collected and WILL NOT BE RETURNED
 -   So, if you need a copy of it, make a copy BEFORE you come to the exam.
-
 
 Questions about grades
 ----------------------
