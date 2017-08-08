@@ -34,10 +34,10 @@ Introduction to computer program development for students with little to no prog
 * If you are registered for another UCSB course  that overlaps with this one, you MUST HAVE specific written permission from both instructors, or I am within my rights to give you a failing grade on any work you miss as a result, and will NOT make any accommodations for you.  This includes exams.
 * You are permitted one sheet of notes on exams—details later on the syllabus.
 * Collaboration is only permitted when specifically allowed for—otherwise, you must do your own work.
-** On most homework assignments  you may collaborate with at most one other person (who must be named)
+   * On most homework assignments  you may collaborate with at most one other person (who must be named)
 * Attendance is required at all lectures and labs (discussion sections) and is checked via homework submission.
 ** <strong>you</strong> must hand in homework in class—you may not turn in homework on behalf of another student, or ask someone else to turn in yours
-** If you need to miss class <em>once</em>, there is a provision for making up the homework (explained later in this syllabus).  The short version: you have to complete the homework, and bring it to the instructor or TAs office hours within one week of when you missed class, in person, and you must stay until it is graded AND RECORDED IN GAUCHOSPACE.  And you can only do this ONCE per quarter, except in unusual circumstances.
+   * If you need to miss class <em>once</em>, there is a provision for making up the homework (explained later in this syllabus).  The short version: you have to complete the homework, and bring it to the instructor or TAs office hours within one week of when you missed class, in person, and you must stay until it is graded AND RECORDED IN GAUCHOSPACE.  And you can only do this ONCE per quarter, except in unusual circumstances.
 
 You may NOT: 
 
