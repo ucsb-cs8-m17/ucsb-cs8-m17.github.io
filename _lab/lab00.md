@@ -59,10 +59,14 @@ only do with the command line, or can do more easily with the command line.
 
 So, one of the first steps will often be to bring up a "Terminal" window&mdash;a window that gives us access to the Linux "command line".
 
+<div style="float:right; width:100px; border: 1px solid #063;" markdown="1">
+![terminal icon](Terminal.png)
+</div>
+
 Here's how:
 
 * Find the Applications Menu at the top left of the screen
-* Select System Tools, then Terminal 
+* Select System Tools, then Terminal (the icon should look like the image shown at right)
 * A Terminal Window should pop up
 
 ## Step 3: Create some directories
