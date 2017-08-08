@@ -43,6 +43,7 @@ cal_dates: >
 
 kramdown:
    parse_block_html: true
+   default_lang: python
 
 
 exclude:
