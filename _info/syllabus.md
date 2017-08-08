@@ -200,7 +200,7 @@ A+ grades: These may be awarded to the very best performing students in the clas
 &nbsp;
 </div>
 
-<div style="font-size: 120%;">
+
 
 Attendance
 ==========
@@ -282,7 +282,6 @@ long line of students), then you lose the right to appeal your grade.
 &nbsp;
 </div>
 
-<div style="font-size: 120%;">
 
 Late Labs
 ---------
@@ -318,18 +317,18 @@ Honesty and integrity in all academic work is essential for a valuable education
 
 Furthermore, for general academic support, students are encouraged to visit Campus Learning Assistance Services (CLAS) early and often. CLAS offers instructional groups, drop-in tutoring, writing and ESL services, skills workshops and one-on-one consultations. CLAS is located on the third floor of the Student Resource Building, or visit http://clas.sa.ucsb.edu
 
+
+<div style="page-break-before:always">
+
+![Python cartoon](https://foo.cs.ucsb.edu/8wiki/LocalImages/python.jpg)
+
+(Image credit: Randall Munro http://xkcd.com/353/)
+
 Standard Disclaimer
 -------------------
 
 This syllabus is as accurate as possible, but is subject to change at
 the instructor's discretion, within the bounds of UC policy.
-
-<div style="page-break-before:always">
-
-
-![Python cartoon](https://foo.cs.ucsb.edu/8wiki/LocalImages/python.jpg)
-
-(Image credit: Randall Munro http://xkcd.com/353/)
 
 (end of syllabus)
 
