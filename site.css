@@ -2,6 +2,8 @@
 layout: null
 ---
 
+{% include jekyll-github.css %}
+
 body.syllabus {
 
   font-size: 10px;
