@@ -162,6 +162,7 @@ of your Python Shell window.
  
 For this lab, there is one goal: write a Python 3 program that prints the string `Hello, World!` as its output.
 
+
 In this sense, we are following a long tradition: for [more than 40 years](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) it has been a tradition to make printing `Hello, World!` be the first thing you do when learning a new programming language.
 
 In Python 3, this program is very short.  It looks like this:
@@ -169,6 +170,8 @@ In Python 3, this program is very short.  It looks like this:
 ```python
 print ('Hello, World!')
 ```
+
+We will save the file under the name `hello.py`&mdash;it is important that is has exactly that name, or the submit.cs system will not accept your submission.
 
 That's it!   Now, you can also add, on the first line, a *comment* with your name, and information about the course, for example:
 
@@ -181,8 +184,7 @@ You are encouraged to do that, because it helps someone looking at your code kno
 
 In Python, a `#` starts a comment.  Everything from the `#` to the end of that line is part of the comment.
 
-
-Enter this program in IDLE, then save it.
+Enter this program in IDLE, then save it under the name `hello.py`
 
 ## Step 7: Running your program.
 
