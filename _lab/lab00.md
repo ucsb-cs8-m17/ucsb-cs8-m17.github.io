@@ -189,7 +189,7 @@ Enter this program in IDLE, then save it.
 To run your program, select the "Run" option from the menu.  You should see the "Hello World!" message.
 
 I'll demonstrate the use of Idle in lecture, since its much easier to just follow along than to try to explain everything in a text document.   If you need a further demonstration, you can find one on YouTube.  For example: 
-[This video starting a 4:53](https://www.youtube.com/watch?v=kXbpB5_ywDw&t=4m53s)  (That video is for Python 3.1, but the stuff shown in the video is the same across all versions of Python 3.x).
+[This video starting at 4:53](https://www.youtube.com/watch?v=kXbpB5_ywDw&t=4m53s)  (That video is for Python 3.1, but the stuff shown in the video is the same across all versions of Python 3.x).
 
 
 ## Step 8: Uploading your program to submit.cs
