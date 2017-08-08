@@ -113,7 +113,7 @@ You should get back exactly the output shown, (except that the part in italics m
 /<em>cs</em>/<em>student</em>/<em>yourusername</em>
 </pre>
 
-### Checking if it worked
+## Step 4: Checking if it worked
 
 To see if it worked, you can use the file manager on the desktop. Drag
 any windows that might be covering up the &quot;Home&quot; icon on
@@ -180,37 +180,14 @@ You are encouraged to do that, because it helps someone looking at your code kno
 
 In Python, a `#` starts a comment.  Everything from the `#` to the end of that line is part of the comment.
 
-Now, how will you create this bit of code?  It depends on whether you are completing this lab in Phelps 3525 on one of the Linux lab systems, or your own Window or Mac laptop.  
+Enter this program in IDLE, then run it. 
 
-# Working on your own laptop
-
-# Downloading Python 3.x (including IDLE) for your system.
-
-These instructions assume <b>you are working with a Windows or Mac system.</b>  
-
-* <b>If you are running Linux</b>, it is assumed that you already have some system administration skills (otherwise, you'd be running Windows or Mac.   In particular, we assume you know how to install software for your distribution of Linux with an appropriate package manager, e.g. apt-get, yum, dpkg, etc.    If you are on Linux, install Python 2.7.11 in whatever way is appropriate for your distribution of Linux.  That's all the help we can provide.
-
-For Windows or Mac, you can install Python 3.x by visiting: http://python.org and clicking the Downloads link.
-
-## Be sure you get Python 3, not Python 2
-
-* BE SURE YOU GET PYTHON 3.6.2 (or a later version that starts with a 3).
-* FOR THIS COURSE, YOU DO NOT WANT ANY VERSION OF PYTHON STARTING WITH 2.
-
-If you already have a version of Python 3 on your system, that's ok.  
-
-Supposedly, Python 2 and Python 3 can happily co-exist.   What's this all about?  We'll explain in lecture, but if you missed the lecture, or want to learn more, here's some information: https://wiki.python.org/moin/Python2orPython3
-
-# Once you've downloaded Python 3, Start up Idle and enter your hello.py program
-
-You should have gotten a program along with your Python 3 download called "Idle".
-
-Idle is a program that allows you to create and modify Python programs.   It also allows you to check the program for formatting errors (syntax errors) and then run the program and see what it does.      
+The use of IDLE to run programs will be demonstrated in lecture.  If you need a referesher, this video may be helpful:
 
 I'll demonstrate the use of Idle in lecture, since its much easier to just follow along than to try to explain everything in a text document.   If you need a further demonstration, you can find one on YouTube.  For example: 
 [This video starting a 4:53](https://www.youtube.com/watch?v=kXbpB5_ywDw&t=4m53s)  (That video is for Python 3.1, but the stuff shown in the video is the same across all versions of Python 3.x).
 
-We are going to put our hello.py into Idle, and run it.   Once you've run it and seen it work properly, you are ready to try to upload your program to submit.cs to submit your work for a grade.
+
 
 # Uploading your program to submit.cs
 
