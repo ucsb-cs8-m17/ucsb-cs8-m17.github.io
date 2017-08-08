@@ -7,13 +7,13 @@ ready: false
 Basic Facts
 -----------
 
+* **Course Web Site**: <http://ucsb-cs8.github.io>
 * **Instructor**:  [Phill Conrad](http://www.cs.ucsb.edu/~pconrad)
+   * Email is pconrad@cs.ucsb.edu, BUT please use Piazza for course related communication.
 * **Lecture**: TWR 9:30pm-10:50am Psych 1924, ATTENDANCE REQUIRED.
-* **TAs**:  {{site.ta_list_full}} (contact via Piazza)
+* **TAs**:  {{site.ta_list_full}} (contact via Piazza.com)
 * **Lab** (80 minute discussion section) Friday 11am, 12:30pm, 2pm or 3:30pm Phelps 3525, ATTENDANCE REQUIRED.                                         
 * Office Hours: See: <http://www.cs.ucsb.edu/~pconrad/ofchrs>  
-
-For course website links, visit the course Gauchospace site.
 
 About the Course
 ----------------
