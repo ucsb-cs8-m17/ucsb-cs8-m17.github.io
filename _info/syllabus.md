@@ -46,9 +46,6 @@ You may NOT:
 * leave homework in a mailbox or slide it under a door
 * drop it off with the instructor to be graded later.
 
-
-== Grading ==
-
 ## What this course is about 
 
 <p><strong>This course is an introduction to Computer Science, and programming. <br />
@@ -79,29 +76,35 @@ You may NOT:
 <p>In other cases, the algorithms are very complex, or very subtle, and coming up with them is a deep intellectual challenge. Furthermore, the impact of a better algorithm on society can be very large. For example, new algorithms in the field of computational science—modeling chemical and biological reactions with computer simulations—can lead to breakthroughs such as new drugs to fight disease, or renewable sources of energy.</p>
 <p>And often, what goes along with finding a good algorithm is finding a good abstraction of the real world concepts we are interested in: cells, molecules, oil fields, words, sentences, students, courses, GPAs, etc. Algorithms and abstractions really go hand-in-hand.</p>
 
-#### <strong>Coding, or Writing Software, or Programming: </strong> expressing algorithms in a programming language
+## Coding, or Writing Software, or Programming
 
-<p>Human languages such as English and Spanish are not very well suited for expressing algorithms—at least not for expressing them to a computer (they have their problems for communicating with humans too!). So, special languages are used. In this course, we'll learn the Python programming language. We choose Python rather than Java or C++ because:</p>
-<ul>
-  <li>If you are learning your first programming language, Python is easier to learn than the others</li>
-  <li>Learning Python provides a good foundation for learning C, C++ or Java<br />
-  </li>
-  <li>If you only learn one programming language, Python is a good choice—in spite of being easy to learn, it is not a &quot;toy&quot; language by any means. It is widely used by scientists and web application developers just for starters. Many internal systems at Google are based on Python code.</li>
-  </ul>
-<p>This course provides you with the opportunity to become a pretty good beginning programmer, and be well prepared for an intermediate programming course such as CS16 (the first course that counts towards the CS major at UCSB, and which requires at least one quarter of prior programming experience.)</p>
-<p>I say that the course &quot;provides an opportunity,&quot; because you will only become an good beginning-level programmer if <strong>you</strong> put a lot of time and effort into this course—that is true no matter how much thought and attention I put in my lectures, assignments, and exams.</p>
+Coding is expressing algorithms in a programming language.
 
-<p><strong>The swimming/guitar/painting analogy</strong></p>
-<p>You cannot learn to swim, play guitar, or paint from a textbook or a lecture. You can only:</p>
-<ul>
-  <li> learn  to swim by spending many hours in the pool, </li>
-  <li>learn to play guitar by spending many hours playing the instrument</li>
-  <li>learn to paint by spending many hours putting brush to canvas.</li>
-</ul>
-<p>The same is true of programming. Programming is not a series of facts to be memorized—you cannot &quot;cram&quot; for a computer science exam. You must practice, practice, practice.</p>
+Human languages such as English and Spanish are not very well suited for expressing algorithms—at least not for expressing them to a computer (they have their problems for communicating with humans too!). So, special languages are used. In this course, we'll learn the Python programming language. We choose Python rather than Java or C++ because:
 
+* If you are learning your first programming language, Python is easier to learn than the others
+* Learning Python provides a good foundation for learning C, C++ or Java
+* If you only learn one programming language, Python is a good choice—in spite of being easy to learn, it is not a &quot;toy&quot; language by any means. It is widely used by scientists and web application developers just for starters. Many internal systems at Google are based on Python code.
  
-= What you need to learn to become <br />a skilled beginning level programmer. =
+This course provides you with the opportunity to become a pretty good beginning programmer, and be well prepared for an intermediate programming course such as CS16 (the first course that counts towards the CS major at UCSB, and which requires at least one quarter of prior programming experience.)
+
+I say that the course &quot;provides an opportunity,&quot; because you will only become an good beginning-level programmer if <strong>you</strong> put a lot of time and effort into this course—that is true no matter how much thought and attention I put in my lectures, assignments, and exams
+
+## The swimming/guitar/painting analogy
+
+You cannot learn to swim, play guitar, or paint from a textbook or a lecture. You can only:
+
+* learn  to swim by spending many hours in the pool
+* learn to play guitar by spending many hours playing the instrument
+* learn to paint by spending many hours putting brush to canvas
+
+The same is true of programming. Programming is not a series of facts to be memorized—you cannot &quot;cram&quot; for a computer science exam. You must practice, practice, practice.
+
+<div style="page-break-before:always;">
+&nbsp;
+</div>
+
+# What you need to learn to become <br />a skilled beginning level programmer
 
 
 <p>So, what is it that you need to know to be a skilled beginning-level programmer in Python? Here's the  list of what you'll need to be ready for CS16 (the next programming course):</p>
