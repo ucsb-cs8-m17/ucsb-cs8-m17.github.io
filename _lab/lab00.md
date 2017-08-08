@@ -212,7 +212,7 @@ At that point, you should be good to go.
 
 ### Navigate to the page for submitting lab00
 
-The page for submitting lab00 is here: https://submit.cs.ucsb.edu/form/project/{{page.submit_cs_pnum}}/submission
+The page for submitting lab00 is here: <https://submit.cs.ucsb.edu/form/project/{{page.submit_cs_pnum}}/submission>
 
 Navigate to that page, and upload your `hello.py` file.
 
