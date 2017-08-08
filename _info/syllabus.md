@@ -318,7 +318,7 @@ Honesty and integrity in all academic work is essential for a valuable education
 Furthermore, for general academic support, students are encouraged to visit Campus Learning Assistance Services (CLAS) early and often. CLAS offers instructional groups, drop-in tutoring, writing and ESL services, skills workshops and one-on-one consultations. CLAS is located on the third floor of the Student Resource Building, or visit http://clas.sa.ucsb.edu
 
 
-<div style="page-break-before:always">
+<div style="page-break-before:always" markdown="1">
 
 ![Python cartoon](https://foo.cs.ucsb.edu/8wiki/LocalImages/python.jpg)
 
@@ -335,7 +335,3 @@ the instructor's discretion, within the bounds of UC policy.
 </div>
 
 
-
-
-
-</div>
