@@ -4,6 +4,8 @@ layout: null
 
 {% include jekyll-github.css %}
 
+div.container {max-width: 120em;}
+
 body.syllabus {
 
   font-size: 10px;
