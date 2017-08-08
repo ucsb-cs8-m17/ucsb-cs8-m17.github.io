@@ -14,8 +14,6 @@ title: CS8, Summer 2017, pconrad
 </ul>
 </div>
 
-<p>(Looking for <b>Teams?</b> They were moved to the end of the page&mdash;please scroll down.)</p>
-
 <div data-role="collapsible" data-collapsed="false">
 <h2 id="labs">Labs:</h2>
 {% include lab_table.html %}
