@@ -11,7 +11,7 @@ date: 2017-08-09 09:30:00.00-7:00
 
 * Functions
 
-```
+```python
 def squared(x):
    " multiply x times itself "
    return x * x
