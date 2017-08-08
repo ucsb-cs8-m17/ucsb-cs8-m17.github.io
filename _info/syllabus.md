@@ -34,17 +34,17 @@ Introduction to computer program development for students with little to no prog
 * If you are registered for another UCSB course  that overlaps with this one, you MUST HAVE specific written permission from both instructors, or I am within my rights to give you a failing grade on any work you miss as a result, and will NOT make any accommodations for you.  This includes exams.
 * You are permitted one sheet of notes on exams—details later on the syllabus.
 * Collaboration is only permitted when specifically allowed for—otherwise, you must do your own work.
-   * On most homework assignments  you may collaborate with at most one other person (who must be named)
+   * On most homework assignments  you may collaborate with at most one other person (who must be named).
 * Attendance is required at all lectures and labs (discussion sections) and is checked via homework submission or in-class assignments.
-   * <strong>you</strong> must hand in homework in class—you may not turn in homework on behalf of another student, or ask someone else to turn in yours
+   * <strong>You</strong>, yourself, must hand in your own homework in class.  You may not turn in homework on behalf of another student, or ask someone else to turn in yours.
    * I recognize that some absences (e.g. minor illnesses, mishaps, etc.) are unavoidable.  Litigating whether each of these is "excused" or not isn't a good use of anyone's time, so instead we just drop the lowest four grades from everyone's homework/in-class assignment grades.  In this way, absenses (or failure to turn in homework) does not unduly penalize your grade unless it becomes excessive.
 
 You may NOT: 
 
-* turn in homework on a day other than when it is due (early or late)
-* have someone else turn in your homework for you (that will be considered academic dishonesty).
-* leave homework in a mailbox or slide it under a door
-* drop it off with the instructor to be graded later.
+* Turn in homework on a day other than when it is due (early or late)
+* Have someone else turn in your homework for you (that will be considered academic dishonesty).
+* Leave homework in a mailbox or slide it under a door
+* Drop it off with the instructor to be graded later.
 
 ## What this course is about 
 
