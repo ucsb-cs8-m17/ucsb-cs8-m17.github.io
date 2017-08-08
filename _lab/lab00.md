@@ -48,21 +48,19 @@ At other times during the week, you can work in CSIL, the &quot;Computer Science
 
 The CSIL lab, by the way, is on the ground floor of Harold Frank Hall.  The glass front doors of Harold Frank Hall look out towards the ocean.  Stand just outside those doors with your back towards the ocean.   The doors to the CSIL lab are just on your right.  (If you can't look over your shoulder and see an great big tree, with the ocean just behind it, you are on the wrong side of the building.)   Hours vary--its open almost all the time during the regular school year, but limited hours in summer.
 
-## Step 2: Bring up a terminal window
+## Step 2: Bring up a "terminal" 
  
-On the Linux systems, there a lot of things we can do with pointing and clicking
+On the Linux systems, there are a lot of things we can do with pointing and clicking
 with the mouse, just like on Windows or Mac. But there are also many things we can
 only do with the command line, or can do more easily with the command line.
 
-So, one of the first steps will often be to bring up a &quot;Terminal Window&quot;,
-which is the Linux &quot;command line&quot;.
+So, one of the first steps will often be to bring up a "Terminal" window&mdash;a window that gives us access to the Linux "command line".
 
 Here's how:
 
 * Find the Applications Menu at the top left of the screen
-* Select System Tools, then Terminal Window
+* Select System Tools, then Terminal 
 * A Terminal Window should pop up
-
 
 ## Step 3: Create some directories
 
