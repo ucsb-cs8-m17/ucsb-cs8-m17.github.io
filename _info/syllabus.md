@@ -91,7 +91,7 @@ Human languages such as English and Spanish are not very well suited for express
  
 This course provides you with the opportunity to become a pretty good beginning programmer, and be well prepared for an intermediate programming course such as CS16 (the first course that counts towards the CS major at UCSB, and which requires at least one quarter of prior programming experience.)
 
-I say that the course &quot;provides an opportunity,&quot; because you will only become an good beginning-level programmer if <strong>you</strong> put a lot of time and effort into this course—that is true no matter how much thought and attention I put in my lectures, assignments, and exams
+I say that the course &quot;provides an opportunity,&quot; because you will only become a good beginning-level programmer if <strong>you</strong> put a lot of time and effort into this course—that is true no matter how much thought and attention I put in my lectures, assignments, and exams
 
 ## The swimming/guitar/painting analogy
 
