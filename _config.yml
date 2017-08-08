@@ -34,7 +34,7 @@ cal_dates: >
   {"label":"Drop w/ Full Refund","date":"2017-08-11" },
   {"label":"Drop Deadline (no W grade)","date":"2017-08-22" },
   {"label":"Univ Holiday", "date":"2017-09-04" },
-  {"label":"Grade Option Change", "date":"2017-09-05" },    
+  {"label":"Grade Option Change Deadline", "date":"2017-09-05" },    
   {"label":"Last day of session", "date":"2017-09-16" }			
   ]
 
