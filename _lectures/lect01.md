@@ -7,7 +7,22 @@ date: 2017-08-08 09:30:00.00-7:00
 
 # Abstractions and Algorithms
 
+
 (a review of part of the syllabus)
+
+Abstractions and notation: three, index.
+
+An index takes in as input a topic, and gives us back a page number.
+
+A Point-of-Sale bar code scanner at a store checkout maps a barcode, to info about the item (description and price).
+
+A FUNCTION in general, takes in an input (or a set of inputs) and gives us back a value.
+
+In math, for example, 
+
+f(x) = x<sup>2</sup>
+
+
 
 # Learning Something New
 
