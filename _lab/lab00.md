@@ -11,7 +11,7 @@ submit_cs_pnum: 767
 
 # Introduction
 
-Your first lab for this week is an introduction to programming on CSIL and in the Computer Science lab. You will write your first Python program that will print a specific text out on your computer display.
+Your first lab for this week is an introduction to programming on CSIL and in the Computer Science lab. You will write your first Python program that will print a specific text output on your computer display.
 
 ## Goals for this lab
 
