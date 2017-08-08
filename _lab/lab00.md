@@ -41,6 +41,8 @@ in Phelps 3525, as well as the computers in the CSIL lab.
 
 If you ever forget the password to your ECI/CSIL account, you can reset it here:
 
+<https://accounts.engr.ucsb.edu/maintain/>
+
 If your account doesn't work, ask a TA for assistance.
 
 Phelps 3525 is only available during your weekly scheduled discussion section and during Summer 2017, on Tuesdays 1-3:30pm, and Wednesdays 3-5pm.  
