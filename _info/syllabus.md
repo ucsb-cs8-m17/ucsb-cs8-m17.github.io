@@ -9,7 +9,7 @@ Basic Facts
 
 * **Instructor**:  [Phill Conrad](http://www.cs.ucsb.edu/~pconrad)
 * **Lecture**: TWR 9:30pm-10:50am Psych 1924, ATTENDANCE REQUIRED.
-* **TAs**:  {{site.TAs}} (contact via Piazza)
+* **TAs**:  {{site.ta_list_full}} (contact via Piazza)
 * **Lab** (80 minute discussion section) Friday 11am, 12:30pm, 2pm or 3:30pm Phelps 3525, ATTENDANCE REQUIRED.                                         
 * Office Hours: See: <http://www.cs.ucsb.edu/~pconrad/ofchrs>  
 
