@@ -67,7 +67,9 @@ Here's how:
 
 * Find the Applications Menu at the top left of the screen
 * Select System Tools, then Terminal (the icon should look like the image shown at right)
-* A Terminal Window should pop up
+* A Terminal Window should pop up, looking something like the one shown below
+
+![terminal window](TerminalSession.png)
 
 ## Step 3: Create some directories
 
