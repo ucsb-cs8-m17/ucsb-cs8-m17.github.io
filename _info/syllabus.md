@@ -15,10 +15,10 @@ Basic Facts
 * **Lab** (80 minute discussion section) Friday 11am, 12:30pm, 2pm or 3:30pm Phelps 3525, ATTENDANCE REQUIRED.                                         
 * Office Hours: See: <http://www.cs.ucsb.edu/~pconrad/ofchrs>  
 
-About the Course
-----------------
+Official UCSB Catalog Description
+---------------------------------
 
-<div style="background-color:#eee; border: 8px inset #333; font-size:75%; margin:1em; width:45em; padding: 0.5em;" markdown="1">
+<div style="background-color:#eee; border: 8px inset #333; font-size:90%; margin:1em; width:45em; padding: 0.5em;" markdown="1">
 
 CMPSC 8: Introduction to Computer Science
 
