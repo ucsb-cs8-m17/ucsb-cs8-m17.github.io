@@ -35,46 +35,49 @@ Introduction to computer program development for students with little to no prog
 * You are permitted one sheet of notes on exams—details later on the syllabus.
 * Collaboration is only permitted when specifically allowed for—otherwise, you must do your own work.
    * On most homework assignments  you may collaborate with at most one other person (who must be named)
-* Attendance is required at all lectures and labs (discussion sections) and is checked via homework submission.
-** <strong>you</strong> must hand in homework in class—you may not turn in homework on behalf of another student, or ask someone else to turn in yours
-   * If you need to miss class <em>once</em>, there is a provision for making up the homework (explained later in this syllabus).  The short version: you have to complete the homework, and bring it to the instructor or TAs office hours within one week of when you missed class, in person, and you must stay until it is graded AND RECORDED IN GAUCHOSPACE.  And you can only do this ONCE per quarter, except in unusual circumstances.
+* Attendance is required at all lectures and labs (discussion sections) and is checked via homework submission or in-class assignments.
+   * <strong>you</strong> must hand in homework in class—you may not turn in homework on behalf of another student, or ask someone else to turn in yours
+   * I recognize that some absences (e.g. minor illnesses, mishaps, etc.) are unavoidable.  Litigating whether each of these is "excused" or not isn't a good use of anyone's time, so instead we just drop the lowest four grades from everyone's homework/in-class assignment grades.  In this way, absenses (or failure to turn in homework) does not unduly penalize your grade unless it becomes excessive.
 
 You may NOT: 
 
-* turn in homework on a day other than when it is due
+* turn in homework on a day other than when it is due (early or late)
 * have someone else turn in your homework for you (that will be considered academic dishonesty).
 * leave homework in a mailbox or slide it under a door
 * drop it off with the instructor to be graded later.
 
 ## What this course is about 
 
-<p><strong>This course is an introduction to Computer Science, and programming. <br />
-  <br />
-</strong>Computer Science is the study of <strong>abstractions </strong>and <strong>algorithms</strong>. </p>
-<ul>
-  <li>In Computer Science, an <strong>abstraction</strong> is a useful representation of something from the real world that allows us to work with it more easily or efficiently.</li>
-</ul>
-<ul>
-  <li>An <strong>algorithm</strong> is a well-defined, step-by-step sequence of instructions that can be used to mechanically determine the solution to some well-defined problem. </li>
-</ul>
-<p>You probably use <strong>abstractions</strong> and <strong>algorithms</strong> every day—for example:</p>
-<ul>
-  <li>If you pick up any textbook, you'll probably find an index in the back of the book. The index is an <strong>abstraction</strong>—whether the book is about biology, modern art, political science, or computers, the &quot;way the index works&quot; is the always the same. It is composed of the same pieces (topics and page numbers), and organized in the same way (alphabetically by topic, then lists of page numbers in numerical order from smallest to largest.)</li>
-  <li>If you are looking in the index of a U.S. history textbook for &quot;Gettysburg&quot; you'll probably use an <strong>algorithm</strong> to find the entry quickly. Here the input to the algorithm is some topic, and the output is a list of pages on which that topic appears.<br />
-  </li>
-  <li>If you are looking for a parking lot on campus, you might use an <strong>abstraction</strong> called a &quot;map&quot; to locate the parking lot. You know the features of a map, and how it corresponds to the reality of a college campus, and parking spaces. The way a map can work to help you find a parking lot (or garage) is the same whether it's a map of UCSB, Downtown Santa Barbara, or the Staples Center in LA.</li>
-  <li>If you are searching through a parking lot (or garage) to either (a) find a parking space, or (b) determine that there are no spaces left, you probably use an algorithm to do that—again, without even thinking about what you are doing.</li>
-</ul>
+This course is an introduction to Computer Science, and programming. 
 
+Computer Science is the study of <strong>abstractions </strong>and <strong>algorithms</strong>. 
+
+* In Computer Science, an <strong>abstraction</strong> is a useful representation of something from the real world that allows us to work with it more easily or efficiently.
+
+* An <strong>algorithm</strong> is a well-defined, step-by-step sequence of instructions that can be used to mechanically determine the solution to some well-defined problem.
+
+You probably use <strong>abstractions</strong> and <strong>algorithms</strong> every day—for example:
+
+* If you pick up any textbook, you'll probably find an index in the back of the book. The index is an <strong>abstraction</strong>—whether the book is about biology, modern art, political science, or computers, the &quot;way the index works&quot; is the always the same. It is composed of the same pieces (topics and page numbers), and organized in the same way (alphabetically by topic, then lists of page numbers in numerical order from smallest to largest.)
+
+* If you are looking in the index of a U.S. history textbook for &quot;Gettysburg&quot; you'll probably use an <strong>algorithm</strong> to find the entry quickly. Here the input to the algorithm is some topic, and the output is a list of pages on which that topic appears.
+
+* If you are looking for a parking lot on campus, you might use an <strong>abstraction</strong> called a &quot;map&quot; to locate the parking lot. You know the features of a map, and how it corresponds to the reality of a college campus, and parking spaces. The way a map can work to help you find a parking lot (or garage) is the same whether it's a map of UCSB, Downtown Santa Barbara, or the Staples Center in LA.
+
+* If you are searching through a parking lot (or garage) to either (a) find a parking space, or (b) determine that there are no spaces left, you probably use an <strong>algorithm</strong> to do that—again, without even thinking about what you are doing.
 
 
 ## Algorithms have to be both designed, and &quot;coded&quot; so the computer can carry them out 
 
-<p>In the case of using an index, this is probably an algorithm you may have learned in grade school, and it has been so long since you learned it, that now you don't even think about it—you just do it. Finding a space in a parking lot—and knowing when to give up and look elsewhere—is &quot;just common sense&quot;; this probably isn't something you were ever &quot;taught&quot;, or even have to think very much about. You just do it.</p>
-<p>Computers don't currently have this capability—i.e. the capability to &quot;pick up things by common sense&quot;—and it seems unlikely that they  will within our lifetime—unless there are major breakthroughs in the field of Artificial Intelligence. Such breakthroughs have been predicted for a while, but they haven't happened yet. (Maybe you'll be the one to figure out how to achieve this!)</p>
-<p>So, for the time being at least, it falls to humans to design algorithms that computers can use to solve problems. In many cases, these algorithms are &quot;just common sense&quot;—the computer equivalent of looking for an empty parking space in a parking lot (and knowing when to give up). Algorithms like this are easy to design. Many of the algorithms we'll see in this course are like that.</p>
-<p>In other cases, the algorithms are very complex, or very subtle, and coming up with them is a deep intellectual challenge. Furthermore, the impact of a better algorithm on society can be very large. For example, new algorithms in the field of computational science—modeling chemical and biological reactions with computer simulations—can lead to breakthroughs such as new drugs to fight disease, or renewable sources of energy.</p>
-<p>And often, what goes along with finding a good algorithm is finding a good abstraction of the real world concepts we are interested in: cells, molecules, oil fields, words, sentences, students, courses, GPAs, etc. Algorithms and abstractions really go hand-in-hand.</p>
+In the case of using an index, this is probably an algorithm you may have learned in grade school, and it has been so long since you learned it, that now you don't even think about it—you just do it. Finding a space in a parking lot—and knowing when to give up and look elsewhere—is &quot;just common sense&quot;; this probably isn't something you were ever &quot;taught&quot;, or even have to think very much about. You just do it.
+
+Computers don't currently have this capability—i.e. the capability to &quot;pick up things by common sense&quot;—and it seems unlikely that they  will within our lifetime—unless there are major breakthroughs in the field of Artificial Intelligence. Such breakthroughs have been predicted for a while, but they haven't happened yet. (Maybe you'll be the one to figure out how to achieve this!)
+
+So, for the time being at least, it falls to humans to design algorithms that computers can use to solve problems. In many cases, these algorithms are &quot;just common sense&quot;—the computer equivalent of looking for an empty parking space in a parking lot (and knowing when to give up). Algorithms like this are easy to design. Many of the algorithms we'll see in this course are like that.
+
+In other cases, the algorithms are very complex, or very subtle, and coming up with them is a deep intellectual challenge. Furthermore, the impact of a better algorithm on society can be very large. For example, new algorithms in the field of computational science—modeling chemical and biological reactions with computer simulations—can lead to breakthroughs such as new drugs to fight disease, or renewable sources of energy.
+
+And often, what goes along with finding a good algorithm is finding a good abstraction of the real world concepts we are interested in: cells, molecules, oil fields, words, sentences, students, courses, GPAs, etc. Algorithms and abstractions really go hand-in-hand.
 
 ## Coding, or Writing Software, or Programming
 
@@ -107,7 +110,8 @@ The same is true of programming. Programming is not a series of facts to be memo
 # What you need to learn to become <br />a skilled beginning level programmer
 
 
-<p>So, what is it that you need to know to be a skilled beginning-level programmer in Python? Here's the  list of what you'll need to be ready for CS16 (the next programming course):</p>
+So, what is it that you need to know to be a skilled beginning-level programmer in Python? Here's the  list of what you'll need to be ready for CMPSC&nbsp;16 (aka CS16, the next programming course):
+
 <table border="1" cellspacing="1" cellpadding="1" id="topicTable">
   <tr>
     <td><ul class="style11">
