@@ -5,6 +5,11 @@ ready: false
 date: 2017-08-09 09:30:00.00-7:00
 ---
 
+# Questions and Answers
+
+* Q: Installing Python?
+* A: Visit http://python.org/download
+
 # lab00 and lab01
 
 * lab00 is now ready for you to work on it.
