@@ -5,6 +5,12 @@ ready: false
 date: 2017-08-09 09:30:00.00-7:00
 ---
 
+# Code from today's lecture
+
+Including the Turtle code
+
+<https://github.com/ucsb-cs8-m17/lecture2_0809>
+
 # Questions and Answers
 
 * Q: Installing Python?
