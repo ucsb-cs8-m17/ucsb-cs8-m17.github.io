@@ -8,6 +8,15 @@ due: 2017-08-16 17:00:00.00-7
 submit_cs_pnum: tbd
 ---
 
+
+<div style="font-size:200%; border: 5px solid red;" markdown="1">
+
+PLEASE DON'T START THIS LAB YET!
+
+I'm still doing major surgery on it...
+
+</div>
+
 In this lab, you'll practice:
 
 * Creating a file that has some functions in it
@@ -85,6 +94,29 @@ In this session, you have:
 Briefly: your job is to fix the two functions defined in `tempConversions.py` so that they are correct.  Initially, it may appear that they *are* correct, because they are passing all of their test cases, as evidenced by the fact they when we click "test", the code appears "green".  However, we soon see that our tests are not complete enough.    So we first copy/paste two additional tests into the file `test_tempConversions.py`, and then the tests fail.   We then can correct the code and see that the functions are now correct.
 
 Once you've tried the code in cyber-dojo.org, we'll go over how to do this in submit.cs as well.
+
+# Instructions
+
+The tempConversion.py files contains two functions for converting
+between fahrenheit and celsius.    They are correct for some of the
+test cases given.  But there are additional test cases that don't pass.
+
+
+(1) Click "test" and see that the code is green, initially, i.e.
+    it passes all of its test cases.
+
+(2) Copy and paste the following two additional test cases into 
+    test_tempConversion.py.   See that the code now fails these two
+    additional test cases.
+
+  def test_fToC_212_gives_100(self):
+    self.assertAlmostEqual( 100.0,  fToC(212.0) )
+
+  def test_cToF_100_gives_212(self):
+    self.assertAlmostEqual( 212.0,  cToF(100.0) )
+
+(3) Fix the code so that it passes the new test cases and is green.
+
 
 # Step-by-Step
 
