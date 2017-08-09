@@ -16,8 +16,8 @@ date: 2017-08-09 09:30:00.00-7:00
 * Eventually, we'll explain how to work on labs on your own computer.
    * If you want a head start on that, come to office hours with your laptop, and we'll go over it with you.
 * For now, if you want to work on it before Friday, come to:
-   * Office hours in Phelps, today (Wed 08/09/2017, 3-5pm) or
-   * Go to CSIL, Mon-Fri 8am-5pm
+   * Office hours in <s>Phelps</s> CSIL, today (Wed 08/09/2017, 3-<s>5pm</s>4:45pm) or
+   * Go to CSIL, Mon-Fri 8am-4:45pm
    * The instructions for [lab00](/lab/lab00/) explain where CSIL is (ocean side of HFH)
    
    
