@@ -9,7 +9,11 @@ date: 2017-08-09 09:30:00.00-7:00
 
 Including the Turtle code
 
+
 <https://github.com/ucsb-cs8-m17/lecture2_0809>
+
+Wednesday's lecture (temporary): <https://github.com/ucsb-cs8-m17/Lecture3_0810>
+
 
 # Questions and Answers
 
