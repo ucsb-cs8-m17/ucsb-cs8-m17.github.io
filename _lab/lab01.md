@@ -55,3 +55,32 @@ Your first step is to plan our your letters.
 To do that, we have a worksheet, [IC00](/hwk/ic00/) for you to complete.
 
 Start on that first, then refresh this page for more instructions.
+
+# The programming part
+
+## Step 1: Create a lab01 directory under your cs8 directory
+
+In [lab00](/lab/lab00) you created a directory `~/cs8/lab00` and, if
+you followed the instructions to the letter, your `hello.py` file
+is located in that directory.
+
+You should now create a directory called `~/cs8/lab01` for a file
+we are going to call `lab01.py`.
+
+To do that, use the commands below.
+
+(Just like last week, your prompt may not be exactly like the one shown here.  Instead of `-bash-4.2$ `, you might have something like `[cgaucho@cstl-15 ~]$ `.    The `cgaucho` here is your username, the `cstl-15` is where you are logged in, and the `~` is your current directory.    Don't be distracted by this detail.)
+
+
+<pre>-bash-4.2$ <strong>cd</strong>
+-bash-4.2$ <strong>pwd</strong>
+/<em>cs</em>/<em>student</em>/<em>yourusername</em>
+-bash-4.2$ <strong>cd cs8</strong>
+-bash-4.2$ <strong>pwd</strong>
+/<em>cs</em>/<em>student</em>/<em>yourusername</em>/cs8
+-bash-4.2$ <strong>mkdir lab01</strong>
+-bash-4.2$ <strong>cd lab01</strong>
+-bash-4.2$ <strong>pwd</strong>
+/<em>cs</em>/<em>student</em>/<em>yourusername</em>/cs8/lab01
+-bash-4.2$
+</pre>
