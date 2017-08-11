@@ -84,3 +84,26 @@ To do that, use the commands below.
 /<em>cs</em>/<em>student</em>/<em>yourusername</em>/cs8/lab01
 -bash-4.2$
 </pre>
+
+## Step 2: Open `idle3` and create `lab01.py`
+
+Open up `idle3` and select the menu option `File => New File` to create a new file.
+
+In this file, put this code (but put your name instead of "your name goes here")
+
+```
+# lab01.py, your name goes here
+import turtle
+
+t = turtle.Turtle()
+
+```
+
+You can name your turtle anything you like; I used `t` because it's short to type.
+
+Optionally, you can make your turtle look like a turtle by typing this:
+
+```
+t.shape("turtle")
+```
+
