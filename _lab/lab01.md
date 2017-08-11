@@ -257,6 +257,7 @@ Then, we'll try adding in code to call the function for the new letter.    We pr
 <table>
 <tr>
 <td markdown="1">
+
 ```
 drawA(50,100)
 t.up()
@@ -272,11 +273,12 @@ t.down()
 drawX(50,100)
 
 ```
+</td>
 <td>
-<tr>
 OR
 </td>
 <td markdown="1">
+
 ```
 drawA(50,100)
 t.up()
