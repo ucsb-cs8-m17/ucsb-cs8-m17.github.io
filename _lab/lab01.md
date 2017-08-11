@@ -128,6 +128,8 @@ After entering the function definition, at the bottom try a sample
 function call with some width and height (e.g. `drawA(50,100)`).  The
 function call should NOT be indented, just as shown in the example below.
 
+Try running it and see if the letter looks ok.  Make changes until you see that it can draw the letter properly.
+
 ```
 def drawA(width, height):
     """
@@ -180,3 +182,31 @@ def drawA(width, height):
 drawA(50,100)
 
 ```
+
+## Step 4: Make sure first letter function is reusable
+
+Now, we want to make sure your function is general enough to be able to draw your letter:
+
+* at different places on the screen
+* at different heights and widths
+
+To make sure that you can draw your first letter at two different places, change the function call
+at the bottom of the file from something like this:
+
+```
+drawA(50,100)
+```
+
+to something like this, that draws an A of width 50 and height 100, picks up the pen and moves to a new location,
+and then draws the A again with a different width and height.
+
+```
+drawA(50,100)
+t.up()
+t.goto(200,0)
+drawA(40,80)
+```
+
+If your code is written in a general way, i.e. the `drawA` routine works ONLY with the `startX`, `startY`, `width`, and `height` values, both letters should look good.  If one of them looks incorrect, then see if you can determine what is wrong with your code.
+
+When you see two good drawings of your first letter, you are ready for the next step.
