@@ -202,8 +202,12 @@ and then draws the A again with a different width and height.
 
 ```
 drawA(50,100)
+
+# a new line
 t.up()
 t.goto(-200,-200)
+t.down()
+
 drawA(40,80)
 ```
 
@@ -243,8 +247,12 @@ Keep the code that has the actual function calls *at the bottom* of the file.  T
 
    ```
    drawA(50,100)
+   
+   # a new line
    t.up()
    t.goto(-200,-200)
+   t.down()
+
    drawA(40,80)
    # etc ...
    
@@ -272,8 +280,12 @@ After (using `t.goto()`)
 
 ```
 drawA(50,100)
+
+# a new line
 t.up()
 t.goto(-200,-200)
+t.down()
+
 drawA(40,80)
 ```
 </td>
@@ -283,20 +295,21 @@ drawA(40,80)
 ```
 drawA(50,100)
 
-# Pick up pen, over a bit, put it back down
+# a bit of space
 t.up()
 t.forward(10)
 t.down()
 
 drawX(50,100)
 
+# a new line
 t.up()
 t.goto(-200,-200)
 t.down()
 
 drawA(40,80)
 
-# Pick up pen, over a bit, put it back down
+# a bit of space
 t.up()
 t.forward(10)
 t.down()
@@ -310,7 +323,7 @@ drawX(50,100)
 ```
 drawA(50,100)
 
-# Pick up pen, move to new location, put it back down
+# a bit of space
 t.up()
 t.goto(60,0)
 t.down()
@@ -318,15 +331,15 @@ t.down()
 drawX(50,100)
 
 
-# Pick up pen, move to new location, put it back down
+# a new line
 t.up()
 t.goto(-200,-200)
 t.down()
 
 drawA(40,80)
 
-# Pick up pen, move to new location, put it back down
 
+# a bit of space
 t.up()
 t.goto(-150,-200)
 t.down()
