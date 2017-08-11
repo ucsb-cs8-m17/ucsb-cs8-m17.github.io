@@ -250,12 +250,34 @@ Keep the code that has the actual function calls *at the bottom* of the file.  T
    
    ```
    
-Try running the code again after adding the function definition for your new letter.  Make sure you don't get any error messages&mdash;if you do, fix those before continuing.
+Try running the code again after adding the function definition for your new letter (e.g. `def drawX(width,height): ...`.  Make sure you don't get any error messages&mdash;if you do, fix those before continuing.
 
-Then, we'll try adding in code to call the function for the new letter.    We probably want to move over a bit before drawing it.  We can do that with with `t.forward()` or another `t.goto()` with some numbers:
+Then, we'll try adding in code to call the function for your second letter, for example `drawX(100,200)`.    We probably want to move the turtle over a bit before drawing the second letter.  We can do that with with `t.forward()` or another `t.goto()` with some numbers, as shown in the two options below.  
 
 <table>
 <tr>
+<th>
+Before
+</th>
+<th>
+After (using `t.forward()`)
+</th>
+<th>
+After (using `t.goto()`)
+</th>
+</tr>
+
+<tr>
+<td markdown="1">
+
+```
+drawA(50,100)
+t.up()
+t.goto(-200,-200)
+drawA(40,80)
+```
+</td>
+
 <td markdown="1">
 
 ```
@@ -273,9 +295,6 @@ t.down()
 drawX(50,100)
 
 ```
-</td>
-<td>
-OR
 </td>
 <td markdown="1">
 
