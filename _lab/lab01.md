@@ -203,7 +203,7 @@ and then draws the A again with a different width and height.
 ```
 drawA(50,100)
 t.up()
-t.goto(200,0)
+t.goto(-200,-200)
 drawA(40,80)
 ```
 
@@ -244,10 +244,56 @@ Keep the code that has the actual function calls *at the bottom* of the file.  T
    ```
    drawA(50,100)
    t.up()
-   t.goto(200,0)
+   t.goto(-200,-200)
    drawA(40,80)
    # etc ...
    
    ```
    
-Try running the code again after adding the second function definition to draw a letter.  Make sure you don't get any error messages&mdash;if you do, fix those before continuing.
+Try running the code again after adding the function definition for your new letter.  Make sure you don't get any error messages&mdash;if you do, fix those before continuing.
+
+Then, we'll try adding in code to call the function for the new letter.    We probably want to move over a bit before drawing it.  We can do that with with `t.forward()` or another `t.goto()` with some numbers:
+
+<table>
+<tr>
+<td markdown="1">
+```
+drawA(50,100)
+t.up()
+t.forward(10)
+t.down()
+drawX(50,100)
+
+t.up()
+t.goto(-200,-200)
+drawA(40,80)
+t.forward(10)
+t.down()
+drawX(50,100)
+
+```
+<td>
+<tr>
+OR
+</td>
+<td markdown="1">
+```
+drawA(50,100)
+t.up()
+t.goto(60,0)
+t.down()
+drawX(50,100)
+
+t.up()
+t.goto(-200,-200)
+drawA(40,80)
+t.up()
+t.goto(-150,-200)
+t.down()
+drawX(50,100)
+
+```
+</td>
+</tr>
+</table>
+
