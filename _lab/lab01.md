@@ -210,3 +210,44 @@ drawA(40,80)
 If your code is written in a general way, i.e. the `drawA` routine works ONLY with the `startX`, `startY`, `width`, and `height` values, both letters should look good.  If one of them looks incorrect, then see if you can determine what is wrong with your code.
 
 When you see two good drawings of your first letter, you are ready for the next step.
+
+## Step 5: Add the function for the next letter or number
+
+Now we are going to add another function just like the first, right under it.
+
+Keep the code that has the actual function calls *at the bottom* of the file.  The order should be:
+
+* First, the code that imports and sets up the turtle, i.e.
+   ```
+   import turtle
+   t = turtle.Turtle()
+   t.shape("turtle")
+   
+   ```
+* Second, the functions definitions for `drawA`, `drawX`, etc., e.g.
+   ```
+   def drawA(width,height):
+   
+      startX = t.xcor()
+      startY = t.ycor()
+      
+      # etc..
+   
+   def drawX(width,height):
+      
+      # code for drawX is here, indented...
+     
+   ```
+   
+* Then, last, the section of code with function calls that draw your letters
+
+   ```
+   drawA(50,100)
+   t.up()
+   t.goto(200,0)
+   drawA(40,80)
+   # etc ...
+   
+   ```
+   
+Try running the code again after adding the second function definition to draw a letter.  Make sure you don't get any error messages&mdash;if you do, fix those before continuing.
