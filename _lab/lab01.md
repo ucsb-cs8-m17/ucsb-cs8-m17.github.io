@@ -259,10 +259,10 @@ Then, we'll try adding in code to call the function for your second letter, for 
 <th>
 Before
 </th>
-<th>
+<th markdown="1">
 After (using `t.forward()`)
 </th>
-<th>
+<th markdown="1">
 After (using `t.goto()`)
 </th>
 </tr>
@@ -282,16 +282,25 @@ drawA(40,80)
 
 ```
 drawA(50,100)
+
+# Pick up pen, over a bit, put it back down
 t.up()
 t.forward(10)
 t.down()
+
 drawX(50,100)
 
 t.up()
 t.goto(-200,-200)
+t.down()
+
 drawA(40,80)
+
+# Pick up pen, over a bit, put it back down
+t.up()
 t.forward(10)
 t.down()
+
 drawX(50,100)
 
 ```
@@ -300,21 +309,31 @@ drawX(50,100)
 
 ```
 drawA(50,100)
+
+# Pick up pen, move to new location, put it back down
 t.up()
 t.goto(60,0)
 t.down()
+
 drawX(50,100)
 
+
+# Pick up pen, move to new location, put it back down
 t.up()
 t.goto(-200,-200)
+t.down()
+
 drawA(40,80)
+
+# Pick up pen, move to new location, put it back down
+
 t.up()
 t.goto(-150,-200)
 t.down()
+
 drawX(50,100)
 
 ```
 </td>
 </tr>
 </table>
-
