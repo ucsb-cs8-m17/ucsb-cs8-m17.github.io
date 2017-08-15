@@ -12,7 +12,6 @@ Including the Turtle code
 
 <https://github.com/ucsb-cs8-m17/lecture2_0809>
 
-Wednesday's lecture (temporary): <https://github.com/ucsb-cs8-m17/Lecture3_0810>
 
 
 # Questions and Answers
