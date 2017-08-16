@@ -233,7 +233,37 @@ python3 -m pytest convert.py
 You should see output like this:
 
 ```
-TODO FILL THIS IN
+169-231-175-204:lab02 pconrad$ python3 -m pytest convert.py
+==================================== test session starts ====================================
+platform darwin -- Python 3.6.2, pytest-3.2.1, py-1.4.34, pluggy-0.4.0
+rootdir: /Users/pconrad/github/ucsb-cs8/Lecture5_0816/lab02, inifile:
+collected 4 items                                                                            
+
+convert.py ..FF
+
+========================================= FAILURES ==========================================
+_____________________________________ test_fToC_boiling _____________________________________
+
+    def test_fToC_boiling():
+>      assert fToC(212.0)==pytest.approx(100.0)
+E      assert 180.0 == 100.0 ± 1.0e-04
+E       +  where 180.0 = fToC(212.0)
+E       +  and   100.0 ± 1.0e-04 = <function approx at 0x1026c40d0>(100.0)
+E       +    where <function approx at 0x1026c40d0> = pytest.approx
+
+convert.py:16: AssertionError
+_____________________________________ test_cToF_boiling _____________________________________
+
+    def test_cToF_boiling():
+>      assert cToF(100.0)==pytest.approx(212.0)
+E      assert 132.0 == 212.0 ± 2.1e-04
+E       +  where 132.0 = cToF(100.0)
+E       +  and   212.0 ± 2.1e-04 = <function approx at 0x1026c40d0>(212.0)
+E       +    where <function approx at 0x1026c40d0> = pytest.approx
+
+convert.py:19: AssertionError
+============================ 2 failed, 2 passed in 0.03 seconds =============================
+169-231-175-204:lab02 pconrad$ 
 ```
 
 
