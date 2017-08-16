@@ -395,9 +395,8 @@ Navigate to that page, and upload your `hello.py` file.
 
 If you are working on the ECI/CSIL/lab linux systems, you can also submit at the command line with this command:
 
-```
-~submit/submit ~/cs8/lab01/lab01.py
-```
+
+<tt>~submit/submit -p {{page.submit_cs_pnum}} ~/cs8/lab01/lab01.py</tt>
 
 It will ask for your email address: use your full umail address (e.g. `cgaucho@umail.ucsb.edu`).  For password, use the password that you enter for the submit.cs system.    You may save these credentials if you don't want to have to type them in every time.
 
