@@ -335,7 +335,7 @@ Here's how to understand `pytest` output.
    convert.py:16: AssertionError
    ```
    <style>
-   span.wide {text-align:center; padding: 0px 100px 0px 100px; color:blue;}
+   span.wide {text-align:center; padding: 0px 200px 0px 200px; color:red;}
    </style>
    
    What does all of this mean?  In general, its a breakdown of why the assertion turned out to be false, showing every step in the calculation.  Let's break it down one line at a time:
