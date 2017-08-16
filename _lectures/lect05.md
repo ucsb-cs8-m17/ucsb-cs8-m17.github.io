@@ -20,6 +20,14 @@ date: 2017-08-16 09:30:00.00-7:00
    * Having different functions that draw the same letter (reuse is the whole idea of functions!)   
    * Having functions "hard coded" points (specific places rather than points calculuated in terms of `startX`, `startY`, `width`, `height`
    
+# More on pytest
+
+When we write a function, we want to test whether the function works properly or not.
+
+Doing that by hand is tedious.   We might start cutting corners.
+
+So, it is good practice to automate that.  We'll show how that works.
+
 
 # Code from today's lecture
 
