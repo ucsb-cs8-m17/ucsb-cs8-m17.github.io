@@ -3,22 +3,10 @@ layout: lab
 num: lab02
 ready: false
 desc: "FtoC and CtoF with test cases"
-assigned: 2017-08-10 09:30:00.00-7
-due: 2017-08-16 17:00:00.00-7
-submit_cs_pnum: tbd
+assigned: 2017-08-17 09:30:00.00-7
+due: 2017-08-23 16:45:00.00-7
+submit_cs_pnum: 770
 ---
-
-
-<div style="font-size:200%; border: 5px solid red;" markdown="1">
-
-PLEASE DON'T START THIS LAB YET!
-
-I'm still doing major surgery on it...
-
-</div>
-
-
-
 
 In this lab, you'll practice:
 
