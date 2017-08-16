@@ -17,7 +17,21 @@ In this lab, you'll practice:
 * Submitting your functions and test cases to submit.cs for grading
 
 
-# Step 0: Warmup--experiencing floating point inaccuracy
+# Step 0: Install pytest for your account (or on your machine)
+
+This lab is one that you may find you need to do on the CSIL machines.  You need to start by logging in and typing
+this command at at terminal session (the Unix Terminal prompt)
+
+```
+pip3 install --user pytest
+```
+
+The output should look something like this:
+
+```
+```
+
+# Step 1: Warmup--experiencing floating point inaccuracy
 
 Bring up a terminal window, and just type `python3`.  This should give you the Python Shell Prompt (`>>>`) where you can type in some expressions and see the resulting values.
 
