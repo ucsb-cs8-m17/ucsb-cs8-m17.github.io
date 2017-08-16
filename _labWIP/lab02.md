@@ -149,12 +149,32 @@ Add this line at the top of your convert.py file:
 import pytest
 ```
 
-Then, add the following code to your `convert.py` file after the function definitions for `ftoC` and `cToF`.
+Then, add the following code to your `convert.py` file after the function definitions for `ftoC` and `cToF` that defines four automated tests:
 
-We are using pytext.approx() here because any time you are testing with floating point numbers, we have to be aware that there may be some inaccuracy, as we discussed earlier.  
+```
+def test_fToC_freezing():
+   assert fToC(32.0)==pytest.approx(0.0) 
+
+def test_cToF_freezing():
+   assert cToF(0.0)==pytest.approx(32.0) 
+
+def test_fToC_boiling():
+   assert fToC(212.0)==pytest.approx(100.0) 
+
+def test_cToF_boiling():
+   assert cToF(100.0)==pytest.approx(212.0) 
+```
+
+These are automated tests that use a module known as `pytest`.  When defining tests using the `pytest` module, we typically define functions that:
+
+* have names that start with `test_` or end with `_test`
+* end with exactly one `assert` statement&mdash;that is, the keyword `assert` followed by a boolean expresssion.  
+
+If the expresssion after `assert` is true, the test passes, otherwise it fails
+
+We are using `pytext.approx()` here because any time you are testing with floating point numbers, we have to be aware that there may be some inaccuracy, as we discussed earlier.  
 
 (Recall our discussion of what happens when you multiple `math.sqrt(2.0)` by itself.  Here, its probably overkill since we aren't using any irrational numbers, but it is still safer to always use some way of approximating equality when dealing with floating point.)
-
 
 You can click the plus to open a dropdown showing what your entire file should look like at this point:
 
@@ -172,16 +192,16 @@ def cToF(cTemp):
     return cTemp + 32
     
 def test_fToC_freezing():
-   assert ftoC(32.0)==pytest.approx(0.0) 
+   assert fToC(32.0)==pytest.approx(0.0) 
 
 def test_cToF_freezing():
    assert cToF(0.0)==pytest.approx(32.0) 
 
-def test_fToC_freezing():
-   assert ftoC(32.0)==pytest.approx(0.0) 
+def test_fToC_boiling():
+   assert fToC(212.0)==pytest.approx(100.0) 
 
-def test_cToF_freezing():
-   assert cToF(0.0)==pytest.approx(32.0) 
+def test_cToF_boiling():
+   assert cToF(100.0)==pytest.approx(212.0) 
 
 ```
 
