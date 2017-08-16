@@ -232,7 +232,7 @@ python3 -m pytest convert.py
 
 You should see output like this:
 
-```
+```text
 169-231-175-204:lab02 pconrad$ python3 -m pytest convert.py
 ==================================== test session starts ====================================
 platform darwin -- Python 3.6.2, pytest-3.2.1, py-1.4.34, pluggy-0.4.0
