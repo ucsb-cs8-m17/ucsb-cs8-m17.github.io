@@ -334,10 +334,13 @@ Here's how to understand `pytest` output.
 
    convert.py:16: AssertionError
    ```
+   <style>
+   span.wide {text-align:center; padding: 0px 100px 0px 100px; color:blue;}
+   </style>
    
    What does all of this mean?  In general, its a breakdown of why the assertion turned out to be false, showing every step in the calculation.  Let's break it down one line at a time:
-  
-   | line of output | meaning |
+   
+   | <span class="wide">line of output</span> | meaning |
    |----------------|----------|
    | `def test_fToC_boiling():` |  first line of the failing test case |
    |`E      assert 180.0 == 100.0 ± 1.0e-04` | This is the assertion that turned out not to be true |
