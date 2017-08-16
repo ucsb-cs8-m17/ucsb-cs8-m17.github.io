@@ -73,7 +73,7 @@ how big that difference is.  The `4` digit is only the tip of the very, very, ve
 >>> 
 ```
 
-This fact is going to be annoying to us many times.   One consequence is that <strong>when we test software involving floating point numbers, we must allow for some inaccuracy</b>.   This "allowable inaccuracy" is sometimes called the <em>tolerance</em>, and it might be a small value such as `0.001`, or `0.000001`
+This fact is going to be annoying to us many times.   One consequence is that <strong>when we test software involving floating point numbers, we must allow for some inaccuracy</strong>.   This "allowable inaccuracy" is sometimes called the <em>tolerance</em>, and it might be a small value such as `0.001`, or `0.000001`
 
 Values such as this are typically written in scientific notation, e.g. 1x10<sup>-3</sup> or 1x10<sup>-6</sup>.
 
