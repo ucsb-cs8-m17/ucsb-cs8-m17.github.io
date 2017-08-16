@@ -143,30 +143,81 @@ One of the problems with testing by hand is that it is tedious, and folks have a
 
 # Step 4: Setting up automated tests
 
-Add the line `import pytest` to the top of your `convert.py` file.
+Add this line at the top of your convert.py file:
+
+```
+import pytest
+```
 
 Then, add the following code to your `convert.py` file after the function definitions for `ftoC` and `cToF`.
 
-We are using pytext.approx() here because any time you are testing with floating point numbers, we have to be aware that there may be some inaccuracy.
+We are using pytext.approx() here because any time you are testing with floating point numbers, we have to be aware that there may be some inaccuracy, as we discussed earlier.  
+
+(Recall our discussion of what happens when you multiple `math.sqrt(2.0)` by itself.  Here, its probably overkill since we aren't using any irrational numbers, but it is still safer to always use some way of approximating equality when dealing with floating point.)
+
+
+You can click the plus to open a tab showing what your entire file should look like at this point:
+
+<div id="info" data-role="collapsible" data-collapsed="true" markdown="1">
+
+## Contents of `convert.py` so far
 
 ```
+import pytest
+
+def fToC(fTemp):
+    return fTemp - 32
+
+def cToF(cTemp):
+    return cTemp + 32
+    
 def test_fToC_freezing():
    assert ftoC(32.0)==pytest.approx(0.0) 
 
 def test_cToF_freezing():
    assert cToF(0.0)==pytest.approx(32.0) 
 
-      
+def test_fToC_freezing():
+   assert ftoC(32.0)==pytest.approx(0.0) 
+
 def test_cToF_freezing():
-   assert( cToF(100.0)==approx(212.0) )
-   assert( cToF(0.0)==approx(32.0) )
-   assert( cToF(-40.0)==approx(-40.0) )   
-   
+   assert cToF(0.0)==pytest.approx(32.0) 
 
 ```
 
-      
-      
+
+</div>
+
+After entering this, save the file and use "Run Module" to make sure there are no error messages (red output in the Python Shell Window.).  If not, then you are ready for the next step.
+            
+# Step 5: Running the test cases
+        
+Running the test cases requires us to go <em>outside of IDLE</em> back to the terminal shell prompt.  
+
+Your current directory needs to be the same one that your convert.py file is stored in.    That should be `~/cs8/lab02`, but if it isn't, then fix things so that the `convert.py` file is in that directory, and you are in that directory.   If you need help, ask for assistance.
+
+You should be able to type the `ls` command  (or on Windows, `dir`) at the terminal shell prompt and see the `convert.py` file listed:
+
+```
+your-prompt-here $ ls
+convert.py
+your-prompt-here $ 
+```
+
+When that's the case, try this command:
+
+```
+python3 -m pytest convert.py
+```
+
+You should see output like this:
+
+```
+TODO FILL THIS IN
+```
+
+
+            
 # Step 4: Add some more test cases
    
 Add the code below to your test cases   
