@@ -9,9 +9,17 @@ date: 2017-08-16 09:30:00.00-7:00
 
 * How to get a good grade
 
-* How to get a bad grade
+   * Carefully review the criteria on the [lab01 description](/lab/lab01/)
+   * Make sure you are following all of those.
 
-   * Not having TWO appearances of each letter and number at TWO different sizes.
+* How to get a bad grade
+   * Not having TWO appearances of each letter and number at TWO different sizes (to illustrate that your function works as it should)
+   
+* Other ways to get a bad grade
+   * Not using functions to draw the letters 
+   * Having different functions that draw the same letter (reuse is the whole idea of functions!)   
+   * Having functions "hard coded" points (specific places rather than points calculuated in terms of `startX`, `startY`, `width`, `height`
+   
 
 # Code from today's lecture
 
