@@ -156,7 +156,7 @@ We are using pytext.approx() here because any time you are testing with floating
 (Recall our discussion of what happens when you multiple `math.sqrt(2.0)` by itself.  Here, its probably overkill since we aren't using any irrational numbers, but it is still safer to always use some way of approximating equality when dealing with floating point.)
 
 
-You can click the plus to open a tab showing what your entire file should look like at this point:
+You can click the plus to open a dropdown showing what your entire file should look like at this point:
 
 <div id="info" data-role="collapsible" data-collapsed="true" markdown="1">
 
