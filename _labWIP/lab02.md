@@ -230,7 +230,8 @@ When that's the case, try this command:
 python3 -m pytest convert.py
 ```
 
-You should see output like this:
+You should see output like this.  It may be a little overwhelming at first, but don't let it intimidate you. Once you know what you are looking for, it is very easy to read.    After the output, there is a guide to understanding it.
+
 
 ```text
 169-231-175-204:lab02 pconrad$ python3 -m pytest convert.py
@@ -265,6 +266,88 @@ convert.py:19: AssertionError
 ============================ 2 failed, 2 passed in 0.03 seconds =============================
 169-231-175-204:lab02 pconrad$ 
 ```
+
+Ok, let's now break down this output.
+
+# Step 6: Understanding the output of pytest
+
+Here's how to understand `pytest` output. 
+
+1.  <b>Get the big picture first from the <tt>convert.py ..FF</tt> line</b>. 
+
+   Look for a line near the beginning that has the name of your file, followed by a list of either dots, 
+   letter 'E' or letter 'F' characters, like this one:
+
+   ```
+   convert.py ..FF
+   ```
+   
+   In this case, the `.` characters are tests that passed.  If you have four tests, the ideal thing you'd want to see is <tt>convert.py&nbsp;....</tt> which means that four tests for <tt>convert.py</tt> all passed. 
+   
+   Instead, here, we see `..FF`, which means we had two test failures.   Later in the output, we'll see more detail about
+   each of those failures.
+   
+2. <b>Understand the overall structure of the output.</b>
+
+   The rest of the output will be divided into sections, one for each failure.  Here is what it look like with the
+   details taken out so that you can see the big picture more easily:
+   
+
+   ```text
+   ==================================== test session starts ====================================
+   (blah blah here that you can ignore)
+   
+   convert.py ..FF
+   ========================================= FAILURES ==========================================
+   _____________________________________ test_fToC_boiling _____________________________________
+
+   ...
+   (details about the first test case failure are here)
+   ...
+   
+   _____________________________________ test_cToF_boiling _____________________________________
+
+   ...
+   (details about the second test case failure are here)
+   ...
+   
+   ========================= 2 failed, 2 passed in 0.03 seconds =============================
+   ```
+   
+   Note that the last line gives us a nice summary: `2 failed, 2 passed in 0.03 seconds`.   We now know that 
+   we need to focus on the two failures.   And the headers tell us which test cases failed, namely `test_fToC_boiling`
+   and `test_cToF_boiling`.   So let's focus on those next, by first looking in detail at the first one:
+ 
+ 3.   <b>Focus in on the first test case failure.</b>
+ 
+   Let's focus just on the detailed output for the first test case failure, `test_fToC_boiling`.  What is this saying?
+    
+   ```text
+   _____________________________________ test_fToC_boiling _____________________________________
+
+   def test_fToC_boiling():
+   >      assert fToC(212.0)==pytest.approx(100.0)
+   E      assert 180.0 == 100.0 ± 1.0e-04
+   E       +  where 180.0 = fToC(212.0)
+   E       +  and   100.0 ± 1.0e-04 = <function approx at 0x1026c40d0>(100.0)
+   E       +    where <function approx at 0x1026c40d0> = pytest.approx
+
+   convert.py:16: AssertionError
+   ```
+   
+   What does all of this mean?  In general, its a breakdown of why the assertion turned out to be false, showing every step in the calculation.  Let's break it down one line at a time:
+  
+   | line of output | meaning |
+   |----------------|----------|
+   | `def test_fToC_boiling():` |  first line of the failing test case |
+   |`E      assert 180.0 == 100.0 ± 1.0e-04` | This is the assertion that turned out not to be true |
+   |`E       +  where 180.0 = fToC(212.0)` | This tells us why `180.0` was on the left hand side of the `==`.  It was the result of computing `ftoC(212.0)` |
+   |`E       +  and   100.0 ± 1.0e-04 = <function approx at 0x1026c40d0>(100.0)` | This tells us why `100.0 ± 1.0e-04` was on the right hand side of the `==`.  It shows the expected value (`100.0`) and the tolerance (` ± 1.0e-04`).
+   |`E       +    where <function approx at 0x1026c40d0> = pytest.approx` | This tells us that `pytest.approx` was used to calculate the tolerance. |
+   | &nbsp; | &nbsp; |
+   |`convert.py:16: AssertionError` | This shows which line in the file `convert.py` had the failed assertion, namely, line 16.  That helps us find the error faster if we are dealing with a large file of code.|
+   
+   
 
 
             
