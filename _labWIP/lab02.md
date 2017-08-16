@@ -441,9 +441,9 @@ Navigate to that page, and upload your `convert.py` file.
 
 Or, if you are working on the ECI/CSIL/lab linux systems, you can also submit at the command line with this command, provided you are in the correct folder/diretory:
 
-```
+
 <tt>~submit/submit -p {{page.submit_cs_pnum}} convert.py</tt>
-```
+
 
 The first time you use this method, it will ask for your email address: use your full umail address (e.g. `cgaucho@umail.ucsb.edu`).  For password, use the password that you enter for the submit.cs system.    You may save these credentials if you don't want to have to type them in every time.
 
