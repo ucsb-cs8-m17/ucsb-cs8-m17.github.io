@@ -1,6 +1,6 @@
 ---
 num: "Lecture 4"
-desc: "functions, pytest, test cases"
+desc: "logging in from Mac via ssh, Windows via MobaXTerm"
 ready: false
 date: 2017-08-15 09:30:00.00-7:00
 ---
