@@ -29,6 +29,58 @@ In this lab, you'll practice:
 * Submitting your functions and test cases to submit.cs for grading
 
 
+# Step 0: Warmup--experiencing floating point inaccuracy
+
+Bring up a terminal window, and just type `python3`.  This should give you the Python Shell Prompt (`>>>`) where you can type in some expressions and see the resulting values.
+
+Type in the `import math`, followed by `math.sqrt(2)`.  It should look like this:
+
+```
+>>> import math
+>>> math.sqrt(2)
+1.4142135623730951
+>>> 
+```
+
+The value we get back is the square root of 2, which is an irrational number&mdash;its decimal representation goes on forever.  Unfortunately, computers store number with a finite number of decimal places&dagger;.   So, the representation we see for the square root of two, $$ \sqrt(2) $$ is really in fact an approximation.
+
+<div style="font-size:80%">
+&dagger;&nbsp;Technically, "binary places", but for purposes of this discussion it amounts to the same thing.)
+</div>
+
+
+We can see this if we multiply `math.sqrt(2)` by itself.  Try it:
+
+```
+>>> math.sqrt(2) * math.sqrt(2)
+2.0000000000000004
+>>> 
+```
+
+See that pesky `4` digit in the ten quadrillionths place?   My goodness, we are really, really close to 2.0, but if we ask whether the values are equal, Python says no:
+
+```
+>>> math.sqrt(2) * math.sqrt(2)== 2.0
+False
+```
+
+In fact, Python is very clear about the difference between `2.0` and `math.sqrt(2) * math.sqrt(2)`, and can even tell us 
+how big that difference is.  The `4` digit is only the tip of the very, very, very small iceberg:
+
+```
+>>> math.sqrt(2) * math.sqrt(2)- 2.0
+4.440892098500626e-16
+>>> 
+```
+
+This fact is going to be annoying to us many times.   One consequence is that <strong>when we test software involving floating point numbers, we must allow for some inaccuracy</b>.   This "allowable inaccuracy" is sometimes called the <em>tolerance</em>, and it might be a small value such as `0.001`, or `0.000001`
+
+Values such as this are typically written in scientific notation, e.g. 1x10<sup>-3</sup> or 1x10<sup>-6</sup>.
+
+In Python, we write this as `1E-6` or `1E-9` respectively.
+
+We'll come back to that idea later in this lab.
+
 # Step 1: Make a `~/cs8/lab02` folder
 
 In previous labs, you should already have created folders `~/cs8/lab00` and `~/cs8/lab01`.  You are now going to create folder `~/cs8/lab02` for the files for this lab.
@@ -42,32 +94,84 @@ So, I'd strongly encourage you to do it.
 
 
 
-# Step 2: Create a file called `tempConversions.py`
+# Step 2: Create a file called `convert.py`
 
-The contents of `test_tempConversions.py` should be as shown below.  This contains two Python function definitions that,
+The contents of `convert.py` should be as shown below.  This contains two Python function definitions that,
 at the moment are incorrect.
 
 Choose "File => New File" in IDLE to bring up an "untitled" window, then copy and paste this code into that window.
 
+Note that the formulas for converting between Celsius and Fahrenheit are incorrect.  That's deliberate, so just go with it for now.  We'll fix those at a later step.
+
+```
+def fToC(fTemp):
+    return fTemp - 32
+
+def cToF(cTemp):
+    return cTemp + 32
+ ``` 
+      
+# Step 3: Test your code by hand
+
+To test this code, we'll first do what many programmers do: test the code by hand.  
+
+That is, we'll run the file in IDLE, and then enter some function calls in the Python shell to see what results we get.  These two functions are supposed to convert between Fahrenheit where water freezes at 32 degrees, and Celsius where it freezes at 0 degrees.  Let's see if they work properly.
+
+Use the Run Module command to run the code, and then try entering these function calls at the Python Shell prompt.  You should see output similar to what is shown below:
+
+```
+>>> fToC(32)
+0
+>>> cToF(0)
+32
+>>> 
 ```
 
-from pytest import approx
+As you can see, for those two particular values, the function appears to return the correct answer&mdash;32 degrees fahrenheit is indeed 0 degrees celsius, and 0 degrees celsius is indeed 32 degrees fahrenheit.  
 
-# tempConversions.py   A module for converting between fahrenheit and celsius
+So clearly, testing with a single value is not enough.  Indeed, if we test with another well known value, 212 Fahrenheit and 100 Celsius (the boiling point of water), we see that the output is incorrect:
 
-# The following starting point code passes some test cases, 
-# but it fails others.  Your job in this lab exercise is to modify the code
-# so that is passes all of the test cases
+```
+>>> fToC(212)
+180
+>>> cToF(100)
+132
+>>> 
+```
 
-def fToC(ftemp):
-      ''' convert fahrenheit to celsius '''
-      return ftemp - 32.0   # TODO: Fix this line of code
-  
-def cToF(ctemp):
-      ''' convert celsius to fahrenheit '''
-      return ctemp + 32.0   # TODO: Fix this line of code
+One of the problems with testing by hand is that it is tedious, and folks have a tendency to skip it.  So, experienced programmers have learned that its generally a better idea to automate the process of testing.     We'll learn how to do that next.   We'll see that when we set up these four tests, two of them will pass, and two of them will fail.
+
+# Step 4: Setting up automated tests
+
+Add the line `import pytest` to the top of your `convert.py` file.
+
+Then, add the following code to your `convert.py` file after the function definitions for `ftoC` and `cToF`.
+
+We are using pytext.approx() here because any time you are testing with floating point numbers, we have to be aware that there may be some inaccuracy.
+
+```
+def test_fToC_freezing():
+   assert ftoC(32.0)==pytest.approx(0.0) 
+
+def test_cToF_freezing():
+   assert cToF(0.0)==pytest.approx(32.0) 
+
+      
+def test_cToF_freezing():
+   assert( cToF(100.0)==approx(212.0) )
+   assert( cToF(0.0)==approx(32.0) )
+   assert( cToF(-40.0)==approx(-40.0) )   
+   
+
+```
+
       
       
+# Step 4: Add some more test cases
+   
+Add the code below to your test cases   
+      
+```      
 def test_fToC():
    assert( ftoC(212.0)==approx(100.0) )
    assert( ftoC(32.0)==approx(0.0) )
@@ -80,8 +184,6 @@ def test_cToF():
    assert( cToF(-40.0)==approx(-40.0) )   
    
 ```
-
-
 
 # Step 5: Try running your program again 
 
