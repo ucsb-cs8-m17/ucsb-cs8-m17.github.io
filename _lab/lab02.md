@@ -19,21 +19,72 @@ In this lab, you'll practice:
 
 # Step 0: Install pytest for your account (or on your machine)
 
-This lab is one that you may find you need to do on the CSIL machines.  You need to start by logging in and typing
-this command at at terminal session (the Unix Terminal prompt)
+This lab is one that you may find you need to do on the CSIL machines.
+
+It is probably the case that `pytest` is not installed for your version
+of Python3.  You can check by typing `python3` at the Terminal prompt
+to get to the Python Shell Prompt `>>>`, and then typing `import pytest`.
+
+If you get an error message like this one, then pytest is not installed.
+
+```
+[cgaucho@csil-12 ~]$ python3
+Python 3.4.3 (default, Aug 9 2016, 15:36:17) [GCC 5.3.1 20160406 (Red Hat 5.3.1-6)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import pytest
+Traceback (most recent call last):
+File "", line 1, in ImportError: No module named 'pytest'
+>>>
+[cgaucho@csil-12 ~]$ pip3 install --user pytest
+```
+
+To install it, type this command into the terminal session
+(the Unix Terminal prompt) to install pytest for your CSIL account:
+
 
 ```
 pip3 install --user pytest
 ```
 
+You can also *try* this command on Mac or Windows.  It might work, or it
+might not.  If it does&mdash;great, then you can do this lab on your own
+machine.  If not, then you'll need to do it on CSIL.
+
 The output should look something like this:
 
 ```
+[cgaucho@csil-12 ~]$ pip3 install --user pytest
+You are using pip version 7.1.0, however version 9.0.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting pytest
+  Downloading pytest-3.2.1-py2.py3-none-any.whl (186kB) 100% 188kB 1.5MB/s
+Collecting py>=1.4.33 (from pytest)
+  Downloading py-1.4.34-py2.py3-none-any.whl (84kB) 100% 86kB 2.0MB/s
+Requirement already satisfied (use --upgrade to upgrade): setuptools in /usr/lib/python3.4/site-packages (from pytest)
+Installing collected packages: py, pytest
+Successfully installed py pytest
+[cgaucho@csil-12 ~]$
 ```
+
+To tell whether it worked or not, try the `import pytest` command again:
+
+
+```
+[cgaucho@csil-12 ~]$ python3
+Python 3.4.3 (default, Aug 9 2016, 15:36:17) [GCC 5.3.1 20160406 (Red Hat 5.3.1-6)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import pytest
+>>>
+```
+
+The lack of an error message (just another `>>>` prompt) means "it worked!".
+We are going to use the Python prompt in the next step anyway, so just stay
+at the Python prompt.  (Or if you need to get out of Python, use CTRL-D to return
+to the Unix shell prompt.)
 
 # Step 1: Warmup--experiencing floating point inaccuracy
 
-Bring up a terminal window, and just type `python3`.  This should give you the Python Shell Prompt (`>>>`) where you can type in some expressions and see the resulting values.
+If you are not already at the Python prompt, bring up a terminal window, and just type `python3`.  This should give you the Python Shell Prompt (`>>>`) where you can type in some expressions and see the resulting values.
 
 Type in the `import math`, followed by `math.sqrt(2)`.  It should look like this:
 
@@ -96,6 +147,9 @@ You can see that Python, by default, formats numbers in this notation once the f
 
 We'll come back to that idea later in this lab.
 
+As a reminder, CTRL-D gets you out of the Python Shell Prompt (`>>>`)
+and returns you to the Unix shell prompt.
+
 
 # Step 1: Make a `~/cs8/lab02` folder
 
@@ -112,10 +166,25 @@ instructions will be written based on the assumption that you did
 things this way.  And if you continue to take CS courses at UCSB,
 you'll often find that's the case from one course to the next.
 
-So, I'd strongly encourage you to do it. 
+So, I'd strongly encourage you to do it.
 
+As a reminder:
 
-# Step 2: Create a file called `convert.py`
+* `cd` returns you to your home directory (e.g. `/cs/student/cgaucho/`)
+* `pwd` prints your current working directory
+* `cd cs8` changes into the cs8 directory under the current directory
+* `cd ~/cs8` changes into the cs8 directory under your home directory <em>regardless of the current working directory (because `~` is a shortcut for the absolute path of
+   your home dirctory.)
+* `mkdir lab02` will create a lab02 directory under your current working directory
+* `ls` lists the files in your current directory
+
+With that information, you should be able to determine how to
+create a `~/cs8/lab02` directory, and make that directory your current
+working directory (the one that comes up when you type `pwd`.)  Do that now.
+
+Then, you are ready for the next step.
+
+# Step 2: Create a file called `convert.py` in your `~/cs8/lab02` directory
 
 The contents of `convert.py` should be as shown below.  This contains
 two Python function definitions that, at the moment are incorrect.
