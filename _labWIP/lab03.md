@@ -244,9 +244,9 @@ Or, if you are working on the ECI/CSIL/lab linux systems, you can also submit at
 
 <tt>~submit/submit -p {{page.submit_cs_pnum}} convert.py</tt>
 
-If you have done the steps so far, you should be able to earn 25/100 points:
+If you have done the steps so far, you should be able to earn 40/100 points:
 
-* 5 for having a python file that compiles called `lab03.py`
+* 20 for having a python file that compiles called `lab03.py`
 * 10 for passing the test cases that you yourself put into the file (you get to see these);
 * 10 more for passing instructor supplied test cases (these, you do not get to see,
    but in this particular case, they are exactly the same as the ones you were given to
@@ -333,8 +333,8 @@ Then:
 * they should all fail (because you have a stub value, -999)
 * finally, replace the code in the function definition for areaRect with the correct code, and see all the tests pass.
 
-Then, submit to submit.cs again, and you should see that you get a few more points toward
- your maximum possible score of 100.
+Then, submit to submit.cs again, and you should see that you get 20  more points toward
+your maximum possible score of 100.
 
 
 # Step 13: Write an `isString` function and some test cases for it
@@ -399,7 +399,7 @@ As a reminder, you can use `-k blah` to run only the tests that have `blah` in t
 python3 -m pytest lab03.py -k isString
 ```
 
-Then finally, try submitting to submit.cs and see if you get the credit for the tests for this function.  If so, keep going!
+Then finally, try submitting to submit.cs and see if you get the credit for the tests for this function.  You should be able to get up to 80/100 at this step.  When you do, keep going&mdash;you are almost at the finish line.
 
 
 # Step 14: Write an `isNumber` function and some test cases for it
