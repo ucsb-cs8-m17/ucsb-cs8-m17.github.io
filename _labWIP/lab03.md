@@ -5,7 +5,7 @@ ready: false
 desc: "More functions with test cases"
 assigned: 2017-08-18 11:00:00.00-7
 due: 2017-08-25 16:50:00.00-7
-submit_cs_pnum: 770
+submit_cs_pnum: 772
 ---
 
 In this lab, you'll get more practice with
