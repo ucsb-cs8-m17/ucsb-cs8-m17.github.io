@@ -137,7 +137,7 @@ def perimRect(length,width):
    """
    Compute perimiter of rectangle
    """
-   return -999.99 # stub  @@@ replace this stub with the correct code @@@
+   return -42.0 # stub  @@@ replace this stub with the correct code @@@
 
    
 ```
