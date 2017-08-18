@@ -27,7 +27,18 @@ unless you have prior permission from the instructor.
 
 # Step 0: Locate a pair partner with whom you are going to work
 
-TODO: FILL THIS IN
+First, please fill out the handout, [IC01](/hwk/ic01/).   
+
+Then, if you have already identified a pair partner to work with:
+   * Compare answers and ensure that you are compatible as pair partners.
+   * If so, register your pair on submit.cs
+   
+If you have not identified a pair partner, GO TO PHELPS 3526 where you will
+be able to find others who also are partnerless.
+
+DO NOT SIT DOWN AT A COMPUTER TO WORK ON THIS LAB UNTIL YOU HAVE A PAIR PARTNER.
+
+Once you do, you may continue.
 
 # Step 1: Register your pair on the submit.cs system
 
