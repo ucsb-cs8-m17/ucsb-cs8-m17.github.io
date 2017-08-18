@@ -211,7 +211,7 @@ to get into the correct directory.  Then use:
 python3 -m pytest lab03.py
 ```
 
-You should see two test failures. If you do, then you ready to fix the code so that it works, which is the next step.
+You should see three test failures. If you do, then you ready to fix the code so that it works, which is the next step.
 
 (If you need a refresher on how to interpret
 the output of `pytest`, refer back to [lab02](/lab/lab02/])
