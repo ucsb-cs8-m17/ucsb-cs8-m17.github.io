@@ -149,7 +149,7 @@ def test_perimRect_2():
    assert perimRect(7,3)==20
 
 def test_perimRect_3():
-   assert perimRect(2.1,4.3)==pytest.approx(13.8)
+   assert perimRect(2.1,4.3)==pytest.approx(12.8)
 
 ```
 
@@ -238,11 +238,11 @@ To submit your file to submit.cs, you can visit this page:
 
 <https://submit.cs.ucsb.edu/form/project/{{page.submit_cs_pnum}}/submission>
 
-Navigate to that page, and upload your `convert.py` file.
+Navigate to that page, and upload your `lab03.py` file.
 
 Or, if you are working on the ECI/CSIL/lab linux systems, you can also submit at the command line with this command, provided you are in the correct folder/diretory:
 
-<tt>~submit/submit -p {{page.submit_cs_pnum}} convert.py</tt>
+<tt>~submit/submit -p {{page.submit_cs_pnum}} lab03.py</tt>
 
 If you have done the steps so far, you should be able to earn 40/100 points:
 
