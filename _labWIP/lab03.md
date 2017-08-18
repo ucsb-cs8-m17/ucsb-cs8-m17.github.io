@@ -42,13 +42,42 @@ Once you do, you may continue.
 
 # Step 1: Register your pair on the submit.cs system
 
-TODO: FILL THIS IN
+To register your pair in submit.cs, navigate to the page for this assignment:
 
-# Step 2: Fill out IC02 together
+<https://submit.cs.ucsb.edu/form/project/{{page.submit_cs_pnum}}>
 
-TODO: FILL THIS IN
+You should see a “Join Group” button. Click this button.  
 
-# Step 3: Verify that pytest is working on the machine where you plan to work.
+The subsequent page will allow you to accept and reject invitations from your classmates, as well invite one of your classmates by their umail address to join your pair.
+
+While multiple students can invite you to join a pair, the system only permits you to have one outstanding invitation at a time. You must revoke an invitation if you would like to invite someone else.
+
+Once grouped together, both the members of a pair will be able to see all the submissions made by each partner in the pair (but only for that project), regardless of when the submission was made. 
+
+Additional notes on pairs:
+
+* Pairs exist only within the context of a specific programming assignment&mdash;you can be in a different group/pair for each programming assignment.
+
+Once you've registered, you are ready to move on to the next step.
+
+# Step 2: Fill out the last part of IC01 together, and turn it in.
+
+The last part of IC01 is to be filled out after you've paired with someone.  It indicates when the two of you commit to working together, and gives you access to each others contact information.    After its scanned and uploaded to Gradescope, you'll have access to your working agreement in terms of when you can meet to work on the assignment (if that becomes necessary).
+
+# Step 3: Review the ideas of Pair Programming, and "Falco's Strong Style Pairing" 
+
+* Review with each other how Pair Programming is supposed to work.
+* Make an agreement to be respectful and work together to maximize your learning benefit
+* Decide whether you are going to use classic pair programming, or strong-style pairing (as discussed in lecture).
+   * I recommend that you <em>try</em> strong-style pairing for at least some of your pairing experience. 
+   * But ultimately, the two of you need to find the style that works best.
+* Decide how often you are going to switch roles.
+   * Many pairs find that once per "step" in the lab is good.
+   * Others set a timer for 10, 15, or 20 minutes.
+
+Then, choose an initial driver and navigator, and have the driver log into their account.
+
+# Step 4: Verify that pytest is working on the machine where you plan to work.
 
 You may choose to work on your own machine, or on a CSIL machine.  Either
 way, you will need `pytest` installed.  
@@ -66,7 +95,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-# Step 4: Make a `~/cs8/lab03` folder
+# Step 5: Make a `~/cs8/lab03` folder
 
 The easiest way to create this is to do the following, which
 will work from any directory:
@@ -88,7 +117,7 @@ Then, to get yourself into that directory, type:
 
 Again, since that's an absolute path, it works from any directory.
 
-# Step 5: Create a file called `lab03.py` in your `~/cs8/lab03` directory
+# Step 6: Create a file called `lab03.py` in your `~/cs8/lab03` directory
 
 To start out lab03, write the line:
 
@@ -127,7 +156,7 @@ def test_perimRect_3():
 Finally, run the code, and ensure that you don't have any syntax errors
 in your Python code.
 
-# Step 6: Test your code by hand
+# Step 7: Test your code by hand
 
 Because I want to be sure that you continue to practice the skill,
 test your code by hand first.
@@ -155,7 +184,7 @@ the tests fail, THEN see all of the tests pass.  That's the general idea.
 * We want so see them *all fail* when the function is wrong
 * Then if they *pass* when the function is right, we *trust* the test.
 
-# Step 7: Run pytest on the file so far
+# Step 8: Run pytest on the file so far
 
 As a reminder, you run pytest OUTSIDE of idle, at the regular terminal
 prompt.
@@ -178,7 +207,7 @@ You should see two test failures. If you do, then you ready to fix the code so t
 the output of `pytest`, refer back to [lab02](/lab/lab02/])
 
 
-# Step 8: Fixing the code for `perimRect`
+# Step 9: Fixing the code for `perimRect`
 
 So, if you have failing test cases, the thing to do is fix the code so
 that the test cases pass.
@@ -187,7 +216,7 @@ Of course the formula for the perimiter of a rectangle with length $$ l $$ and w
 
 Once you have the code correct, try testing both using interactive testing as well as by running `pytest`.
 
-# Step 9: Submit your partially completed work to submit.cs
+# Step 10: Submit your partially completed work to submit.cs
 
 You are by no means finished with this lab.   But, we want to encourage you to make
 a submission to submit.cs now anyway.  Here is why:
@@ -226,7 +255,7 @@ If you have done the steps so far, you should be able to earn 25/100 points:
 Once you've submitted and you see that you have 25/100 points, you are ready to
 continue with the rest of the lab.
 
-# Step 10: Continue with additional functions and test cases
+# Step 11: Read these instructions about how the rest of the lab will work
 
 In each of the steps that remain, you will add an additional function definition,
 and some test cases.
@@ -259,7 +288,7 @@ working on, and which step you need a hint for with instructor tests not passing
 Once you understand all how this is going to work, you are ready to start coding
 the additional functions.
 
-# Step 11: Write an `areaRect` function
+# Step 12: Write an `areaRect` function and some test cases for it
 
 Now, add the definition of a function called `areaRect`.
 
@@ -308,7 +337,7 @@ Then, submit to submit.cs again, and you should see that you get a few more poin
  your maximum possible score of 100.
 
 
-# Step 12: Write an `isString` function
+# Step 13: Write an `isString` function and some test cases for it
 
 Here is an example of a function that tests whether something is a list or not.
 
@@ -373,7 +402,7 @@ python3 -m pytest lab03.py -k isString
 Then finally, try submitting to submit.cs and see if you get the credit for the tests for this function.  If so, keep going!
 
 
-# Step 13: Write an `isNumber` function
+# Step 14: Write an `isNumber` function and some test cases for it
 
 Our last function is one called `isNumber` that should take a parameter `x` and return
 `True` if the value `x` refers to is either of type `int` or of type `float`.  In any other case, it should return `False`.
@@ -397,7 +426,9 @@ python3 -m pytest lab03.py -k isNumber
 
 Then test your code by submitting to submit.cs.
 
+
+# Step 15: See perfect score on submit.cs; profit.
+
 At this point, you should see that you have a perfect 100 points on submit.cs, and
 you are finished with the lab!
-
 
