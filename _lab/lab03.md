@@ -44,9 +44,11 @@ Once you do, you may continue.
 
 To register your pair in submit.cs, navigate to the page for this assignment:
 
-<https://submit.cs.ucsb.edu/p/{{page.submit_cs_pnum}}>
+<https://submit.cs.ucsb.edu/class/85>
 
-You should see a “Join Group” button. Click this button.  
+You should see a lab03 link.  Click that.
+
+Then, you  should see a “Join Group” button. Click this button.  
 
 The subsequent page will allow you to accept and reject invitations from your classmates, as well invite one of your classmates by their umail address to join your pair.
 
