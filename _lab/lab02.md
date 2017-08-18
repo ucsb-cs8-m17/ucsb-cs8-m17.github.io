@@ -195,10 +195,10 @@ Note that the formulas for converting between Celsius and Fahrenheit are incorre
 
 ```
 def fToC(fTemp):
-    return fTemp - 32
+    return fTemp - 32  # TODO: Fix this line of code
 
 def cToF(cTemp):
-    return cTemp + 32
+    return cTemp + 32 # TODO: Fix this line of code
 ``` 
       
 # Step 3: Test your code by hand
