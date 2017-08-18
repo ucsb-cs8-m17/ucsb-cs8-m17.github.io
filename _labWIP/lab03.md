@@ -16,9 +16,14 @@ In this lab, you'll get more practice with
 
 You will also work with a pair partner for the first time.
 
+<div style="margin: 1em; padding: 1em; border: 1em inset red; font-size:120%; text-align:center;" markdown="1">
+
 Pair programming for this lab is required, not optional.
 
-TODO INSERT MORE INFO ABOUT PAIR PROGRAMMING HERE.
+If you do not have a pair partner, please do not start this lab, 
+unless you have prior permission from the instructor.
+
+</div>
 
 # Step 0: Locate a pair partner with whom you are going to work
 
