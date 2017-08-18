@@ -44,7 +44,7 @@ Once you do, you may continue.
 
 To register your pair in submit.cs, navigate to the page for this assignment:
 
-<https://submit.cs.ucsb.edu/form/project/{{page.submit_cs_pnum}}>
+<https://submit.cs.ucsb.edu/p/{{page.submit_cs_pnum}}>
 
 You should see a “Join Group” button. Click this button.  
 
