@@ -138,7 +138,13 @@ def perimRect(length,width):
    
 ```
 
-Then, copy these test cases into your file:
+Then, copy these function definitions into your file.  These are a special kind of function called a <em>test case</em>.  These particular test cases are written in the style used by the <em>pytest</em> testing framework, and they follow these rules:
+
+1. The name of each test cases function must start with `test_` or end with `_test`.
+2. Each one ends (typically) with a line of code that starts with the keyword `assert`, followed by a boolean expression.
+   * If the expression is `True`, the test case <em>passes</em>
+   * If the expression if `False`, the test case <em>fails</em>
+3. Each test case function must have a different name (hence: `test_perimRect_1`, `test_perimRect_2`, `test_perimRect_3`, etc.)  They don't have to be consecutive numbers&mdash;we could use `_a`, `_b`, `_c` or anything really, as long as they are all different.
 
 ```
 
