@@ -62,7 +62,7 @@ Once you've registered, you are ready to move on to the next step.
 
 # Step 2: Fill out the last part of IC01 together, and turn it in.
 
-The last part of IC01 is to be filled out after you've paired with someone.  It indicates when the two of you commit to working together, and gives you access to each others contact information.    After its scanned and uploaded to Gradescope, you'll have access to your working agreement in terms of when you can meet to work on the assignment (if that becomes necessary).
+The last part of [IC01](/hwk/ic01/).    is to be filled out after you've paired with someone.  It indicates when the two of you commit to working together, and gives you access to each others contact information.    After its scanned and uploaded to Gradescope, you'll have access to your working agreement in terms of when you can meet to work on the assignment (if that becomes necessary).
 
 # Step 3: Review the ideas of Pair Programming, and "Falco's Strong Style Pairing" 
 
