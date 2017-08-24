@@ -34,7 +34,7 @@ div.handwriting-table table * td {
 }
 
 .page-break-before.odd-page {
-  /* clear: left;  */
+   /* clear: both; */
 }
 
 
@@ -114,10 +114,7 @@ div.exam-page-header * td.course-qtr {
 }
 
 table.exam-name-header-table {
-  /*  width: 150px; */
-
-  border: none;
-  background-color: pink;
+    border: 1px solid #222;
 }
 
 
@@ -128,13 +125,17 @@ table.exam-name-header-table *  {
 }
 
 table.exam-name-header-table *  td {
-    border: 1px solid black;
+   /* border: 1px solid #555; */
+}
+
+table.exam-name-header-table *  th {
+  /*  border: 1px solid #555; */
 }
 
 
-
 .exam-header-name {
-    text-align:left; border-bottom:none;
+    text-align:left;
+    border-bottom:none;
     line-height: 30px;
 }
 
@@ -145,19 +146,7 @@ table.exam-name-header-table *  td {
   color:#333; border-top:none;
 }
 
-.exam-header-umail-label {
-    font-size: 14px;
-    padding-right:130px;   /* THIS CONTROLS THE WIDTH OF ODD PAGE HEADERS */
-    border-right:none; 
-    vertical-align:middle; 
-    height:1.5em; 
-    text-align:left;
-}
 
-.exam-header-umail-entry {
-   border-left: none;
-   vertical-align:middle;
-}
 
 .exam-header-section {
 
@@ -338,10 +327,6 @@ table.exam-name-header-table {
     border: none;
 }
 
-table.exam-name-header-table * td {
-    border: 1px solid black;
-}
-
 table.exam-name-header-table * td.scissors-area {
     text-align: center;
     vertical-align:middle;
@@ -366,4 +351,23 @@ td.scissors-area img {
     width: 150px;
     height: 150px;
 
+}
+
+.exam-header-umail-entry {
+   border-left: none;
+   vertical-align:middle;
+}
+
+.exam-header-umail-label {
+    font-size: 14px !important;
+    padding-right:190px;   /* THIS CONTROLS THE WIDTH OF ODD PAGE HEADERS */
+    border-right:none; 
+    vertical-align:top; 
+    height:3.5em; 
+    text-align:left;    
+}
+
+.exam-header-umail-entry {
+    font-size: 12px !important;
+    vertical-align: bottom;
 }

@@ -25,7 +25,7 @@ $(document).ready(function(){
             img.attr('src', "/images/Staple-Even-Pages.png");
 	    img.appendTo($div);
 	} else {
-	    $('.exam-name-header-template').first().clone().appendTo($div);
+	 $('.exam-name-header-template').first().clone().appendTo($div); 
 	}
 	prev.css('margin-bottom','0');
     });
