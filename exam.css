@@ -255,7 +255,7 @@ td.h03-table table * td,th {
 
 @media screen {
     .page-break-before {
-	/* clear: both; */
+	 clear: both; 
     }
 }
 
