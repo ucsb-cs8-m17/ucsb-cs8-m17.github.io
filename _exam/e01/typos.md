@@ -11,3 +11,5 @@ Question 4:  Include the Python prompt, or not.  It doesn't matter
 Question 5b: The column headers for degrees and radians are swapped.  Please correct this.
 
 Quesiton 3: It says "write the definition of a Python function".  You should know what this means.  Just follow the instructions.
+
+Quesiton 5b: YOU MAY ASSUME that all of the code for your answer to Question 3 has already appeared in the file (i.e. any imports you did there, and the function definition for `deg2rad` are already done.  Just write the test cases.
