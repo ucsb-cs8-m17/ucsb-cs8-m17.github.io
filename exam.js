@@ -9,23 +9,35 @@ $(document).ready(function(){
     console.log("exam.js: document is ready");
 
 
-    $('.page-break-before').each(function() {
+    $('.page-break-before').each(function(i) {
+	var pageNum = i+1;
+	
 	var prev = $(this).prev();
-	var $div = $("<div>", {class: "pagebreak"});
+	var evenOddClass = (pageNum % 2 == 0)?
+	    "even-page" : "odd-page";
+	$(this).addClass(evenOddClass);
+	var $div = $("<div>", {class: "pagebreak " + evenOddClass});
 	prev.append($div);
 	$('.exam-page-header-template').first().clone().appendTo($div);
-	$('.exam-name-header-template').first().clone().appendTo($div);
+	if (pageNum %2 ==0) {
+	    var img = $('<img>');
+	    img.addClass("even-page-staple-img");
+            img.attr('src', "/images/Staple-Even-Pages.png");
+	    img.appendTo($div);
+	} else {
+	    $('.exam-name-header-template').first().clone().appendTo($div);
+	}
 	prev.css('margin-bottom','0');
     });
 
 
     $('td.page-num').each(function(i) {
-	var pageNum = i+1;
+	var pageNum = i + 1
 	$(this).html(pageNum); // re-calculate page numbers
 	$(this).data("pageNum",pageNum);
 	if (pageNum % 2==0) {
-	    $(this).parents(".pagebreak").find(".exam-name-header-table").css("display","none");
-	}
+	    $(this).parents(".pagebreak").addClass("even-page");
+	} 
     });
 
     console.log("exam.js: done");

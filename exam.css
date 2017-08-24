@@ -29,12 +29,16 @@ div.handwriting-table table * td {
     height: 3em;
 }
 
-.page-break-before {
-    clear: left;
+.page-break-before.even-page {
+   /* clear: right;  */
 }
 
+.page-break-before.odd-page {
+  /* clear: left;  */
+}
+
+
 .exam-name-header-table {
-  width: 30%;
     float:left;
     margin-bottom:1em;
 }
@@ -49,11 +53,37 @@ div.exam-page-header {
     text-align:right;
     margin:0px; padding:0px;
     margin-left: 1em;
+
 }
 
 
+div.exam-page-header {
+    page-break-before:always;
+    font-family: Arial Narrow,sans-serif;
+    font-size: 18px; font-weight: bold; text-align:right;
+    page-break-before:always;
+}
+
+div.even-page div.exam-page-header {
+    float:left;
+    width: 8em;
+    text-align:left;
+    margin:0px; padding:0px;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+div.odd-page div.exam-page-header {
+    float:right;
+    width: 8em;
+    text-align:right;
+    margin:0px; padding:0px;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
 div.exam-page-header table {
-    text-align:right; float:right; width:20%; text-align:right;
+    text-align:right;  width:20%; text-align:right;
     margin:0px; padding:0px; border-width: 0px;
 }
 
@@ -83,16 +113,22 @@ div.exam-page-header * td.course-qtr {
     font-family: Arial Narrow, sans-serif;  color:black; font-size: 150%; text-align:center; padding-left: 3px; padding-right: 3px;
 }
 
-
 table.exam-name-header-table {
-  width: 200px;
-  border: 3px solid black;
+  /*  width: 150px; */
+
+  border: none;
+  background-color: pink;
 }
+
 
 table.exam-name-header-table *  {
     border-collapse: collapse;
     font-family:Arial Narrow, sans-serif;
     font-size: 18px;
+}
+
+table.exam-name-header-table *  td {
+    border: 1px solid black;
 }
 
 
@@ -110,11 +146,12 @@ table.exam-name-header-table *  {
 }
 
 .exam-header-umail-label {
-   padding-right:250px;   /* THIS CONTROLS THE WIDTH OF ODD PAGE HEADERS */
-   border-right:none; 
-   vertical-align:middle; 
-   height:1.5em; 
-   text-align:left;
+    font-size: 14px;
+    padding-right:130px;   /* THIS CONTROLS THE WIDTH OF ODD PAGE HEADERS */
+    border-right:none; 
+    vertical-align:middle; 
+    height:1.5em; 
+    text-align:left;
 }
 
 .exam-header-umail-entry {
@@ -228,14 +265,16 @@ td.h03-table table * td,th {
 }
 
 @media screen {
-    .page-break-before { clear: both; }
+    .page-break-before {
+	/* clear: both; */
+    }
 }
 
 @media print
 {
     @page {
 	size: auto;
-	margin: 5%;
+	margin: 3%;
     }
 
     body { font-size: 12px; }
@@ -247,7 +286,7 @@ table td.odd-page-box {
 }
 
 .end-of-exam {
-
+    clear: both;
     font-size: 120%;
     font-weight: bold;
     font-family: sans-serif;
@@ -293,4 +332,38 @@ div.fill-in-blanks-table table * td {
     font-weight: bold;
     margin: 2em 2em 2em 1em;
     padding: 2em 2em 2em 1em;
+}
+
+table.exam-name-header-table {
+    border: none;
+}
+
+table.exam-name-header-table * td {
+    border: 1px solid black;
+}
+
+table.exam-name-header-table * td.scissors-area {
+    text-align: center;
+    vertical-align:middle;
+    border: none;
+}
+
+
+
+div.even-page .exam-name-header-table  {
+    color: purple;
+    background-color: orange;
+    float: right;
+}
+
+img.even-page-staple-img {
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+
+td.scissors-area img {
+    width: 150px;
+    height: 150px;
+
 }
