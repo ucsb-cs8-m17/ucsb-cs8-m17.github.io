@@ -4,6 +4,8 @@ num: e01
 exam_end: "2016-08-24 10:50:00 -0700"
 ---
 
+YES WE DO HAVE LAB TOMORROW!!!
+
 This page will show any typo fixes or clarifications/hints offered while the exam is in progress.
 
 Question 4:  Include the Python prompt, or not.  It doesn't matter
