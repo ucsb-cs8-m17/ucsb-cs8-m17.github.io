@@ -15,3 +15,5 @@ Quesiton 3: It says "write the definition of a Python function".  You should kno
 Quesiton 5b: YOU MAY ASSUME that all of the code for your answer to Question 3 has already appeared in the file (i.e. any imports you did there, and the function definition for `deg2rad` are already done.  Just write the test cases.
 
 Quesiton 9: YOU MAY ASSUME that your starting point is a terminal session with Unix/Linux shell prompt.
+
+Question 3 and 5b: In case it wasn't clear, by saying "in the context of an appropriate import statement", I'm saying "if you need and import statement, YOU NEED TO INCLUDE IT IN YOUR CODE".
