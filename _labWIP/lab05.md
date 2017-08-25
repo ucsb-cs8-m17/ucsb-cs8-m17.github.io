@@ -3,9 +3,9 @@ layout: lab
 num: lab05
 ready: true
 desc: "Turtle Graphics: Scene from a forest"
-assigned: 2017-08-23 09:30:00.00-7
-due: 2017-08-30 17:00:00.00-7
-submit_cs_pnum: 
+assigned: 2017-08-25 11:00:00.00-7
+due: 2017-09-01 16:50:00.00-7
+submit_cs_pnum: 775
 ---
 
 Goal
