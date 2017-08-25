@@ -5,7 +5,7 @@ ready: true
 desc: "input, scripts, command line arguments"
 assigned: 2017-08-25 11:00:00.00-7
 due: 2017-08-30 16:50:00.00-7
-submit_cs_pnum: xxx
+submit_cs_pnum: 776 
 ---
 
 # This lab may be done solo, or in pairs
