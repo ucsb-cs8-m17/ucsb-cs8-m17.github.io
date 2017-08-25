@@ -407,7 +407,7 @@ Traceback (most recent call last):
     import convert
 ImportError: No module named convert
 >>> 
-``
+```
 
 If you see the second thing (the error message), it suggests that you ran `idle3` from some directory other than your `~/cs8/lab04` directory where your `convert.py` program is located.
 
