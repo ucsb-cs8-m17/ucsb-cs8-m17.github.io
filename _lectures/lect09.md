@@ -13,6 +13,8 @@ Look at <https://codingbat.com>  (the Python tab)
 
 # Accumulator pattern
 
+Code: <https://github.com/ucsb-cs8-m17/Lecture9_0829>
+
 * Accumulating a sum
 * Accumulating a product
 * Accumulating a list (e.g. filtering a list, or forming a list of all prime numbers, or all divisors of a number)
