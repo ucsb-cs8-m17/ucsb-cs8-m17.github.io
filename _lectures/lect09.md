@@ -1,7 +1,7 @@
 ---
 num: "Lecture 9"
-desc: ""
-ready: false
+desc: "Accumulatator Pattern"
+ready: true
 date: 2017-08-29 09:30:00.00-7:00
 ---
 
