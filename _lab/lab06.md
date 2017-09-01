@@ -28,7 +28,12 @@ I suggest you proceed as follows:
    * Then, and only then, copy the next function definition and its tests into your files.
    * Repeat this until you have ALL of the function definitions and their tests, and all of them pass.
    
-   
+Note that what you are given differs from function to function: either a complete function definitions 
+* In some cases you are given a function definition that is complete, but contains a bug.  In this case, you 
+   need to fix the function definition.
+* In some cases you are given a function definition that is correct. In this case, the code is there for you as an example&mdash;it is code that may be helpful to you in writing the other function definitions in the lab.   There is nothing you need to do other than study the code to learn how it works.
+* In some cases, you are given a stub.
+
 When you've done that, you are ready to try submitting to submit.cs for a final grade.  HOWEVER, you are encouraged to try submitting to submit.cs earlier, for several reasons:
 
 * You can get partial credit if some of your tests pass for some of your functions
