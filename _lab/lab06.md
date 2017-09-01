@@ -22,5 +22,20 @@ I suggest you proceed as follows:
 1.  Create a directory called ~/cs8/lab06 (using the `mkdir` command) and `cd` into that directory.
 2.  Use `idle3` (you might try `idle3 &` if you want to keep your prompt handy) to bring up idle3.
 3.  Use "New File" to create empty files called `lab06.py` and `lab06.py` in that `~/cs8/lab06` directory.
-4.  ONE AT A TIME, copy the function definitions from the starter code, and the tests that go along with those.
-   * By one a a time, what I mean is
+4.  ONE AT A TIME, copy the function definitions from the starter code, and the tests that go along with those, and get the tests to pass.
+   * By one a a time, what I mean is, at your first step, copy ONLY the first function definition from  the starter code `lab06.py` and copy only the test cases from `lab06_tests.py` that go with that function definition.
+   * Then, before you move on to the next function definition and <em>its</em> tests, get all of the tests from the one you just copied to pass.
+   * Then, and only then, copy the next function definition and its tests into your files.
+   * Repeat this until you have ALL of the function definitions and their tests, and all of them pass.
+   
+   
+When you've done that, you are ready to try submitting to submit.cs for a final grade.  HOWEVER, you are encouraged to try submitting to submit.cs earlier, for several reasons:
+
+* You can get partial credit if some of your tests pass for some of your functions
+* You will have a backup of your file in case you accidentally delete yours from CSIL, or in case your laptop dies
+* You can move code between your laptop and CSIL by downloading your code from the submit.cs submission
+* You can ask the instructor or TA questions about your code on Piazza in a private instructor post.
+
+The coding exercises work with the accumulator pattern that we've been going over in lecture and the homeworks.
+
+
