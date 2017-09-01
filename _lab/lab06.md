@@ -44,12 +44,27 @@ When you've done that, you are ready to try submitting to submit.cs for a final 
 The coding exercises work with the accumulator pattern that we've been going over in lecture and the homeworks.
 
 
-<div style="border: 3px outset red; width: 80%; margin-left:auto; margin-right: auto; padding: 3em;" markdown="1">
+# Submission
 
-# NOTICE
+### Navigate to the page for submitting {{page.num}}
 
-If this message still appears, it means that the submit.cs link hasn't gone up yet.  It will be up very soon.
+The page for submitting {{page.num}} is here: <https://submit.cs.ucsb.edu/form/project/{{page.submit_cs_pnum}}/submission>
 
-But you can still start on the lab in the meantime.
+Navigate to that page, and upload your `{{page.num}}.py` file.
 
-</div>
+# Submission from CSIL command line
+
+If you are working on the ECI/CSIL/lab linux systems, you can also submit at the command line with this command:
+
+```
+~submit/submit ~/cs8/{{page.num}}/{{page.num}}.py
+```
+
+Notes on using the command line version of submit:
+
+* This ONLY works on CSIL.  From your own PC or Mac, use the web form for submission.
+
+* The first time you use the `~submit/submit ...` command (or every time if you choose not to save your credentials) you will be asked for your email address: use your full umail address (e.g. `cgaucho@umail.ucsb.edu`).  For password, use the password that you enter for the submit.cs system.    You may save these credentials if you don't want to have to type them in every time.
+
+* Note that if you try to upload a file with a name that does not match EXACTLY the name `{{page.num}}.py`, the system will not allow you to do it.   Once you upload it, you should get a page that shows your submission is pending.  Refresh that page, and you should get one that indicates with either red, or green, whether the test cases for your code passed or failed.
+
