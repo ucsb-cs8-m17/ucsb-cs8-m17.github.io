@@ -1,10 +1,10 @@
 ---
 layout: lab
-num: lab06
+num: lab07
 ready: true
 desc: "Working with data, part 1"
-assigned: 2017-08-25 11:00:00.00-7
-due: 2017-09-01 16:50:00.00-7
+assigned: 2017-09-01 11:00:00.00-7
+due: 2017-09-08 16:50:00.00-7
 submit_cs_pnum: xxx
 ---
 
