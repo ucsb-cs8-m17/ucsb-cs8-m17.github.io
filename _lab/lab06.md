@@ -5,7 +5,7 @@ ready: true
 desc: "Accumulator Pattern, more TDD practice"
 assigned: 2017-09-01 11:00:00.00-7
 due: 2017-09-08 16:50:00.00-7
-submit_cs_pnum: tbd
+submit_cs_pnum: 778
 ---
 
 For this lab, you will create two files:
