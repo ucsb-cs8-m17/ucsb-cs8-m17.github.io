@@ -8,6 +8,13 @@ due: 2017-09-08 16:50:00.00-7
 submit_cs_pnum: 778
 ---
 
+# You may pair or work alone on this lab.
+
+If you choose to pair, please start by registering your pair on submit.cs in the normal way.  Go to 
+<https://submit.cs.ucsb.edu>, log on, navigate to the link for {{page.num}}, then follow the links to invite your pair partner to form a group.   Make sure your pair partner logs in and accepts your invitation.
+
+# Instructions
+
 For this lab, you will create two files:
 
 * `lab06.py`, a file containing some function definitions
