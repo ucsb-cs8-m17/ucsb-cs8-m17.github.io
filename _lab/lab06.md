@@ -39,3 +39,12 @@ When you've done that, you are ready to try submitting to submit.cs for a final 
 The coding exercises work with the accumulator pattern that we've been going over in lecture and the homeworks.
 
 
+<div style="border: 3px outset red; width: 80%; margin-left:auto; margin-right: auto; padding: 3em;" markdown="1">
+
+# NOTICE
+
+If this message still appears, it means that the submit.cs link hasn't gone up yet.  It will be up very soon.
+
+But you can still start on the lab in the meantime.
+
+</div>
