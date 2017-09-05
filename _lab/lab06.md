@@ -20,7 +20,7 @@ For this lab, you will create two files:
 * `lab06.py`, a file containing some function definitions
 * `lab06_tests.py`, a file containing some test cases
 
-There is starter code for each of these at the following link:
+There is starter code for each of these (.py files) at the following link:
 
 * <https://github.com/ucsb-cs8-m17/lab06_starter_code>
 
