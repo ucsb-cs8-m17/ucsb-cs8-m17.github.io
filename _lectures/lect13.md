@@ -5,6 +5,8 @@ ready: false
 date: 2017-09-06 09:30:00.00-7:00
 ---
 
+* Review: <https://ucsb-cs8-m17.github.io/hwk/ic02/>
+
 * Code: <https://github.com/ucsb-cs8-m17/Lecture13_0906>
 
 * Review of Accum Pattern
