@@ -60,7 +60,21 @@ When you've done that, you are ready to try submitting to submit.cs for a final 
 * You can move code between your laptop and CSIL by downloading your code from the submit.cs submission
 * You can ask the instructor or TA questions about your code on Piazza in a private instructor post.
 
-The coding exercises work with the accumulator pattern that we've been going over in lecture and the homeworks.
+# A Useful tip
+
+As you know, this Unix shell command runs the tests in lab07_tests.py
+
+```
+python3 -m pytest lab07_tests.py
+```
+
+If you have LOTS of tests in your file, and you ONLY want to run some of them, you can use `-k string` to run ONLY the tests that contain a certain string.  For example, suppose you want to focus ONLY on the tests for `isList`.  You can run:
+
+```
+python3 -m pytest lab07_tests.py -k isList
+```
+
+Change `isList` to any function that you want, and only the tests that contain that string will be run.  The others will be "de-selected".
 
 
 # Submission
