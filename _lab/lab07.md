@@ -5,7 +5,7 @@ ready: true
 desc: "min/max, index vs. value"
 assigned: 2017-09-08 11:00:00.00-7
 due: 2017-09-13 16:50:00.00-7
-submit_cs_pnum: tbd
+submit_cs_pnum: 780
 ---
 
 # THE DEADLINE FOR THIS ASSIGNMENT IS STRICT.
@@ -17,9 +17,6 @@ documentation from the Office of Student Life (e.g. hospitalization,
 death in family).  You are being told NOW to get started and not to put off
 work on this assignment.
 
-# NOTE: This assignment will be available on submit.cs shortly.
-
-In the meantime, you can get started on it.   An announcement will be made in class, and via Gauchospace email when it is available on submit.cs
 
 # You may pair or work alone on this lab.
 
