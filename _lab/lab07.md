@@ -34,7 +34,7 @@ For this lab, you will create two files:
 
 There is starter code for each of these (.py files) at the following link:
 
-* <https://github.com/ucsb-cs8-m17/lab07_starter_code>
+* <https://github.com/ucsb-cs8-m17/lab07-starter-code>
 
 I suggest you proceed as follows:
 
