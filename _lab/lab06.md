@@ -64,7 +64,7 @@ Navigate to that page, and upload your `{{page.num}}.py` file.
 If you are working on the ECI/CSIL/lab linux systems, you can also submit at the command line with this command:
 
 ```
-~submit/submit ~/cs8/{{page.num}}/{{page.num}}.py
+<tt>~submit/submit -p {{page.submit_cs_pnum}} ~/cs8/{{page.num}}/{{page.num}}.py</tt>
 ```
 
 Notes on using the command line version of submit:
