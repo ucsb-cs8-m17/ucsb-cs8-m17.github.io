@@ -135,9 +135,20 @@ table.exam-name-header-table *  th {
 
 .exam-header-name {
     text-align:left;
+    vertical-align: top;
     border-bottom:none;
+    border-right: 1px solid black;
     line-height: 30px;
 }
+
+.exam-header-seat {
+    text-align:left;
+    vertical-align: top;
+    border-bottom:none;
+    border-right: 1px solid black;
+    line-height: 30px;
+}
+
 
 .exam-header-subtext {
   text-align:left; font-style:italic; 

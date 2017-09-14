@@ -36,8 +36,12 @@ $(document).ready(function(){
 	$(this).html(pageNum); // re-calculate page numbers
 	$(this).data("pageNum",pageNum);
 	if (pageNum % 2==0) {
+	    $(this).parents(".pagebreak").removeClass("odd-page");
 	    $(this).parents(".pagebreak").addClass("even-page");
-	} 
+	} else {
+	    $(this).parents(".pagebreak").removeClass("even-page");
+	    $(this).parents(".pagebreak").addClass("odd-page");
+	}
     });
 
     console.log("exam.js: done");
