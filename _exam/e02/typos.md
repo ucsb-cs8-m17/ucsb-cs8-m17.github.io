@@ -10,3 +10,4 @@ exam_end: "2016-09-14 10:50:00 -0700"
 
 * (1a)  "What is the specific problem that <s>arises</s> <b>would arise if `pytest.appprox` were not used</b>"
 * (3) Answer ONLY with what you would TYPE.   Do NOT include any shell prompt.  If you would not TYPE it, don't write it.
+* (4b) You don't need to put any `import` statements.  Just the two test cases is fine.
