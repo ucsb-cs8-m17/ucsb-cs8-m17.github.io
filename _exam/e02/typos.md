@@ -9,3 +9,4 @@ exam_end: "2016-09-14 10:50:00 -0700"
    * Write your name on your notes sheet, and your yellow sheet.
 
 * (1a)  "What is the specific problem that <s>arises</s> <b>would arise if `pytest.appprox` were not used</b>"
+* (3) Answer ONLY with what you would TYPE.   Do NOT include any shell prompt.  If you would not TYPE it, don't write it.
