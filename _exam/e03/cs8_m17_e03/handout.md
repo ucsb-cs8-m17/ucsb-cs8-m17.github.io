@@ -17,7 +17,7 @@ body {
 # Getting Started
 
 * Open your web browser and navigate to <https://submit.cs.ucsb.edu>, and login.
-* You may also a web browser tab to <https://docs.python.org>
+* You may also open a web browser tab to <https://docs.python.org>
 
 * Apart from these two sites, NO OTHER WEB ACCESS IS PERMITTED.
 
