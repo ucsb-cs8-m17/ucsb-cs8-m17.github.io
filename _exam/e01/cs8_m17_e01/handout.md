@@ -8,7 +8,7 @@ exam_date: 2017-08-23 09:30:00.00-7
 
 # Example `pytest` test cases from lab02
 
-<div style="width:30em;">
+<div style="width:30em; font-size:144%">
 
 ```
 import pytest
