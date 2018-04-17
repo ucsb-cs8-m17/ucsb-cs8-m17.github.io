@@ -174,7 +174,7 @@ As a reminder:
 * `pwd` prints your current working directory
 * `cd cs8` changes into the cs8 directory under the current directory
 * `cd ~/cs8` changes into the cs8 directory under your home directory <em>regardless of the current working directory (because `~` is a shortcut for the absolute path of
-   your home dirctory.)
+   your home directory.)
 * `mkdir lab02` will create a lab02 directory under your current working directory
 * `ls` lists the files in your current directory
 

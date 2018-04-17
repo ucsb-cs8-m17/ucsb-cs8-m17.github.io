@@ -308,7 +308,7 @@ Students with disabilities may request academic accommodations for exams online 
 Managing stress
 ---------------
 
-Personal concerns such as stress, anxiety, relationships, depression, cultural differences, can interfere with the ability of students to succeed and thrive. For helpful resources, please contact UCSB Counseling & Psychological Services (CAPS) at 805-893-4411 or visit http://counseling.sa.ucsb.edu/ .
+Personal concerns such as stress, anxiety, relationships, depression, cultural differences, can interfere with the ability of students to succeed and thrive. For helpful resources, please contact UCSB Counseling & Psychological Services (CAPS) at 805-893-4411 or visit <http://caps.sa.ucsb.edu/> .
 
 Responsible scholarship
 -----------------------
